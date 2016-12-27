@@ -1,0 +1,4 @@
+  str += "<td><?php echo H("+data[i].name+")?></td>";
+                                        str += "<td><?php echo H("+data[i].sex+")?></td>";
+                                        str += "<td><?php echo H("+data[i].hobby+")?></td>";
+                                        str += "<td><?php echo H("+data[i].content+")?></td>";

@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>朴智妍</title>
+    <script type="text/javascript" src=".\.\\pub\js\jquery.js"></script>
+</head>
+<body>
+<!--<form action="index.php?c=User&a=index" method="post">-->
+    <table border="1" align="center">
+        <tr>
+            <td>userName</td>
+            <td><input type="text" name="name"/></td>
+        </tr>
+        <tr>
+            <td>userSex</td>
+            <td>
+                <input type="radio" name="sex" value="man"/>MAN
+                <input type="radio" name="sex" value="woman"/>WOMAN
+            </td>
+        </tr>
+        <tr>
+            <td>userHobby</td>
+            <td>
+                <input type="checkbox" name="hobby" value="eat"/>EAT
+                <input type="checkbox" name="hobby" value="ball"/>BALL
+                <input type="checkbox" name="hobby" value="ping"/>PING
+            </td>
+        </tr>
+        <tr>
+            <td>userContent</td>
+            <td><input type="text" name="content"/></td>
+        </tr>
+        <tr>
+            <td><input type="reset" value="RESET"/></td>
+            <td><button>SUBMIT</button></td>
+        </tr>
+    </table>
+<!--</form>-->
+<div id="div"></div>
+</body>
+</html>
+<script type="text/javascript">
+    $(function() {
+        $("button").click(function(){
+            var name = $("input[name='name']").val();
+            var sex = $("input[name='sex']:checked").val();
+            var text = $("input:checkbox[name='hobby']:checked").map(function(index,elem) {return $(elem).val();}).get().join(',');
+            var content = $("input[name='content']").val();
+            var obj = $(this);
+            $.ajax({
+                type:"post",
+                url:"http://localhost/pr/index.php?c=Test&a=index",
+                data:{
+                    name:name,
+                    sex:sex,
+                    hobby:text,
+                    content:content
+                },
+                dataType:"json",
+                success:function(data){
+                    var str = "";
+                    str += "<table border='1' align='center'>";
+                    str += "<tr>";
+                    str += "<th>ID</th><th>userName</th><th>userSex</th><th>userHobby</th><th>userContent</th>";
+                    str += "</tr>";
+                    if(data == 0){
+                        alert("Failed to add somethings.");
+                    }else{
+                        for(var i = 0;i < data.length;i++){
+                            str += data[i];
+                        }
+                        str += "</table>";
+                        $("#div").html(str);
+                    }
+                }
+            });
+        })
+    });
+</script>
