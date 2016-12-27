@@ -1,0 +1,251 @@
+<ERROR_BLOCK>
+errorInfo: Undefined index: name
+errorFile: IWEB_PATH/controllers/site.php
+errorLine: 375
+errorCode: 8
+errorTime: 2016-10-17 09:30:56
+#0 IWEB_PATH/lib/web/action/inline_action.php(24): Site->products()
+#1 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#2 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#3 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#4 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: name
+errorFile: IWEB_PATH/controllers/site.php
+errorLine: 375
+errorCode: 8
+errorTime: 2016-10-17 09:32:30
+#0 IWEB_PATH/lib/web/action/inline_action.php(24): Site->products()
+#1 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#2 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#3 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#4 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: name
+errorFile: IWEB_PATH/controllers/site.php
+errorLine: 375
+errorCode: 8
+errorTime: 2016-10-17 09:32:34
+#0 IWEB_PATH/lib/web/action/inline_action.php(24): Site->products()
+#1 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#2 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#3 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#4 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: name
+errorFile: IWEB_PATH/controllers/site.php
+errorLine: 375
+errorCode: 8
+errorTime: 2016-10-17 09:32:58
+#0 IWEB_PATH/lib/web/action/inline_action.php(24): Site->products()
+#1 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#2 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#3 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#4 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: name
+errorFile: IWEB_PATH/controllers/site.php
+errorLine: 378
+errorCode: 8
+errorTime: 2016-10-17 09:32:58
+#0 IWEB_PATH/lib/web/action/inline_action.php(24): Site->products()
+#1 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#2 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#3 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#4 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: name
+errorFile: IWEB_PATH/controllers/site.php
+errorLine: 375
+errorCode: 8
+errorTime: 2016-10-17 09:33:01
+#0 IWEB_PATH/lib/web/action/inline_action.php(24): Site->products()
+#1 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#2 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#3 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#4 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: name
+errorFile: IWEB_PATH/controllers/site.php
+errorLine: 378
+errorCode: 8
+errorTime: 2016-10-17 09:33:01
+#0 IWEB_PATH/lib/web/action/inline_action.php(24): Site->products()
+#1 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#2 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#3 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#4 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: name
+errorFile: IWEB_PATH/controllers/site.php
+errorLine: 375
+errorCode: 8
+errorTime: 2016-10-17 09:33:22
+#0 IWEB_PATH/lib/web/action/inline_action.php(24): Site->products()
+#1 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#2 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#3 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#4 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined offset: 0
+errorFile: IWEB_PATH/controllers/site.php
+errorLine: 375
+errorCode: 8
+errorTime: 2016-10-17 09:34:20
+#0 IWEB_PATH/lib/web/action/inline_action.php(24): Site->products()
+#1 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#2 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#3 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#4 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined offset: 0
+errorFile: IWEB_PATH/controllers/site.php
+errorLine: 375
+errorCode: 8
+errorTime: 2016-10-17 09:34:25
+#0 IWEB_PATH/lib/web/action/inline_action.php(24): Site->products()
+#1 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#2 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#3 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#4 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined offset: 0
+errorFile: IWEB_PATH/controllers/site.php
+errorLine: 375
+errorCode: 8
+errorTime: 2016-10-17 09:34:38
+#0 IWEB_PATH/lib/web/action/inline_action.php(24): Site->products()
+#1 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#2 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#3 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#4 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined variable: seller_info
+errorFile: IWEB_PATH/controllers/site.php
+errorLine: 379
+errorCode: 8
+errorTime: 2016-10-17 10:07:50
+#0 IWEB_PATH/lib/web/action/inline_action.php(24): Site->products()
+#1 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#2 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#3 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#4 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined variable: seller_info
+errorFile: IWEB_PATH/controllers/site.php
+errorLine: 379
+errorCode: 8
+errorTime: 2016-10-17 10:07:53
+#0 IWEB_PATH/lib/web/action/inline_action.php(24): Site->products()
+#1 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#2 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#3 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#4 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined variable: seller_info
+errorFile: IWEB_PATH/controllers/site.php
+errorLine: 379
+errorCode: 8
+errorTime: 2016-10-17 10:07:54
+#0 IWEB_PATH/lib/web/action/inline_action.php(24): Site->products()
+#1 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#2 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#3 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#4 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined variable: seller_info
+errorFile: IWEB_PATH/controllers/site.php
+errorLine: 379
+errorCode: 8
+errorTime: 2016-10-17 10:08:01
+#0 IWEB_PATH/lib/web/action/inline_action.php(24): Site->products()
+#1 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#2 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#3 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#4 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: model_id
+errorFile: IWEB_PATH/classes/goods_class.php
+errorLine: 179
+errorCode: 8
+errorTime: 2016-10-17 10:29:19
+#0 IWEB_PATH/controllers/goods.php(257): goods_class->update(7)
+#1 IWEB_PATH/lib/web/action/inline_action.php(24): Goods->goods_update()
+#2 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#3 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#4 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#5 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined offset: 98
+errorFile: IWEB_PATH/classes/goods_class.php
+errorLine: 209
+errorCode: 8
+errorTime: 2016-10-17 10:29:19
+#0 IWEB_PATH/controllers/goods.php(257): goods_class->update(7)
+#1 IWEB_PATH/lib/web/action/inline_action.php(24): Goods->goods_update()
+#2 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#3 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#4 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#5 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined offset: 98
+errorFile: IWEB_PATH/classes/goods_class.php
+errorLine: 210
+errorCode: 8
+errorTime: 2016-10-17 10:29:19
+#0 IWEB_PATH/controllers/goods.php(257): goods_class->update(7)
+#1 IWEB_PATH/lib/web/action/inline_action.php(24): Goods->goods_update()
+#2 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#3 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#4 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#5 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined offset: 98
+errorFile: IWEB_PATH/classes/goods_class.php
+errorLine: 211
+errorCode: 8
+errorTime: 2016-10-17 10:29:19
+#0 IWEB_PATH/controllers/goods.php(257): goods_class->update(7)
+#1 IWEB_PATH/lib/web/action/inline_action.php(24): Goods->goods_update()
+#2 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#3 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#4 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#5 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+

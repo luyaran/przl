@@ -1,0 +1,15 @@
+<ERROR_BLOCK>
+errorInfo: MemcachePool::set() expects parameter 4 to be long, string given
+errorFile: IWEB_PATH/lib/core/cache/memcache_class.php
+errorLine: 66
+errorCode: 2
+errorTime: 2016-10-08 09:55:06
+#0 IWEB_PATH/lib/core/cache/memcache_class.php(66): MemcachePool->set(word,Aa,2,)
+#1 IWEB_PATH/controllers/site.php(100): IMemCache->set(word,Aa)
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): Site->autoComplete()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#5 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+

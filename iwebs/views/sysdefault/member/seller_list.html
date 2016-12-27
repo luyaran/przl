@@ -1,0 +1,368 @@
+{set:
+$search = IFilter::act(IReq::get('search'),'strict');
+$conditon = Util::search($search);
+$where = $conditon ? " and ".$conditon : "";
+}
+{js:artTemplate}
+<script type='text/javascript' src='{theme:javascript/artTemplate/area_select.js}'></script>
+
+<div class="headbar">
+	<div class="position">
+		<span>会员</span><span>></span><span>商户管理</span><span>></span><span>商户列表</span>
+	</div>
+	<div class="operating">
+		<div class="search f_r">
+			<form name="searchseller" action="{url:/}" method="get">
+				<input type='hidden' name='controller' value='member' />
+				<input type='hidden' name='action' value='seller_list' />
+				<select class="auto" name="search[like]">
+					<option value="seller_name">登录名</option>
+					<option value="true_name">真实名称</option>
+					<option value="phone">电话</option>
+					<option value="mobile">手机</option>
+					<option value="email">Email</option>
+				</select>
+				<input class="small" name="search[likeValue]" type="text" value="" />
+				<button class="btn" type="submit"><span class="sch">搜 索</span></button>
+			</form>
+		</div>
+		<a href="javascript:void(0);"><button class="operating_btn" type="button" onclick="window.location='{url:/member/seller_edit}'"><span class="addition">添加商户</span></button></a>
+		<a href="javascript:void(0);" onclick="selectAll('id[]')"><button class="operating_btn" type="button"><span class="sel_all">全选</span></button></a>
+		<a href="javascript:void(0);" onclick="delModel({form:'seller_list',msg:'确定要删除所选中的商户吗？<br />删除的商户可以从回收站找回。'})"><button class="operating_btn" type="button"><span class="delete">批量删除</span></button></a>
+		<a href="javascript:void(0);"><button class="operating_btn" type="button" onclick="window.location='{url:/member/seller_recycle_list}'"><span class="recycle">回收站</span></button></a>
+        <select name="province" class="a" child="city,area" onchange="areaChangeCallback(this);"></select>
+        <select name="city" class="s" child="area" parent="province" onchange="areaChangeCallback(this);"></select>
+        <select name="area" class="d" parent="city"></select>
+        <input type='text' name='start_time' class='Wdate' pattern='datetime' readonly=true onFocus="WdatePicker({dateFmt:'yyyy-MM-dd HH:mm:ss'})" alt='请填写一个日期' /> ～
+        <input type='text' name='end_time' class='Wdate' pattern='datetime' readonly=true onFocus="WdatePicker({dateFmt:'yyyy-MM-dd HH:mm:ss'})" alt='请填写一个日期' />
+        {js:my97date}
+        {js:chart}
+        {js:jquery}
+    </div>
+
+	<div class="field">
+		<table class="list_table">
+			<colgroup>
+				<col width="40px" />
+				<col width="140px" />
+				<col width="140px" />
+				<col width="100px" />
+				<col width="110px" />
+				<col width="70px" />
+				<col width="80px" />
+				<col width="80px" />
+				<col width="80px" />
+				<col width="150px"/>
+				<col />
+			</colgroup>
+			<thead>
+				<tr>
+					<th class="t_c">选择</th>
+					<th>登录用户名</th>
+					<th>真实名称</th>
+					<th>座机</th>
+					<th>移动电话</th>
+					<th>VIP</th>
+					<th>销量</th>
+					<th>评分</th>
+					<th>状态</th>
+					<th>注册日期</th>
+					<th>操作</th>
+				</tr>
+			</thead>
+		</table>
+	</div>
+</div>
+
+<form action="{url:/member/seller_del}" method="post" name="seller_list" onsubmit="return checkboxCheck('id[]','尚未选中任何记录！')">
+	<div class="content">
+		<table class="list_table">
+			<colgroup>
+				<col width="40px" />
+				<col width="140px" />
+				<col width="140px" />
+				<col width="100px" />
+				<col width="110px" />
+				<col width="70px" />
+				<col width="80px" />
+				<col width="80px" />
+				<col width="80px" />
+				<col width="150px"/>
+				<col />
+			</colgroup>
+			<tbody>
+				{set:$page=(isset($_GET['page'])&&(intval($_GET['page'])>0))?intval($_GET['page']):1;}
+				{query:name=seller where=is_del eq 0 $where order=id desc page=$page pagesize=20}
+				<tr>
+					<td class="t_c"><input name="id[]" type="checkbox" value="{$item['id']}" /></td>
+					<td title="{$item['seller_name']}">{$item['seller_name']}</td>
+					<td title="{$item['true_name']}">{$item['true_name']}</td>
+					<td title="{$item['phone']}">{$item['phone']}</td>
+					<td title="{$item['mobile']}">{$item['mobile']}</td>
+					<td>{echo:$item['is_vip'] == 0 ? '否':'是'}</td>
+					<td>{echo:statistics::sellCountSeller($item['id'])} 件</td>
+					<td>{echo:statistics::gradeSeller($item['id'])} 分</td>
+					<td>
+						<select onchange="changeStatus({$item['id']},this)">
+							<option value="0" {if:$item['is_lock'] == 0}selected="selected"{/if}>正常</option>
+							<option value="1" {if:$item['is_lock'] == 1}selected="selected"{/if}>待审核</option>
+						</select>
+					</td>
+					<td title="{$item['create_time']}">{$item['create_time']}</td>
+					<td>
+						<a href="{url:/member/seller_edit/id/$item[id]}"><img class="operator" src="{skin:images/admin/icon_edit.gif}" alt="修改" /></a>
+						<a href="javascript:void(0)" onclick="delModel({link:'{url:/member/seller_del/id/$item[id]}'})"><img class="operator" src="{skin:images/admin/icon_del.gif}" alt="删除" /></a>
+					</td>
+				</tr>
+				{/query}
+			</tbody>
+		</table>
+	</div>
+	{$query->getPageBar()}
+</form>
+
+<script language="javascript">
+//预加载
+$(function(){
+	var searchData = {echo:JSON::encode($search)};
+	for(var index in searchData)
+	{
+		$('[name="search['+index+']"]').val(searchData[index]);
+	}
+})
+
+//商户状态修改
+function changeStatus(sid,obj)
+{
+	var lockVal = obj.value;
+	$.getJSON("{url:/member/ajax_seller_lock}",{"id":sid,"lock":lockVal});
+}
+$(function(){
+    //初始化地域联动
+    template.compile("areaTemplate",areaTemplate);
+
+    //修改模式
+    {if:isset($this->sellerRow)}
+    var formObj = new Form('sellerForm');
+    formObj.init({echo:JSON::encode($this->sellerRow)});
+
+//城市设置
+{if:isset($this->sellerRow['area'])}
+createAreaSelect('province',0,"{$this->sellerRow['province']}");
+createAreaSelect('city',"{$this->sellerRow['province']}","{$this->sellerRow['city']}");
+createAreaSelect('area',"{$this->sellerRow['city']}","{$this->sellerRow['area']}");
+{else:}
+createAreaSelect('province',0,"");
+{/if}
+
+    //锁定字段一旦注册无法修改
+    if($('[name="id"]').val())
+    {
+        var lockCols = ['seller_name'];
+        for(var index in lockCols)
+        {
+            $('input:text[name="'+lockCols[index]+'"]').addClass('readonly');
+            $('input:text[name="'+lockCols[index]+'"]').attr('readonly',true);
+        }
+    }
+    {else:}
+    createAreaSelect('province',0,'');
+    {/if}
+    });
+
+    /**
+     * 生成地域js联动下拉框
+     * @param name
+     * @param parent_id
+     * @param select_id
+     */
+    function createAreaSelect(name,parent_id,select_id)
+    {
+        //生成地区
+        $.getJSON("{url:/block/area_child}",{"aid":parent_id,"random":Math.random()},function(json)
+        {
+            $('[name="'+name+'"]').html(template.render('areaTemplate',{"select_id":select_id,"data":json}));
+        });
+    }
+</script>
+
+<script>
+    $(function(){
+        $(".a").change(function(){
+            var a = $(this).val();
+            //alert(a);
+//            $.getJSON("",{});
+            $.ajax({
+                type:"post",
+                url:"{url:/block/user_list}",
+                data:{
+                    "province":a
+                },
+                dataType:"json",
+                success:function(data){
+                    var str = "";
+                    if(data){
+                        for(var i=0;i<data.length;i++){
+                       str +=" <tr>"
+                            str +='<td class="t_c"><input name="id[]" type="checkbox" value="'+data[i].id+'" /></td>'
+                            str +='<td title="'+data[i].seller_name+'">'+data[i].seller_name+'</td>'
+                            str +='<td title="'+data[i].true_name+'">'+data[i].true_name+'</td>'
+                            str +='<td title="'+data[i].phone+'">'+data[i].phone+'</td>'
+                            str +='<td title="'+data[i].mobile+'">'+data[i].mobile+'</td>'
+//                            str +='<td>'
+//                            str +='<select onchange="changeStatus({$item['id']},this)">'
+//                            str +='<option value="0" {if:$item['is_lock'] == 0}selected="selected"{/if}>正常</option>'
+//                            str +='<option value="1" {if:$item['is_lock'] == 1}selected="selected"{/if}>待审核</option>'
+//                            str +='</select>'
+//                            str +='</td>'
+                            str +='<td title="'+data[i].create_time+'">'+data[i].create_time+'</td>'
+                            str +='<td>'
+                            str +='<img class="operator" src="{skin:images/admin/icon_edit.gif}" alt="修改" />'
+                            str +='<img class="operator" src="{skin:images/admin/icon_del.gif}" alt="删除" />'
+                            str +='</td>'
+                            str +='</tr>'
+                        }
+                        $("tbody").html(str);
+                    }else{
+                        alert("没有你想要的数据。。。");
+                    }
+                }
+            })
+        });
+        $(".s").change(function(){
+            var a = $(this).val();
+            var s = $(this).prev().val();
+            //alert(s);
+            //$.getJSON("{url:/block/user_li}",{"city":a});
+            $.ajax({
+                type:"post",
+                url:"{url:/block/user_li}",
+                data:{
+                    "province":s,
+                    "city":a
+                },
+                dataType:"json",
+                success:function(data){
+                    var str = "";
+                    if(data){
+                        for(var i=0;i<data.length;i++){
+                            str +=" <tr>"
+                            str +='<td class="t_c"><input name="id[]" type="checkbox" value="'+data[i].id+'" /></td>'
+                            str +='<td title="'+data[i].seller_name+'">'+data[i].seller_name+'</td>'
+                            str +='<td title="'+data[i].true_name+'">'+data[i].true_name+'</td>'
+                            str +='<td title="'+data[i].phone+'">'+data[i].phone+'</td>'
+                            str +='<td title="'+data[i].mobile+'">'+data[i].mobile+'</td>'
+//                            str +='<td>'
+//                            str +='<select onchange="changeStatus({$item['id']},this)">'
+//                            str +='<option value="0" {if:$item['is_lock'] == 0}selected="selected"{/if}>正常</option>'
+//                            str +='<option value="1" {if:$item['is_lock'] == 1}selected="selected"{/if}>待审核</option>'
+//                            str +='</select>'
+//                            str +='</td>'
+                            str +='<td title="'+data[i].create_time+'">'+data[i].create_time+'</td>'
+                            str +='<td>'
+                            str +='<img class="operator" src="{skin:images/admin/icon_edit.gif}" alt="修改" />'
+                            str +='<img class="operator" src="{skin:images/admin/icon_del.gif}" alt="删除" />'
+                            str +='</td>'
+                            str +='</tr>'
+                        }
+                        $("tbody").html(str);
+                    }else{
+                        alert("没有你想要的数据。。。");
+                    }
+                }
+            })
+        });
+        $(".d").change(function(){
+            var a = $(this).val();
+            var s = $(this).prev().val();
+            var d = $(this).prev().prev().val();
+            //alert(a);
+            //$.getJSON("{url:/block/user_l}",});
+            $.ajax({
+                type:"post",
+                url:"{url:/block/user_l}",
+                data:{
+                    "province":d,
+                    "city":s,
+                    "area":a
+                },
+                dataType:"json",
+                success:function(data){
+                    var str = "";
+                    if(data){
+                        for(var i=0;i<data.length;i++){
+                            str +=" <tr>"
+                            str +='<td class="t_c"><input name="id[]" type="checkbox" value="'+data[i].id+'" /></td>'
+                            str +='<td title="'+data[i].seller_name+'">'+data[i].seller_name+'</td>'
+                            str +='<td title="'+data[i].true_name+'">'+data[i].true_name+'</td>'
+                            str +='<td title="'+data[i].phone+'">'+data[i].phone+'</td>'
+                            str +='<td title="'+data[i].mobile+'">'+data[i].mobile+'</td>'
+//                            str +='<td>'
+//                            str +='<select onchange="changeStatus({$item['id']},this)">'
+//                            str +='<option value="0" {if:$item['is_lock'] == 0}selected="selected"{/if}>正常</option>'
+//                            str +='<option value="1" {if:$item['is_lock'] == 1}selected="selected"{/if}>待审核</option>'
+//                            str +='</select>'
+//                            str +='</td>'
+                            str +='<td title="'+data[i].create_time+'">'+data[i].create_time+'</td>'
+                            str +='<td>'
+                            str +='<img class="operator" src="{skin:images/admin/icon_edit.gif}" alt="修改" />'
+                            str +='<img class="operator" src="{skin:images/admin/icon_del.gif}" alt="删除" />'
+                            str +='</td>'
+                            str +='</tr>'
+                        }
+                        $("tbody").html(str);
+                    }else{
+                        alert("没有你想要的数据。。。");
+                    }
+                }
+            })
+        });
+        $("input[name='end_time']").blur(function(){
+            var start_time = $("input[name='start_time']").val();
+            var end_time = $(this).val();
+            $.getJSON("{url:/block/search_time}",{"start_time":start_time,"end_time":end_time},function(data){
+                var str = "";
+                if(data){
+                    for(var i=0;i<data.length;i++){
+                        str +=" <tr>"
+                        str +='<td class="t_c"><input name="id[]" type="checkbox" value="'+data[i].id+'" /></td>'
+                        str +='<td title="'+data[i].seller_name+'">'+data[i].seller_name+'</td>'
+                        str +='<td title="'+data[i].true_name+'">'+data[i].true_name+'</td>'
+                        str +='<td title="'+data[i].phone+'">'+data[i].phone+'</td>'
+                        str +='<td title="'+data[i].mobile+'">'+data[i].mobile+'</td>'
+//                            str +='<td>'
+//                            str +='<select onchange="changeStatus({$item['id']},this)">'
+//                            str +='<option value="0" {if:$item['is_lock'] == 0}selected="selected"{/if}>正常</option>'
+//                            str +='<option value="1" {if:$item['is_lock'] == 1}selected="selected"{/if}>待审核</option>'
+//                            str +='</select>'
+//                            str +='</td>'
+                        str +='<td title="'+data[i].create_time+'">'+data[i].create_time+'</td>'
+                        str +='<td>'
+                        str +='<img class="operator" src="{skin:images/admin/icon_edit.gif}" alt="修改" />'
+                        str +='<img class="operator" src="{skin:images/admin/icon_del.gif}" alt="删除" />'
+                        str +='</td>'
+                        str +='</tr>'
+                    }
+                    //alert(data);
+                    $("tbody").html(str);
+                }else{
+                    alert("没有你想要的数据。。。");
+                }
+            });
+//            $.ajax({
+//                type:"post",
+//                url:"{url:/block/search_time}",
+//                data:{
+//                    "start_time":start_time,
+//                    "end_time":end_time
+//                },
+//                //dataType:"json",
+//                success:function(data){
+//                    alert(data);
+//
+//                }
+//            })
+        })
+    });
+</script>
+

@@ -1,0 +1,1430 @@
+2016-10-11 09:53:39	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'cuijinpeng' or u.email = 'cuijinpeng' or m.mobile='cuijinpeng') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 09:53:40	SELECT * FROM iwebshop_ad_position WHERE id=1 AND `status`=1 limit 1	
+2016-10-11 09:53:40	SELECT * FROM iwebshop_ad_manage WHERE position_id=1 and goods_cat_id = 0 and start_time < '2016-10-11 09:53:40' AND end_time > '2016-10-11 09:53:40' ORDER BY `order` ASC  limit 50000	
+2016-10-11 09:53:40	SELECT * FROM iwebshop_ad_position WHERE id=7 AND `status`=1 limit 1	
+2016-10-11 09:53:40	SELECT * FROM iwebshop_ad_manage WHERE position_id=7 and goods_cat_id = 0 and start_time < '2016-10-11 09:53:40' AND end_time > '2016-10-11 09:53:40' ORDER BY `order` ASC  limit 50000	
+2016-10-11 09:53:40	SELECT * FROM iwebshop_ad_position WHERE id=6 AND `status`=1 limit 1	
+2016-10-11 09:53:40	SELECT * FROM iwebshop_ad_manage WHERE position_id=6 and goods_cat_id = 0 and start_time < '2016-10-11 09:53:40' AND end_time > '2016-10-11 09:53:40' ORDER BY `order` ASC  limit 50000	
+2016-10-11 09:53:41	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 999999999 and type = 0 and is_close = 0 and start_time <= "2016-10-11 09:53:41" and end_time >= "2016-10-11 09:53:41" and seller_id = 0 and award_type in (3,4,5,6,7) and user_group = "all"  ORDER BY `condition` DESC  limit 50000	
+2016-10-11 09:53:41	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 999999999 and type = 0 and is_close = 0 and start_time <= "2016-10-11 09:53:41" and end_time >= "2016-10-11 09:53:41" and seller_id = 0 and award_type in (1,2) and user_group = "all"  ORDER BY `condition` DESC  limit 50000	
+2016-10-11 09:53:47	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'cuijinpeng' or u.email = 'cuijinpeng' or m.mobile='cuijinpeng') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 09:53:47	SELECT * FROM iwebshop_member WHERE user_id=2 limit 1	
+2016-10-11 09:53:47	SELECT * FROM iwebshop_member WHERE user_id = 2 limit 1	
+2016-10-11 09:53:47	SELECT count(id) as num FROM iwebshop_comment WHERE user_id = 2 and status = 0 limit 1	
+2016-10-11 09:53:47	SELECT count(id) as num FROM iwebshop_order WHERE user_id = 2 and status = 1 and if_del = 0 limit 1	
+2016-10-11 09:53:47	SELECT count(id) as num FROM iwebshop_order WHERE user_id = 2 and status = 2 and distribution_status = 1 and if_del = 0 limit 1	
+2016-10-11 09:53:57	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'cuijinpeng' or u.email = 'cuijinpeng' or m.mobile='cuijinpeng') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 09:53:57	SELECT * FROM iwebshop_ad_position WHERE id=1 AND `status`=1 limit 1	
+2016-10-11 09:53:57	SELECT * FROM iwebshop_ad_manage WHERE position_id=1 and goods_cat_id = 0 and start_time < '2016-10-11 09:53:57' AND end_time > '2016-10-11 09:53:57' ORDER BY `order` ASC  limit 50000	
+2016-10-11 10:08:03	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'cuijinpeng' or u.email = 'cuijinpeng' or m.mobile='cuijinpeng') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 10:08:03	SELECT * FROM iwebshop_ad_position WHERE id=1 AND `status`=1 limit 1	
+2016-10-11 10:08:03	SELECT * FROM iwebshop_ad_manage WHERE position_id=1 and goods_cat_id = 0 and start_time < '2016-10-11 10:08:03' AND end_time > '2016-10-11 10:08:03' ORDER BY `order` ASC  limit 50000	
+2016-10-11 10:30:58	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'cuijinpeng' or u.email = 'cuijinpeng' or m.mobile='cuijinpeng') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 10:30:58	SELECT * FROM iwebshop_ad_position WHERE id=1 AND `status`=1 limit 1	
+2016-10-11 10:30:58	SELECT * FROM iwebshop_ad_manage WHERE position_id=1 and goods_cat_id = 0 and start_time < '2016-10-11 10:30:58' AND end_time > '2016-10-11 10:30:58' ORDER BY `order` ASC  limit 50000	
+2016-10-11 10:31:03	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'cuijinpeng' or u.email = 'cuijinpeng' or m.mobile='cuijinpeng') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 10:31:03	SELECT * FROM iwebshop_ad_position WHERE id=1 AND `status`=1 limit 1	
+2016-10-11 10:31:03	SELECT * FROM iwebshop_ad_manage WHERE position_id=1 and goods_cat_id = 0 and start_time < '2016-10-11 10:31:03' AND end_time > '2016-10-11 10:31:03' ORDER BY `order` ASC  limit 50000	
+2016-10-11 10:33:04	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'cuijinpeng' or u.email = 'cuijinpeng' or m.mobile='cuijinpeng') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 10:33:04	SELECT * FROM iwebshop_ad_position WHERE id=1 AND `status`=1 limit 1	
+2016-10-11 10:33:04	SELECT * FROM iwebshop_ad_manage WHERE position_id=1 and goods_cat_id = 0 and start_time < '2016-10-11 10:33:04' AND end_time > '2016-10-11 10:33:04' ORDER BY `order` ASC  limit 50000	
+2016-10-11 10:36:15	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'cuijinpeng' or u.email = 'cuijinpeng' or m.mobile='cuijinpeng') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 10:36:15	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 10:36:17	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 10:36:17	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 10:48:04	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 10:48:13	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 10:48:13	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 10:48:13	SELECT exp FROM iwebshop_member WHERE user_id = 1 limit 1	
+2016-10-11 10:48:13	SELECT id FROM iwebshop_user_group WHERE 0 between minexp and maxexp and minexp > 0 and maxexp > 0 limit 1	
+2016-10-11 10:48:13	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 10:48:14	SELECT * FROM iwebshop_member WHERE user_id=1 limit 1	
+2016-10-11 10:48:14	SELECT * FROM iwebshop_member WHERE user_id = 1 limit 1	
+2016-10-11 10:48:14	SELECT count(id) as num FROM iwebshop_comment WHERE user_id = 1 and status = 0 limit 1	
+2016-10-11 10:48:14	SELECT count(id) as num FROM iwebshop_order WHERE user_id = 1 and status = 1 and if_del = 0 limit 1	
+2016-10-11 10:48:14	SELECT count(id) as num FROM iwebshop_order WHERE user_id = 1 and status = 2 and distribution_status = 1 and if_del = 0 limit 1	
+2016-10-11 10:48:16	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 10:48:19	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 10:48:19	SELECT * FROM iwebshop_ad_position WHERE id=1 AND `status`=1 limit 1	
+2016-10-11 10:48:19	SELECT * FROM iwebshop_ad_manage WHERE position_id=1 and goods_cat_id = 0 and start_time < '2016-10-11 10:48:19' AND end_time > '2016-10-11 10:48:19' ORDER BY `order` ASC  limit 50000	
+2016-10-11 10:48:19	SELECT * FROM iwebshop_ad_position WHERE id=7 AND `status`=1 limit 1	
+2016-10-11 10:48:19	SELECT * FROM iwebshop_ad_manage WHERE position_id=7 and goods_cat_id = 0 and start_time < '2016-10-11 10:48:19' AND end_time > '2016-10-11 10:48:19' ORDER BY `order` ASC  limit 50000	
+2016-10-11 10:48:19	SELECT * FROM iwebshop_ad_position WHERE id=6 AND `status`=1 limit 1	
+2016-10-11 10:48:19	SELECT * FROM iwebshop_ad_manage WHERE position_id=6 and goods_cat_id = 0 and start_time < '2016-10-11 10:48:19' AND end_time > '2016-10-11 10:48:19' ORDER BY `order` ASC  limit 50000	
+2016-10-11 10:48:19	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 999999999 and type = 0 and is_close = 0 and start_time <= "2016-10-11 10:48:19" and end_time >= "2016-10-11 10:48:19" and seller_id = 0 and award_type in (3,4,5,6,7) and user_group = "all"  ORDER BY `condition` DESC  limit 50000	
+2016-10-11 10:48:19	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 999999999 and type = 0 and is_close = 0 and start_time <= "2016-10-11 10:48:19" and end_time >= "2016-10-11 10:48:19" and seller_id = 0 and award_type in (1,2) and user_group = "all"  ORDER BY `condition` DESC  limit 50000	
+2016-10-11 10:48:25	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 10:48:25	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 10:48:25	SELECT * FROM iwebshop_areas WHERE parent_id=0 ORDER BY sort ASC  limit 50000	
+2016-10-11 10:50:18	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 10:50:18	SELECT * FROM iwebshop_areas WHERE parent_id=110000 ORDER BY sort ASC  limit 50000	
+2016-10-11 10:50:21	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 10:50:21	SELECT * FROM iwebshop_areas WHERE parent_id=110100 ORDER BY sort ASC  limit 50000	
+2016-10-11 10:55:36	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 10:55:37	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 10:55:37	SELECT * FROM iwebshop_areas WHERE parent_id=0 ORDER BY sort ASC  limit 50000	
+2016-10-11 11:02:50	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 11:02:51	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 11:02:51	SELECT * FROM iwebshop_areas WHERE parent_id=0 ORDER BY sort ASC  limit 50000	
+2016-10-11 11:04:52	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 11:04:52	SELECT * FROM iwebshop_areas WHERE parent_id=110000 ORDER BY sort ASC  limit 50000	
+2016-10-11 11:04:54	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 11:04:54	SELECT * FROM iwebshop_areas WHERE parent_id=110100 ORDER BY sort ASC  limit 50000	
+2016-10-11 11:16:37	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 11:16:37	SELECT * FROM iwebshop_seller WHERE seller_name = 'pr' limit 1	
+2016-10-11 11:16:37	SELECT * FROM iwebshop_seller WHERE true_name = '崔金朋' limit 1	
+2016-10-11 11:16:38	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 11:16:38	SELECT * FROM iwebshop_ad_position WHERE id=1 AND `status`=1 limit 1	
+2016-10-11 11:16:38	SELECT * FROM iwebshop_ad_manage WHERE position_id=1 and goods_cat_id = 0 and start_time < '2016-10-11 11:16:38' AND end_time > '2016-10-11 11:16:38' ORDER BY `order` ASC  limit 50000	
+2016-10-11 11:16:59	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 11:17:09	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 11:17:09	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 11:17:09	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 11:17:11	SELECT count(*) as num FROM iwebshop_goods WHERE is_del != 1 limit 1	
+2016-10-11 11:17:11	SELECT count(*) as num FROM iwebshop_comment as co,iwebshop_goods as go WHERE co.status = 1 and co.goods_id = go.id and co.recomment_time<=0 limit 1	
+2016-10-11 11:17:11	SELECT count(*) as num FROM iwebshop_refer as re,iwebshop_goods as go WHERE re.goods_id = go.id and re.status = 0 limit 1	
+2016-10-11 11:17:11	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 11:23:58	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 11:23:58	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 11:23:58	SELECT * FROM iwebshop_user_group limit 50000	
+2016-10-11 11:23:58	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 11:24:02	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 11:24:02	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 11:24:02	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-11 11:24:02	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-11 11:24:02	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 11:24:06	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 11:24:06	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 11:24:06	SELECT * FROM iwebshop_seller WHERE id = 1 limit 1	
+2016-10-11 11:24:29	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 11:24:29	SELECT * FROM iwebshop_ad_position WHERE id=1 AND `status`=1 limit 1	
+2016-10-11 11:24:29	SELECT * FROM iwebshop_ad_manage WHERE position_id=1 and goods_cat_id = 0 and start_time < '2016-10-11 11:24:29' AND end_time > '2016-10-11 11:24:29' ORDER BY `order` ASC  limit 50000	
+2016-10-11 11:24:29	SELECT * FROM iwebshop_ad_position WHERE id=7 AND `status`=1 limit 1	
+2016-10-11 11:24:29	SELECT * FROM iwebshop_ad_manage WHERE position_id=7 and goods_cat_id = 0 and start_time < '2016-10-11 11:24:29' AND end_time > '2016-10-11 11:24:29' ORDER BY `order` ASC  limit 50000	
+2016-10-11 11:24:29	SELECT * FROM iwebshop_ad_position WHERE id=6 AND `status`=1 limit 1	
+2016-10-11 11:24:29	SELECT * FROM iwebshop_ad_manage WHERE position_id=6 and goods_cat_id = 0 and start_time < '2016-10-11 11:24:29' AND end_time > '2016-10-11 11:24:29' ORDER BY `order` ASC  limit 50000	
+2016-10-11 11:24:29	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 999999999 and type = 0 and is_close = 0 and start_time <= "2016-10-11 11:24:29" and end_time >= "2016-10-11 11:24:29" and seller_id = 0 and award_type in (3,4,5,6,7) and user_group = "all"  ORDER BY `condition` DESC  limit 50000	
+2016-10-11 11:24:29	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 999999999 and type = 0 and is_close = 0 and start_time <= "2016-10-11 11:24:29" and end_time >= "2016-10-11 11:24:29" and seller_id = 0 and award_type in (1,2) and user_group = "all"  ORDER BY `condition` DESC  limit 50000	
+2016-10-11 11:24:30	SELECT * FROM iwebshop_seller WHERE seller_name = '' and is_del = 0 and is_lock = 0 limit 1	
+2016-10-11 11:24:41	SELECT * FROM iwebshop_seller WHERE seller_name = "pr" and is_del = 0 and is_lock = 0 limit 1	
+2016-10-11 11:24:41	SELECT * FROM iwebshop_seller WHERE seller_name = 'pr' and is_del = 0 and is_lock = 0 limit 1	
+2016-10-11 11:24:41	SELECT count(*) as num FROM iwebshop_goods WHERE is_del != 1 and seller_id = 1  limit 1	
+2016-10-11 11:24:41	SELECT count(*) as num FROM iwebshop_refer as re,iwebshop_goods as go WHERE re.goods_id = go.id and re.status = 0 and go.seller_id = 1 limit 1	
+2016-10-11 11:24:41	SELECT count(*) as num FROM iwebshop_comment as co,iwebshop_goods as go WHERE co.status = 1 and co.goods_id = go.id and co.recomment_time<=0 and go.seller_id = 1 limit 1	
+2016-10-11 11:24:41	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-11 11:24:41	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-11 14:12:16	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 14:12:16	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 14:12:16	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 14:12:17	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 14:12:17	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 14:12:18	SELECT count(*) as num FROM iwebshop_goods WHERE is_del != 1 limit 1	
+2016-10-11 14:12:18	SELECT count(*) as num FROM iwebshop_comment as co,iwebshop_goods as go WHERE co.status = 1 and co.goods_id = go.id and co.recomment_time<=0 limit 1	
+2016-10-11 14:12:18	SELECT count(*) as num FROM iwebshop_refer as re,iwebshop_goods as go WHERE re.goods_id = go.id and re.status = 0 limit 1	
+2016-10-11 14:12:18	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 14:12:20	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 14:12:20	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 14:12:20	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 14:12:41	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 14:12:41	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 14:12:41	SELECT * FROM iwebshop_payment WHERE id = 8 limit 1	
+2016-10-11 14:12:41	SELECT * FROM iwebshop_payment WHERE id = 8 limit 1	
+2016-10-11 14:12:41	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 14:14:14	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 14:14:14	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 14:14:14	SELECT * FROM iwebshop_payment WHERE id = 8 limit 1	
+2016-10-11 14:14:14	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 14:14:14	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 14:14:14	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 14:14:27	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 14:14:27	SELECT * FROM iwebshop_ad_position WHERE id=1 AND `status`=1 limit 1	
+2016-10-11 14:14:27	SELECT * FROM iwebshop_ad_manage WHERE position_id=1 and goods_cat_id = 0 and start_time < '2016-10-11 14:14:27' AND end_time > '2016-10-11 14:14:27' ORDER BY `order` ASC  limit 50000	
+2016-10-11 14:14:27	SELECT * FROM iwebshop_ad_position WHERE id=7 AND `status`=1 limit 1	
+2016-10-11 14:14:27	SELECT * FROM iwebshop_ad_manage WHERE position_id=7 and goods_cat_id = 0 and start_time < '2016-10-11 14:14:27' AND end_time > '2016-10-11 14:14:27' ORDER BY `order` ASC  limit 50000	
+2016-10-11 14:14:27	SELECT * FROM iwebshop_ad_position WHERE id=6 AND `status`=1 limit 1	
+2016-10-11 14:14:27	SELECT * FROM iwebshop_ad_manage WHERE position_id=6 and goods_cat_id = 0 and start_time < '2016-10-11 14:14:27' AND end_time > '2016-10-11 14:14:27' ORDER BY `order` ASC  limit 50000	
+2016-10-11 14:14:27	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 999999999 and type = 0 and is_close = 0 and start_time <= "2016-10-11 14:14:27" and end_time >= "2016-10-11 14:14:27" and seller_id = 0 and award_type in (3,4,5,6,7) and user_group = "all"  ORDER BY `condition` DESC  limit 50000	
+2016-10-11 14:14:27	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 999999999 and type = 0 and is_close = 0 and start_time <= "2016-10-11 14:14:27" and end_time >= "2016-10-11 14:14:27" and seller_id = 0 and award_type in (1,2) and user_group = "all"  ORDER BY `condition` DESC  limit 50000	
+2016-10-11 14:14:34	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 14:14:34	SELECT * FROM iwebshop_goods WHERE id=1 AND is_del=0 limit 1	
+2016-10-11 14:14:34	SELECT * FROM iwebshop_brand WHERE id=1 limit 1	
+2016-10-11 14:14:34	SELECT c.id,c.name FROM iwebshop_category_extend as ca,iwebshop_category as c WHERE ca.goods_id = 1 and ca.category_id = c.id limit 1	
+2016-10-11 14:14:34	SELECT count(*) as totalNum FROM iwebshop_refer WHERE goods_id=1 limit 1	
+2016-10-11 14:14:34	SELECT count(*) as totalNum FROM iwebshop_discussion WHERE goods_id=1 limit 1	
+2016-10-11 14:14:34	SELECT max(sell_price) as maxSellPrice ,min(sell_price) as minSellPrice,max(market_price) as maxMarketPrice,min(market_price) as minMarketPrice FROM iwebshop_products WHERE goods_id=1 limit 1	
+2016-10-11 14:14:34	SELECT g.* FROM iwebshop_member as m,iwebshop_user_group as g WHERE m.user_id = 1 and m.group_id = g.id limit 1	
+2016-10-11 14:14:34	SELECT * FROM iwebshop_ad_position WHERE id=1 AND `status`=1 limit 1	
+2016-10-11 14:14:34	SELECT * FROM iwebshop_ad_manage WHERE position_id=1 and goods_cat_id = 0 and start_time < '2016-10-11 14:14:34' AND end_time > '2016-10-11 14:14:34' ORDER BY `order` ASC  limit 50000	
+2016-10-11 14:14:34	SELECT * FROM iwebshop_category WHERE id = '2' limit 1	
+2016-10-11 14:14:34	SELECT * FROM iwebshop_category WHERE id = 0 limit 1	
+2016-10-11 14:14:34	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 999999999 and type = 0 and is_close = 0 and start_time <= "2016-10-11 14:14:34" and end_time >= "2016-10-11 14:14:34" and seller_id = 0 and award_type in (3,4,5,6,7) and user_group = "all"  ORDER BY `condition` DESC  limit 50000	
+2016-10-11 14:14:34	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 999999999 and type = 0 and is_close = 0 and start_time <= "2016-10-11 14:14:34" and end_time >= "2016-10-11 14:14:34" and seller_id = 0 and award_type in (1,2) and user_group = "all"  ORDER BY `condition` DESC  limit 50000	
+2016-10-11 14:14:35	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 14:14:40	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 14:14:40	SELECT g.* FROM iwebshop_member as m,iwebshop_user_group as g WHERE m.user_id = 1 and m.group_id = g.id limit 1	
+2016-10-11 14:14:40	SELECT go.name,go.id as goods_id,go.img,go.sell_price,go.point,go.weight,go.store_nums,go.exp,go.goods_no,0 as product_id,go.seller_id FROM iwebshop_goods as go WHERE go.id in (1) limit 50000	
+2016-10-11 14:14:40	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 2121 and type = 0 and is_close = 0 and start_time <= "2016-10-11 14:14:40" and end_time >= "2016-10-11 14:14:40" and seller_id = 0 and award_type in (6) and user_group = "all"  ORDER BY `condition` DESC  limit 50000	
+2016-10-11 14:14:40	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 2121 and type = 0 and is_close = 0 and start_time <= "2016-10-11 14:14:40" and end_time >= "2016-10-11 14:14:40" and seller_id = 0 and award_type in (3,4,5,6,7) and user_group = "all"  ORDER BY `condition` DESC  limit 50000	
+2016-10-11 14:14:40	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 2121 and type = 0 and is_close = 0 and start_time <= "2016-10-11 14:14:40" and end_time >= "2016-10-11 14:14:40" and seller_id = 0 and award_type in (1,2) and user_group = "all"  ORDER BY `condition` DESC  limit 50000	
+2016-10-11 14:14:40	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 2121 and type = 0 and is_close = 0 and start_time <= "2016-10-11 14:14:40" and end_time >= "2016-10-11 14:14:40" and seller_id = 0 and award_type in (1,2) and user_group = "all"  ORDER BY `condition` DESC  limit 50000	
+2016-10-11 14:14:40	SELECT * FROM iwebshop_address WHERE user_id = 1 limit 50000	
+2016-10-11 14:14:40	SELECT prop,custom FROM iwebshop_member WHERE user_id = 1 limit 1	
+2016-10-11 14:14:40	SELECT * FROM iwebshop_seller WHERE id in (0) limit 50000	
+2016-10-11 14:14:40	SELECT * FROM iwebshop_payment WHERE status = 0 and client_type in(1,3)  limit 50000	
+2016-10-11 14:14:40	SELECT poundage,poundage_type FROM iwebshop_payment WHERE id = 1 limit 1	
+2016-10-11 14:14:40	SELECT poundage,poundage_type FROM iwebshop_payment WHERE id = 8 limit 1	
+2016-10-11 14:14:40	SELECT poundage,poundage_type FROM iwebshop_payment WHERE id = 9 limit 1	
+2016-10-11 14:14:40	SELECT poundage,poundage_type FROM iwebshop_payment WHERE id = 10 limit 1	
+2016-10-11 14:14:41	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 14:14:41	SELECT * FROM iwebshop_areas WHERE parent_id=0 ORDER BY sort ASC  limit 50000	
+2016-10-11 14:14:52	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 14:14:52	SELECT * FROM iwebshop_areas WHERE parent_id=230000 ORDER BY sort ASC  limit 50000	
+2016-10-11 14:14:56	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 14:14:56	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 14:14:57	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 14:14:59	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 14:14:59	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 14:14:59	SELECT * FROM iwebshop_goods WHERE  id = 0  limit 1	
+2016-10-11 14:14:59	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 14:15:18	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 14:15:18	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 14:15:19	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 14:15:20	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 14:15:20	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 14:15:20	SELECT * FROM iwebshop_goods WHERE  id = 0  limit 1	
+2016-10-11 14:15:20	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 14:24:26	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 14:24:26	SELECT * FROM iwebshop_areas WHERE parent_id=230200 ORDER BY sort ASC  limit 50000	
+2016-10-11 14:24:58	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 14:24:58	SELECT * FROM iwebshop_address WHERE user_id="1" and accept_name="dsd" and zip="456511" and telphone="18101301805" and province="230000" and city="230200" and area="230202" and address="北京市, 北京市, 海淀区, 长春桥," and mobile="18101301805" limit 1	
+2016-10-11 14:24:58	SELECT * FROM iwebshop_areas WHERE area_id in (230000,230200,230202) limit 50000	
+2016-10-11 14:24:58	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 14:24:58	SELECT * FROM iwebshop_areas WHERE parent_id=0 ORDER BY sort ASC  limit 50000	
+2016-10-11 14:24:58	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 14:24:58	SELECT * FROM iwebshop_areas WHERE parent_id=230000 ORDER BY sort ASC  limit 50000	
+2016-10-11 14:24:58	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 14:24:58	SELECT * FROM iwebshop_areas WHERE parent_id=230200 ORDER BY sort ASC  limit 50000	
+2016-10-11 14:25:07	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 14:25:07	SELECT * FROM iwebshop_delivery WHERE is_delete = 0 and status = 1 and id = 1 limit 1	
+2016-10-11 14:25:07	SELECT g.* FROM iwebshop_member as m,iwebshop_user_group as g WHERE m.user_id = 1 and m.group_id = g.id limit 1	
+2016-10-11 14:25:07	SELECT id,name,img,sell_price FROM iwebshop_goods WHERE id in (1) limit 50000	
+2016-10-11 14:25:07	SELECT go.name,go.id as goods_id,go.img,go.sell_price,go.point,go.weight,go.store_nums,go.exp,go.goods_no,0 as product_id,go.seller_id FROM iwebshop_goods as go WHERE go.id in (1) limit 50000	
+2016-10-11 14:25:07	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 2121 and type = 0 and is_close = 0 and start_time <= "2016-10-11 14:25:07" and end_time >= "2016-10-11 14:25:07" and seller_id = 0 and award_type in (6) and user_group = "all"  ORDER BY `condition` DESC  limit 50000	
+2016-10-11 14:25:07	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 2121 and type = 0 and is_close = 0 and start_time <= "2016-10-11 14:25:07" and end_time >= "2016-10-11 14:25:07" and seller_id = 0 and award_type in (3,4,5,6,7) and user_group = "all"  ORDER BY `condition` DESC  limit 50000	
+2016-10-11 14:25:07	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 2121 and type = 0 and is_close = 0 and start_time <= "2016-10-11 14:25:07" and end_time >= "2016-10-11 14:25:07" and seller_id = 0 and award_type in (1,2) and user_group = "all"  ORDER BY `condition` DESC  limit 50000	
+2016-10-11 14:25:07	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 2121 and type = 0 and is_close = 0 and start_time <= "2016-10-11 14:25:07" and end_time >= "2016-10-11 14:25:07" and seller_id = 0 and award_type in (1,2) and user_group = "all"  ORDER BY `condition` DESC  limit 50000	
+2016-10-11 14:25:07	SELECT * FROM iwebshop_delivery_extend WHERE delivery_id = 1 and seller_id = 0 limit 1	
+2016-10-11 14:25:15	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 14:25:16	SELECT g.* FROM iwebshop_member as m,iwebshop_user_group as g WHERE m.user_id = 1 and m.group_id = g.id limit 1	
+2016-10-11 14:25:16	SELECT go.name,go.id as goods_id,go.img,go.sell_price,go.point,go.weight,go.store_nums,go.exp,go.goods_no,0 as product_id,go.seller_id FROM iwebshop_goods as go WHERE go.id in (1) limit 50000	
+2016-10-11 14:25:16	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 2121 and type = 0 and is_close = 0 and start_time <= "2016-10-11 14:25:16" and end_time >= "2016-10-11 14:25:16" and seller_id = 0 and award_type in (6) and user_group = "all"  ORDER BY `condition` DESC  limit 50000	
+2016-10-11 14:25:16	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 2121 and type = 0 and is_close = 0 and start_time <= "2016-10-11 14:25:16" and end_time >= "2016-10-11 14:25:16" and seller_id = 0 and award_type in (3,4,5,6,7) and user_group = "all"  ORDER BY `condition` DESC  limit 50000	
+2016-10-11 14:25:16	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 2121 and type = 0 and is_close = 0 and start_time <= "2016-10-11 14:25:16" and end_time >= "2016-10-11 14:25:16" and seller_id = 0 and award_type in (1,2) and user_group = "all"  ORDER BY `condition` DESC  limit 50000	
+2016-10-11 14:25:16	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 2121 and type = 0 and is_close = 0 and start_time <= "2016-10-11 14:25:16" and end_time >= "2016-10-11 14:25:16" and seller_id = 0 and award_type in (1,2) and user_group = "all"  ORDER BY `condition` DESC  limit 50000	
+2016-10-11 14:25:16	SELECT * FROM iwebshop_order WHERE `accept_name` = 'dsd' and `province` = '230000' and `city` = '230200' and `area` = '230202' and `address` = '北京市, 北京市, 海淀区, 长春桥,' and `mobile` = '18101301805' and `distribution` = '1' and  NOW() < date_add(create_time,INTERVAL 2 MINUTE)  limit 50000	
+2016-10-11 14:25:16	SELECT * FROM iwebshop_delivery WHERE id = 1 limit 1	
+2016-10-11 14:25:16	SELECT type,name FROM iwebshop_payment WHERE id = 8 limit 1	
+2016-10-11 14:25:16	SELECT id,name,img,sell_price FROM iwebshop_goods WHERE id in (1) limit 50000	
+2016-10-11 14:25:16	SELECT go.name,go.id as goods_id,go.img,go.sell_price,go.point,go.weight,go.store_nums,go.exp,go.goods_no,0 as product_id,go.seller_id FROM iwebshop_goods as go WHERE go.id in (1) limit 50000	
+2016-10-11 14:25:16	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 2121 and type = 0 and is_close = 0 and start_time <= "2016-10-11 14:25:16" and end_time >= "2016-10-11 14:25:16" and seller_id = 0 and award_type in (6) and user_group = "all"  ORDER BY `condition` DESC  limit 50000	
+2016-10-11 14:25:16	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 2121 and type = 0 and is_close = 0 and start_time <= "2016-10-11 14:25:16" and end_time >= "2016-10-11 14:25:16" and seller_id = 0 and award_type in (3,4,5,6,7) and user_group = "all"  ORDER BY `condition` DESC  limit 50000	
+2016-10-11 14:25:16	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 2121 and type = 0 and is_close = 0 and start_time <= "2016-10-11 14:25:16" and end_time >= "2016-10-11 14:25:16" and seller_id = 0 and award_type in (1,2) and user_group = "all"  ORDER BY `condition` DESC  limit 50000	
+2016-10-11 14:25:16	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 2121 and type = 0 and is_close = 0 and start_time <= "2016-10-11 14:25:16" and end_time >= "2016-10-11 14:25:16" and seller_id = 0 and award_type in (1,2) and user_group = "all"  ORDER BY `condition` DESC  limit 50000	
+2016-10-11 14:25:16	SELECT * FROM iwebshop_delivery WHERE is_delete = 0 and status = 1 and id = 1 limit 1	
+2016-10-11 14:25:16	SELECT g.* FROM iwebshop_member as m,iwebshop_user_group as g WHERE m.user_id = 1 and m.group_id = g.id limit 1	
+2016-10-11 14:25:16	SELECT id,name,img,sell_price FROM iwebshop_goods WHERE id in (1) limit 50000	
+2016-10-11 14:25:16	SELECT go.name,go.id as goods_id,go.img,go.sell_price,go.point,go.weight,go.store_nums,go.exp,go.goods_no,0 as product_id,go.seller_id FROM iwebshop_goods as go WHERE go.id in (1) limit 50000	
+2016-10-11 14:25:16	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 2121 and type = 0 and is_close = 0 and start_time <= "2016-10-11 14:25:16" and end_time >= "2016-10-11 14:25:16" and seller_id = 0 and award_type in (6) and user_group = "all"  ORDER BY `condition` DESC  limit 50000	
+2016-10-11 14:25:16	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 2121 and type = 0 and is_close = 0 and start_time <= "2016-10-11 14:25:16" and end_time >= "2016-10-11 14:25:16" and seller_id = 0 and award_type in (3,4,5,6,7) and user_group = "all"  ORDER BY `condition` DESC  limit 50000	
+2016-10-11 14:25:16	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 2121 and type = 0 and is_close = 0 and start_time <= "2016-10-11 14:25:16" and end_time >= "2016-10-11 14:25:16" and seller_id = 0 and award_type in (1,2) and user_group = "all"  ORDER BY `condition` DESC  limit 50000	
+2016-10-11 14:25:16	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 2121 and type = 0 and is_close = 0 and start_time <= "2016-10-11 14:25:16" and end_time >= "2016-10-11 14:25:16" and seller_id = 0 and award_type in (1,2) and user_group = "all"  ORDER BY `condition` DESC  limit 50000	
+2016-10-11 14:25:16	SELECT * FROM iwebshop_delivery_extend WHERE delivery_id = 1 and seller_id = 0 limit 1	
+2016-10-11 14:25:16	SELECT poundage,poundage_type FROM iwebshop_payment WHERE id = 8 limit 1	
+2016-10-11 14:25:16	SELECT custom FROM iwebshop_member WHERE user_id = 1 limit 1	
+2016-10-11 14:25:16	SELECT * FROM iwebshop_address WHERE user_id = 1 and `default` = 1 limit 1	
+2016-10-11 14:25:19	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 14:25:19	SELECT * FROM iwebshop_order WHERE id = 1 limit 1	
+2016-10-11 14:25:19	SELECT * FROM iwebshop_payment WHERE id = 8 limit 1	
+2016-10-11 14:25:19	SELECT * FROM iwebshop_payment WHERE id = 8 limit 1	
+2016-10-11 14:25:19	SELECT * FROM iwebshop_payment WHERE id = 8 limit 1	
+2016-10-11 14:25:19	SELECT * FROM iwebshop_order WHERE id = 1 and status = 1 limit 1	
+2016-10-11 14:25:19	SELECT * FROM iwebshop_order_goods WHERE order_id = 1 limit 50000	
+2016-10-11 15:47:27	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 15:47:27	SELECT * FROM iwebshop_ad_position WHERE id=1 AND `status`=1 limit 1	
+2016-10-11 15:47:27	SELECT * FROM iwebshop_ad_manage WHERE position_id=1 and goods_cat_id = 0 and start_time < '2016-10-11 15:47:27' AND end_time > '2016-10-11 15:47:27' ORDER BY `order` ASC  limit 50000	
+2016-10-11 15:47:27	SELECT * FROM iwebshop_ad_position WHERE id=7 AND `status`=1 limit 1	
+2016-10-11 15:47:27	SELECT * FROM iwebshop_ad_manage WHERE position_id=7 and goods_cat_id = 0 and start_time < '2016-10-11 15:47:27' AND end_time > '2016-10-11 15:47:27' ORDER BY `order` ASC  limit 50000	
+2016-10-11 15:47:27	SELECT * FROM iwebshop_ad_position WHERE id=6 AND `status`=1 limit 1	
+2016-10-11 15:47:27	SELECT * FROM iwebshop_ad_manage WHERE position_id=6 and goods_cat_id = 0 and start_time < '2016-10-11 15:47:27' AND end_time > '2016-10-11 15:47:27' ORDER BY `order` ASC  limit 50000	
+2016-10-11 15:47:27	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 999999999 and type = 0 and is_close = 0 and start_time <= "2016-10-11 15:47:27" and end_time >= "2016-10-11 15:47:27" and seller_id = 0 and award_type in (3,4,5,6,7) and user_group = "all"  ORDER BY `condition` DESC  limit 50000	
+2016-10-11 15:47:27	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 999999999 and type = 0 and is_close = 0 and start_time <= "2016-10-11 15:47:27" and end_time >= "2016-10-11 15:47:27" and seller_id = 0 and award_type in (1,2) and user_group = "all"  ORDER BY `condition` DESC  limit 50000	
+2016-10-11 15:47:29	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 15:47:45	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 15:47:45	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 15:47:45	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 15:47:45	SELECT count(*) as num FROM iwebshop_goods WHERE is_del != 1 limit 1	
+2016-10-11 15:47:45	SELECT count(*) as num FROM iwebshop_comment as co,iwebshop_goods as go WHERE co.status = 1 and co.goods_id = go.id and co.recomment_time<=0 limit 1	
+2016-10-11 15:47:45	SELECT count(*) as num FROM iwebshop_refer as re,iwebshop_goods as go WHERE re.goods_id = go.id and re.status = 0 limit 1	
+2016-10-11 15:47:45	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 15:47:47	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 15:47:47	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 15:47:48	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 15:47:49	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 15:47:49	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 15:47:49	SELECT * FROM iwebshop_goods WHERE  id = 0  limit 1	
+2016-10-11 15:47:49	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 15:49:59	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 15:49:59	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 15:49:59	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 15:50:04	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 15:50:04	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 15:50:04	SELECT * FROM iwebshop_goods WHERE  id = 1  limit 1	
+2016-10-11 15:50:04	SELECT * FROM iwebshop_group_price WHERE goods_id = 1 and product_id is NULL  limit 50000	
+2016-10-11 15:50:04	SELECT * FROM iwebshop_products WHERE goods_id = 1 limit 50000	
+2016-10-11 15:50:04	SELECT commend_id FROM iwebshop_commend_goods WHERE goods_id=1 limit 50000	
+2016-10-11 15:50:04	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 15:50:04	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 15:50:04	SELECT * FROM iwebshop_attribute WHERE model_id=0 limit 50000	
+2016-10-11 15:50:50	SELECT * FROM iwebshop_seller WHERE seller_name = 'pr' and is_del = 0 and is_lock = 0 limit 1	
+2016-10-11 15:50:50	SELECT * FROM iwebshop_seller WHERE seller_name = 'pr' and is_del = 0 and is_lock = 0 limit 1	
+2016-10-11 15:50:50	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 15:50:50	SELECT spec_array FROM iwebshop_goods WHERE id = 1 limit 1	
+2016-10-11 15:51:26	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 15:51:26	SELECT * FROM iwebshop_goods_photo WHERE id = '2b9406be1fd72d7e9a53204fa7999367' limit 1	
+2016-10-11 15:51:26	SELECT * FROM iwebshop_goods_photo WHERE id = "2b9406be1fd72d7e9a53204fa7999367" limit 1	
+2016-10-11 15:51:38	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 15:51:38	SELECT * FROM iwebshop_goods_photo WHERE id = 'a54983ebdd5760e781c452cb3caac959' limit 1	
+2016-10-11 15:51:38	SELECT * FROM iwebshop_goods_photo WHERE id = "a54983ebdd5760e781c452cb3caac959" limit 1	
+2016-10-11 15:51:47	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 15:51:47	SELECT * FROM iwebshop_goods_photo WHERE id = '9c6b027507c33f40481110ba96be6573' limit 1	
+2016-10-11 15:51:47	SELECT * FROM iwebshop_goods_photo WHERE id = "9c6b027507c33f40481110ba96be6573" limit 1	
+2016-10-11 15:51:56	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 15:51:56	SELECT * FROM iwebshop_goods_photo WHERE id = '94b5aafdd519b441fabc9e2a83434863' limit 1	
+2016-10-11 15:51:56	SELECT * FROM iwebshop_goods_photo WHERE id = "94b5aafdd519b441fabc9e2a83434863" limit 1	
+2016-10-11 15:52:20	SELECT * FROM iwebshop_seller WHERE seller_name = 'pr' and is_del = 0 and is_lock = 0 limit 1	
+2016-10-11 15:52:20	SELECT * FROM iwebshop_seller WHERE seller_name = 'pr' and is_del = 0 and is_lock = 0 limit 1	
+2016-10-11 15:52:20	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 15:52:32	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 15:52:32	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 15:52:32	SELECT count(*) as num FROM iwebshop_goods WHERE name like "%Fine%" or FIND_IN_SET("Fine", search_words) AND is_del=0  limit 1	
+2016-10-11 15:52:32	SELECT count(*) as num FROM iwebshop_goods WHERE name like "%of%" or FIND_IN_SET("of", search_words) AND is_del=0  limit 1	
+2016-10-11 15:52:32	SELECT count(*) as num FROM iwebshop_goods WHERE name like "%his%" or FIND_IN_SET("his", search_words) AND is_del=0  limit 1	
+2016-10-11 15:52:32	SELECT count(*) as num FROM iwebshop_goods WHERE name like "%life%" or FIND_IN_SET("life", search_words) AND is_del=0  limit 1	
+2016-10-11 15:52:32	SELECT hot FROM iwebshop_keyword WHERE word = "Fine" limit 1	
+2016-10-11 15:52:32	SELECT hot FROM iwebshop_keyword WHERE word = "of" limit 1	
+2016-10-11 15:52:32	SELECT hot FROM iwebshop_keyword WHERE word = "his" limit 1	
+2016-10-11 15:52:32	SELECT hot FROM iwebshop_keyword WHERE word = "life" limit 1	
+2016-10-11 15:52:32	SELECT id FROM iwebshop_goods_photo WHERE img in ("upload/2016/10/11/20161011155126267.jpg","upload/2016/10/11/20161011155138443.jpg","upload/2016/10/11/20161011155147499.jpg","upload/2016/10/11/20161011155156486.jpg") limit 50000	
+2016-10-11 15:52:32	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 15:52:32	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 15:52:32	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 15:52:46	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 15:52:46	SELECT * FROM iwebshop_ad_position WHERE id=1 AND `status`=1 limit 1	
+2016-10-11 15:52:46	SELECT * FROM iwebshop_ad_manage WHERE position_id=1 and goods_cat_id = 0 and start_time < '2016-10-11 15:52:46' AND end_time > '2016-10-11 15:52:46' ORDER BY `order` ASC  limit 50000	
+2016-10-11 15:52:46	SELECT * FROM iwebshop_ad_position WHERE id=7 AND `status`=1 limit 1	
+2016-10-11 15:52:46	SELECT * FROM iwebshop_ad_manage WHERE position_id=7 and goods_cat_id = 0 and start_time < '2016-10-11 15:52:46' AND end_time > '2016-10-11 15:52:46' ORDER BY `order` ASC  limit 50000	
+2016-10-11 15:52:46	SELECT * FROM iwebshop_ad_position WHERE id=6 AND `status`=1 limit 1	
+2016-10-11 15:52:46	SELECT * FROM iwebshop_ad_manage WHERE position_id=6 and goods_cat_id = 0 and start_time < '2016-10-11 15:52:46' AND end_time > '2016-10-11 15:52:46' ORDER BY `order` ASC  limit 50000	
+2016-10-11 15:52:46	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 999999999 and type = 0 and is_close = 0 and start_time <= "2016-10-11 15:52:46" and end_time >= "2016-10-11 15:52:46" and seller_id = 0 and award_type in (3,4,5,6,7) and user_group = "all"  ORDER BY `condition` DESC  limit 50000	
+2016-10-11 15:52:46	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 999999999 and type = 0 and is_close = 0 and start_time <= "2016-10-11 15:52:46" and end_time >= "2016-10-11 15:52:46" and seller_id = 0 and award_type in (1,2) and user_group = "all"  ORDER BY `condition` DESC  limit 50000	
+2016-10-11 15:52:53	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 15:52:53	SELECT * FROM iwebshop_goods WHERE id=1 AND is_del=0 limit 1	
+2016-10-11 15:52:53	SELECT * FROM iwebshop_brand WHERE id=1 limit 1	
+2016-10-11 15:52:53	SELECT c.id,c.name FROM iwebshop_category_extend as ca,iwebshop_category as c WHERE ca.goods_id = 1 and ca.category_id = c.id limit 1	
+2016-10-11 15:52:53	SELECT count(*) as totalNum FROM iwebshop_refer WHERE goods_id=1 limit 1	
+2016-10-11 15:52:53	SELECT count(*) as totalNum FROM iwebshop_discussion WHERE goods_id=1 limit 1	
+2016-10-11 15:52:53	SELECT max(sell_price) as maxSellPrice ,min(sell_price) as minSellPrice,max(market_price) as maxMarketPrice,min(market_price) as minMarketPrice FROM iwebshop_products WHERE goods_id=1 limit 1	
+2016-10-11 15:52:53	SELECT g.* FROM iwebshop_member as m,iwebshop_user_group as g WHERE m.user_id = 1 and m.group_id = g.id limit 1	
+2016-10-11 15:52:53	SELECT * FROM iwebshop_seller WHERE id = 1 limit 1	
+2016-10-11 15:52:53	SELECT * FROM iwebshop_ad_position WHERE id=1 AND `status`=1 limit 1	
+2016-10-11 15:52:53	SELECT * FROM iwebshop_ad_manage WHERE position_id=1 and goods_cat_id = 0 and start_time < '2016-10-11 15:52:53' AND end_time > '2016-10-11 15:52:53' ORDER BY `order` ASC  limit 50000	
+2016-10-11 15:52:53	SELECT * FROM iwebshop_category WHERE id = '2' limit 1	
+2016-10-11 15:52:53	SELECT * FROM iwebshop_category WHERE id = 0 limit 1	
+2016-10-11 15:52:53	SELECT * FROM iwebshop_areas WHERE area_id in (110000,110100,110108) limit 50000	
+2016-10-11 15:52:53	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 999999999 and type = 0 and is_close = 0 and start_time <= "2016-10-11 15:52:53" and end_time >= "2016-10-11 15:52:53" and seller_id = 1 and award_type in (3,4,5,6,7) and user_group = "all"  ORDER BY `condition` DESC  limit 50000	
+2016-10-11 15:52:53	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 999999999 and type = 0 and is_close = 0 and start_time <= "2016-10-11 15:52:53" and end_time >= "2016-10-11 15:52:53" and seller_id = 1 and award_type in (1,2) and user_group = "all"  ORDER BY `condition` DESC  limit 50000	
+2016-10-11 15:52:54	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 15:54:32	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 15:54:32	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 15:54:32	SELECT * FROM iwebshop_user_group limit 50000	
+2016-10-11 15:54:32	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 15:54:36	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 15:54:36	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 15:54:36	SELECT * FROM iwebshop_user_group limit 50000	
+2016-10-11 15:54:36	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 15:54:41	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 15:54:41	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 15:54:41	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 15:54:43	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 15:54:43	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 15:54:43	SELECT * FROM iwebshop_user_group limit 50000	
+2016-10-11 15:54:43	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 15:54:53	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 15:54:53	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 15:54:53	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 15:54:57	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 15:54:57	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 15:54:57	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 15:55:31	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 15:55:31	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 15:55:31	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 15:55:31	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 15:55:31	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 15:55:34	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 15:55:34	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 15:55:34	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 15:55:56	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 15:55:56	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 15:55:56	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 15:55:57	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 15:55:57	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 15:55:58	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 15:55:58	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 15:55:58	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 15:56:18	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 15:56:18	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 15:56:18	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 15:56:18	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 15:56:18	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 15:56:20	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 15:56:20	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 15:56:20	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 15:56:42	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 15:56:42	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 15:56:42	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 15:56:42	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 15:56:42	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 15:56:48	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 15:56:48	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 15:56:48	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 15:57:08	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 15:57:08	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 15:57:08	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 15:57:08	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 15:57:08	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 15:57:11	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 15:57:11	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 15:57:11	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 15:57:37	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 15:57:37	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 15:57:37	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 15:57:37	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 15:57:37	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 15:57:42	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 15:57:42	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 15:57:42	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 15:58:13	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 15:58:13	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 15:58:13	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 15:58:13	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 15:58:13	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 15:58:18	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 15:58:18	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 15:58:18	SELECT * FROM iwebshop_user_group limit 50000	
+2016-10-11 15:58:18	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 15:58:22	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 15:58:22	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 15:58:22	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 15:58:22	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 15:58:22	SELECT * FROM iwebshop_areas WHERE parent_id=0 ORDER BY sort ASC  limit 50000	
+2016-10-11 15:59:31	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 15:59:31	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 15:59:31	SELECT * FROM iwebshop_user WHERE username='cuijinpeng' and id != 2 limit 1	
+2016-10-11 15:59:31	SELECT * FROM iwebshop_user WHERE email='2749367600@qq.com' and id != 2 limit 1	
+2016-10-11 15:59:31	SELECT * FROM iwebshop_member WHERE user_id=2 limit 1	
+2016-10-11 15:59:32	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 15:59:32	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 15:59:32	SELECT * FROM iwebshop_user_group limit 50000	
+2016-10-11 15:59:32	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 15:59:36	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 15:59:36	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 15:59:36	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 15:59:37	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 15:59:37	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 15:59:37	SELECT * FROM iwebshop_areas WHERE parent_id=0 ORDER BY sort ASC  limit 50000	
+2016-10-11 15:59:37	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 15:59:37	SELECT * FROM iwebshop_areas WHERE parent_id=130000 ORDER BY sort ASC  limit 50000	
+2016-10-11 15:59:37	SELECT * FROM iwebshop_areas WHERE parent_id=130400 ORDER BY sort ASC  limit 50000	
+2016-10-11 16:00:19	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 16:00:19	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 16:00:19	SELECT * FROM iwebshop_user WHERE username='luyaran' and id != 1 limit 1	
+2016-10-11 16:00:19	SELECT * FROM iwebshop_user WHERE email='2329319204@qq.com' and id != 1 limit 1	
+2016-10-11 16:00:19	SELECT * FROM iwebshop_member WHERE user_id=1 limit 1	
+2016-10-11 16:00:19	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 16:00:19	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 16:00:19	SELECT * FROM iwebshop_user_group limit 50000	
+2016-10-11 16:00:19	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 16:00:32	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 16:00:32	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 16:00:32	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 16:00:32	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 16:00:32	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 16:00:32	SELECT * FROM iwebshop_areas WHERE parent_id=0 ORDER BY sort ASC  limit 50000	
+2016-10-11 16:00:32	SELECT * FROM iwebshop_areas WHERE parent_id=0 ORDER BY sort ASC  limit 50000	
+2016-10-11 16:00:32	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 16:00:32	SELECT * FROM iwebshop_areas WHERE parent_id=0 ORDER BY sort ASC  limit 50000	
+2016-10-11 16:00:47	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 16:00:47	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 16:00:47	SELECT * FROM iwebshop_user WHERE username='cuijinpeng' and id != 2 limit 1	
+2016-10-11 16:00:47	SELECT * FROM iwebshop_user WHERE email='2749367600@qq.com' and id != 2 limit 1	
+2016-10-11 16:00:47	SELECT * FROM iwebshop_member WHERE user_id=2 limit 1	
+2016-10-11 16:00:47	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 16:00:47	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 16:00:47	SELECT * FROM iwebshop_user_group limit 50000	
+2016-10-11 16:00:47	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 16:00:56	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 16:00:56	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 16:00:56	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 16:01:00	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 16:01:00	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 16:01:00	SELECT * FROM iwebshop_user_group limit 50000	
+2016-10-11 16:01:00	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 16:01:02	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 16:01:02	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 16:01:02	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 16:01:03	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 16:01:03	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 16:01:03	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-11 16:01:03	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-11 16:01:03	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 16:01:10	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 16:01:10	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 16:01:10	SELECT * FROM iwebshop_seller WHERE id = 1 limit 1	
+2016-10-11 16:01:10	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 16:01:11	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 16:01:11	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 16:01:11	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 16:01:11	SELECT * FROM iwebshop_areas WHERE parent_id=0 ORDER BY sort ASC  limit 50000	
+2016-10-11 16:01:11	SELECT * FROM iwebshop_areas WHERE parent_id=110100 ORDER BY sort ASC  limit 50000	
+2016-10-11 16:01:11	SELECT * FROM iwebshop_areas WHERE parent_id=110000 ORDER BY sort ASC  limit 50000	
+2016-10-11 16:01:34	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 16:01:34	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 16:01:34	SELECT * FROM iwebshop_seller WHERE seller_name = 'pr' and id != 1 limit 1	
+2016-10-11 16:01:34	SELECT * FROM iwebshop_seller WHERE true_name = '崔金朋' and id != 1 limit 1	
+2016-10-11 16:01:34	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 16:01:34	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 16:01:34	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-11 16:01:34	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-11 16:01:34	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 16:01:43	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 16:01:43	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 16:01:43	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 16:01:43	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 16:01:43	SELECT * FROM iwebshop_areas WHERE parent_id=0 ORDER BY sort ASC  limit 50000	
+2016-10-11 16:01:45	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 16:01:45	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 16:01:45	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 16:01:46	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 16:01:46	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 16:01:46	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 16:01:48	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 16:01:48	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 16:01:48	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 16:01:50	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 16:01:50	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 16:01:50	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 16:01:51	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 16:01:51	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 16:01:51	SELECT * FROM iwebshop_user_group limit 50000	
+2016-10-11 16:01:51	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 16:23:54	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 16:23:54	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 16:23:54	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 16:23:58	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 16:23:58	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 16:23:58	SELECT * FROM iwebshop_goods WHERE  id = 0  limit 1	
+2016-10-11 16:23:58	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 16:24:38	SELECT * FROM iwebshop_seller WHERE seller_name = 'pr' and is_del = 0 and is_lock = 0 limit 1	
+2016-10-11 16:24:38	SELECT * FROM iwebshop_seller WHERE seller_name = 'pr' and is_del = 0 and is_lock = 0 limit 1	
+2016-10-11 16:24:38	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 16:24:38	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 16:24:38	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 16:24:38	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 16:24:38	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 16:24:38	SELECT * FROM iwebshop_areas WHERE parent_id=0 ORDER BY sort ASC  limit 50000	
+2016-10-11 16:24:44	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 16:24:44	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 16:24:44	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 16:24:47	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 16:24:47	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 16:24:47	SELECT * FROM iwebshop_goods WHERE  id = 0  limit 1	
+2016-10-11 16:24:47	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 16:24:50	SELECT * FROM iwebshop_seller WHERE seller_name = 'pr' and is_del = 0 and is_lock = 0 limit 1	
+2016-10-11 16:24:50	SELECT * FROM iwebshop_seller WHERE seller_name = 'pr' and is_del = 0 and is_lock = 0 limit 1	
+2016-10-11 16:24:50	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 16:24:54	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 16:25:23	SELECT * FROM iwebshop_seller WHERE seller_name = 'pr' and is_del = 0 and is_lock = 0 limit 1	
+2016-10-11 16:25:23	SELECT * FROM iwebshop_seller WHERE seller_name = 'pr' and is_del = 0 and is_lock = 0 limit 1	
+2016-10-11 16:25:23	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 16:25:55	SELECT * FROM iwebshop_seller WHERE seller_name = 'pr' and is_del = 0 and is_lock = 0 limit 1	
+2016-10-11 16:25:55	SELECT * FROM iwebshop_seller WHERE seller_name = 'pr' and is_del = 0 and is_lock = 0 limit 1	
+2016-10-11 16:25:55	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 16:26:31	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 16:26:31	SELECT * FROM iwebshop_goods_photo WHERE id = 'dcfdebaa756de77e72c3cfa1ed8804c6' limit 1	
+2016-10-11 16:26:31	SELECT * FROM iwebshop_goods_photo WHERE id = "dcfdebaa756de77e72c3cfa1ed8804c6" limit 1	
+2016-10-11 16:26:41	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 16:26:41	SELECT * FROM iwebshop_goods_photo WHERE id = '8b45f0cf40bf3f04a357caca424aeca0' limit 1	
+2016-10-11 16:26:41	SELECT * FROM iwebshop_goods_photo WHERE id = "8b45f0cf40bf3f04a357caca424aeca0" limit 1	
+2016-10-11 16:26:45	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 16:26:45	SELECT * FROM iwebshop_goods_photo WHERE id = '30d00777d692abefe5d7ffd4589d6b15' limit 1	
+2016-10-11 16:26:45	SELECT * FROM iwebshop_goods_photo WHERE id = "30d00777d692abefe5d7ffd4589d6b15" limit 1	
+2016-10-11 16:27:15	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 16:27:15	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 16:27:15	SELECT count(*) as num FROM iwebshop_goods WHERE name like "%Waiting%" or FIND_IN_SET("Waiting", search_words) AND is_del=0  limit 1	
+2016-10-11 16:27:15	SELECT count(*) as num FROM iwebshop_goods WHERE name like "%for%" or FIND_IN_SET("for", search_words) AND is_del=0  limit 1	
+2016-10-11 16:27:15	SELECT count(*) as num FROM iwebshop_goods WHERE name like "%you%" or FIND_IN_SET("you", search_words) AND is_del=0  limit 1	
+2016-10-11 16:27:15	SELECT hot FROM iwebshop_keyword WHERE word = "Waiting" limit 1	
+2016-10-11 16:27:15	SELECT hot FROM iwebshop_keyword WHERE word = "for" limit 1	
+2016-10-11 16:27:15	SELECT hot FROM iwebshop_keyword WHERE word = "you" limit 1	
+2016-10-11 16:27:15	SELECT id FROM iwebshop_goods_photo WHERE img in ("upload/2016/10/11/20161011162631602.jpg","upload/2016/10/11/20161011162641340.jpg","upload/2016/10/11/20161011162645688.jpg") limit 50000	
+2016-10-11 16:27:16	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 16:27:16	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 16:27:16	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 16:27:26	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 16:27:26	SELECT * FROM iwebshop_ad_position WHERE id=1 AND `status`=1 limit 1	
+2016-10-11 16:27:26	SELECT * FROM iwebshop_ad_manage WHERE position_id=1 and goods_cat_id = 0 and start_time < '2016-10-11 16:27:26' AND end_time > '2016-10-11 16:27:26' ORDER BY `order` ASC  limit 50000	
+2016-10-11 16:27:26	SELECT * FROM iwebshop_ad_position WHERE id=7 AND `status`=1 limit 1	
+2016-10-11 16:27:26	SELECT * FROM iwebshop_ad_manage WHERE position_id=7 and goods_cat_id = 0 and start_time < '2016-10-11 16:27:26' AND end_time > '2016-10-11 16:27:26' ORDER BY `order` ASC  limit 50000	
+2016-10-11 16:27:26	SELECT * FROM iwebshop_ad_position WHERE id=6 AND `status`=1 limit 1	
+2016-10-11 16:27:26	SELECT * FROM iwebshop_ad_manage WHERE position_id=6 and goods_cat_id = 0 and start_time < '2016-10-11 16:27:26' AND end_time > '2016-10-11 16:27:26' ORDER BY `order` ASC  limit 50000	
+2016-10-11 16:27:26	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 999999999 and type = 0 and is_close = 0 and start_time <= "2016-10-11 16:27:26" and end_time >= "2016-10-11 16:27:26" and seller_id = 0 and award_type in (3,4,5,6,7) and user_group = "all"  ORDER BY `condition` DESC  limit 50000	
+2016-10-11 16:27:26	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 999999999 and type = 0 and is_close = 0 and start_time <= "2016-10-11 16:27:26" and end_time >= "2016-10-11 16:27:26" and seller_id = 0 and award_type in (1,2) and user_group = "all"  ORDER BY `condition` DESC  limit 50000	
+2016-10-11 16:27:34	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 16:27:34	SELECT * FROM iwebshop_goods WHERE id=2 AND is_del=0 limit 1	
+2016-10-11 16:27:34	SELECT * FROM iwebshop_brand WHERE id=1 limit 1	
+2016-10-11 16:27:34	SELECT c.id,c.name FROM iwebshop_category_extend as ca,iwebshop_category as c WHERE ca.goods_id = 2 and ca.category_id = c.id limit 1	
+2016-10-11 16:27:34	SELECT count(*) as totalNum FROM iwebshop_refer WHERE goods_id=2 limit 1	
+2016-10-11 16:27:34	SELECT count(*) as totalNum FROM iwebshop_discussion WHERE goods_id=2 limit 1	
+2016-10-11 16:27:34	SELECT max(sell_price) as maxSellPrice ,min(sell_price) as minSellPrice,max(market_price) as maxMarketPrice,min(market_price) as minMarketPrice FROM iwebshop_products WHERE goods_id=2 limit 1	
+2016-10-11 16:27:34	SELECT g.* FROM iwebshop_member as m,iwebshop_user_group as g WHERE m.user_id = 1 and m.group_id = g.id limit 1	
+2016-10-11 16:27:34	SELECT price FROM iwebshop_group_price WHERE goods_id = 2 and group_id = 7 limit 1	
+2016-10-11 16:27:34	SELECT sell_price FROM iwebshop_goods WHERE id = 2 limit 1	
+2016-10-11 16:27:34	SELECT * FROM iwebshop_seller WHERE id = 1 limit 1	
+2016-10-11 16:27:34	SELECT * FROM iwebshop_ad_position WHERE id=1 AND `status`=1 limit 1	
+2016-10-11 16:27:34	SELECT * FROM iwebshop_ad_manage WHERE position_id=1 and goods_cat_id = 0 and start_time < '2016-10-11 16:27:34' AND end_time > '2016-10-11 16:27:34' ORDER BY `order` ASC  limit 50000	
+2016-10-11 16:27:34	SELECT * FROM iwebshop_category WHERE id = '1' limit 1	
+2016-10-11 16:27:34	SELECT * FROM iwebshop_category WHERE id = 0 limit 1	
+2016-10-11 16:27:34	SELECT * FROM iwebshop_areas WHERE area_id in (110000,110100,110108) limit 50000	
+2016-10-11 16:27:35	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 999999999 and type = 0 and is_close = 0 and start_time <= "2016-10-11 16:27:35" and end_time >= "2016-10-11 16:27:35" and seller_id = 1 and award_type in (3,4,5,6,7) and user_group = "all"  ORDER BY `condition` DESC  limit 50000	
+2016-10-11 16:27:35	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 999999999 and type = 0 and is_close = 0 and start_time <= "2016-10-11 16:27:35" and end_time >= "2016-10-11 16:27:35" and seller_id = 1 and award_type in (1,2) and user_group = "all"  ORDER BY `condition` DESC  limit 50000	
+2016-10-11 16:27:35	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 16:28:35	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 16:28:37	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 16:28:38	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 16:28:43	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 16:28:57	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 16:28:57	SELECT * FROM iwebshop_ad_position WHERE id=1 AND `status`=1 limit 1	
+2016-10-11 16:28:57	SELECT * FROM iwebshop_ad_manage WHERE position_id=1 and goods_cat_id = 0 and start_time < '2016-10-11 16:28:57' AND end_time > '2016-10-11 16:28:57' ORDER BY `order` ASC  limit 50000	
+2016-10-11 16:28:57	SELECT * FROM iwebshop_ad_position WHERE id=7 AND `status`=1 limit 1	
+2016-10-11 16:28:57	SELECT * FROM iwebshop_ad_manage WHERE position_id=7 and goods_cat_id = 0 and start_time < '2016-10-11 16:28:57' AND end_time > '2016-10-11 16:28:57' ORDER BY `order` ASC  limit 50000	
+2016-10-11 16:28:57	SELECT * FROM iwebshop_ad_position WHERE id=6 AND `status`=1 limit 1	
+2016-10-11 16:28:57	SELECT * FROM iwebshop_ad_manage WHERE position_id=6 and goods_cat_id = 0 and start_time < '2016-10-11 16:28:57' AND end_time > '2016-10-11 16:28:57' ORDER BY `order` ASC  limit 50000	
+2016-10-11 16:28:57	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 999999999 and type = 0 and is_close = 0 and start_time <= "2016-10-11 16:28:57" and end_time >= "2016-10-11 16:28:57" and seller_id = 0 and award_type in (3,4,5,6,7) and user_group = "all"  ORDER BY `condition` DESC  limit 50000	
+2016-10-11 16:28:57	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 999999999 and type = 0 and is_close = 0 and start_time <= "2016-10-11 16:28:57" and end_time >= "2016-10-11 16:28:57" and seller_id = 0 and award_type in (1,2) and user_group = "all"  ORDER BY `condition` DESC  limit 50000	
+2016-10-11 18:30:27	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 18:30:27	SELECT * FROM iwebshop_goods WHERE id=2 AND is_del=0 limit 1	
+2016-10-11 18:30:27	SELECT * FROM iwebshop_brand WHERE id=1 limit 1	
+2016-10-11 18:30:27	SELECT c.id,c.name FROM iwebshop_category_extend as ca,iwebshop_category as c WHERE ca.goods_id = 2 and ca.category_id = c.id limit 1	
+2016-10-11 18:30:27	SELECT count(*) as totalNum FROM iwebshop_refer WHERE goods_id=2 limit 1	
+2016-10-11 18:30:27	SELECT count(*) as totalNum FROM iwebshop_discussion WHERE goods_id=2 limit 1	
+2016-10-11 18:30:27	SELECT max(sell_price) as maxSellPrice ,min(sell_price) as minSellPrice,max(market_price) as maxMarketPrice,min(market_price) as minMarketPrice FROM iwebshop_products WHERE goods_id=2 limit 1	
+2016-10-11 18:30:27	SELECT g.* FROM iwebshop_member as m,iwebshop_user_group as g WHERE m.user_id = 1 and m.group_id = g.id limit 1	
+2016-10-11 18:30:27	SELECT price FROM iwebshop_group_price WHERE goods_id = 2 and group_id = 7 limit 1	
+2016-10-11 18:30:27	SELECT sell_price FROM iwebshop_goods WHERE id = 2 limit 1	
+2016-10-11 18:30:27	SELECT * FROM iwebshop_seller WHERE id = 1 limit 1	
+2016-10-11 18:30:27	SELECT * FROM iwebshop_ad_position WHERE id=1 AND `status`=1 limit 1	
+2016-10-11 18:30:27	SELECT * FROM iwebshop_ad_manage WHERE position_id=1 and goods_cat_id = 0 and start_time < '2016-10-11 18:30:27' AND end_time > '2016-10-11 18:30:27' ORDER BY `order` ASC  limit 50000	
+2016-10-11 18:30:27	SELECT * FROM iwebshop_category WHERE id = '1' limit 1	
+2016-10-11 18:30:27	SELECT * FROM iwebshop_category WHERE id = 0 limit 1	
+2016-10-11 18:30:27	SELECT * FROM iwebshop_areas WHERE area_id in (110000,110100,110108) limit 50000	
+2016-10-11 18:30:27	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 999999999 and type = 0 and is_close = 0 and start_time <= "2016-10-11 18:30:27" and end_time >= "2016-10-11 18:30:27" and seller_id = 1 and award_type in (3,4,5,6,7) and user_group = "all"  ORDER BY `condition` DESC  limit 50000	
+2016-10-11 18:30:27	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 999999999 and type = 0 and is_close = 0 and start_time <= "2016-10-11 18:30:27" and end_time >= "2016-10-11 18:30:27" and seller_id = 1 and award_type in (1,2) and user_group = "all"  ORDER BY `condition` DESC  limit 50000	
+2016-10-11 18:30:27	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 18:41:13	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 18:41:13	SELECT g.* FROM iwebshop_member as m,iwebshop_user_group as g WHERE m.user_id = 1 and m.group_id = g.id limit 1	
+2016-10-11 18:41:13	SELECT go.name,go.id as goods_id,go.img,go.sell_price,go.point,go.weight,go.store_nums,go.exp,go.goods_no,0 as product_id,go.seller_id FROM iwebshop_goods as go WHERE go.id in (2) limit 50000	
+2016-10-11 18:41:13	SELECT price FROM iwebshop_group_price WHERE goods_id = 2 and group_id = 7 limit 1	
+2016-10-11 18:41:13	SELECT sell_price FROM iwebshop_goods WHERE id = 2 limit 1	
+2016-10-11 18:41:13	SELECT * FROM iwebshop_seller WHERE id = 1 limit 1	
+2016-10-11 18:41:13	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 8.47 and type = 0 and is_close = 0 and start_time <= "2016-10-11 18:41:13" and end_time >= "2016-10-11 18:41:13" and seller_id = 1 and award_type in (6) and (user_group = "all" or FIND_IN_SET(7,user_group)) ORDER BY `condition` DESC  limit 50000	
+2016-10-11 18:41:13	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 8.47 and type = 0 and is_close = 0 and start_time <= "2016-10-11 18:41:13" and end_time >= "2016-10-11 18:41:13" and seller_id = 1 and award_type in (3,4,5,6,7) and (user_group = "all" or FIND_IN_SET(7,user_group)) ORDER BY `condition` DESC  limit 50000	
+2016-10-11 18:41:13	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 8.47 and type = 0 and is_close = 0 and start_time <= "2016-10-11 18:41:13" and end_time >= "2016-10-11 18:41:13" and seller_id = 1 and award_type in (1,2) and (user_group = "all" or FIND_IN_SET(7,user_group)) ORDER BY `condition` DESC  limit 50000	
+2016-10-11 18:41:13	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 8.47 and type = 0 and is_close = 0 and start_time <= "2016-10-11 18:41:13" and end_time >= "2016-10-11 18:41:13" and seller_id = 1 and award_type in (1,2) and (user_group = "all" or FIND_IN_SET(7,user_group)) ORDER BY `condition` DESC  limit 50000	
+2016-10-11 18:41:13	SELECT * FROM iwebshop_address WHERE user_id = 1 limit 50000	
+2016-10-11 18:41:13	SELECT * FROM iwebshop_areas WHERE area_id in (230000,230200,230202) limit 50000	
+2016-10-11 18:41:13	SELECT prop,custom FROM iwebshop_member WHERE user_id = 1 limit 1	
+2016-10-11 18:41:13	SELECT * FROM iwebshop_seller WHERE id in (1) limit 50000	
+2016-10-11 18:41:13	SELECT * FROM iwebshop_payment WHERE status = 0 and client_type in(1,3)  limit 50000	
+2016-10-11 18:41:13	SELECT poundage,poundage_type FROM iwebshop_payment WHERE id = 1 limit 1	
+2016-10-11 18:41:13	SELECT poundage,poundage_type FROM iwebshop_payment WHERE id = 8 limit 1	
+2016-10-11 18:41:13	SELECT poundage,poundage_type FROM iwebshop_payment WHERE id = 9 limit 1	
+2016-10-11 18:41:13	SELECT poundage,poundage_type FROM iwebshop_payment WHERE id = 10 limit 1	
+2016-10-11 18:41:13	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 18:41:13	SELECT * FROM iwebshop_areas WHERE parent_id=0 ORDER BY sort ASC  limit 50000	
+2016-10-11 18:41:17	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 18:41:17	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 18:41:17	SELECT * FROM iwebshop_areas WHERE parent_id=230200 ORDER BY sort ASC  limit 50000	
+2016-10-11 18:41:17	SELECT * FROM iwebshop_areas WHERE parent_id=0 ORDER BY sort ASC  limit 50000	
+2016-10-11 18:41:17	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 18:41:17	SELECT * FROM iwebshop_areas WHERE parent_id=230000 ORDER BY sort ASC  limit 50000	
+2016-10-11 18:42:47	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 18:42:47	SELECT g.* FROM iwebshop_member as m,iwebshop_user_group as g WHERE m.user_id = 1 and m.group_id = g.id limit 1	
+2016-10-11 18:42:47	SELECT go.name,go.id as goods_id,go.img,go.sell_price,go.point,go.weight,go.store_nums,go.exp,go.goods_no,0 as product_id,go.seller_id FROM iwebshop_goods as go WHERE go.id in (2) limit 50000	
+2016-10-11 18:42:47	SELECT price FROM iwebshop_group_price WHERE goods_id = 2 and group_id = 7 limit 1	
+2016-10-11 18:42:47	SELECT sell_price FROM iwebshop_goods WHERE id = 2 limit 1	
+2016-10-11 18:42:47	SELECT * FROM iwebshop_seller WHERE id = 1 limit 1	
+2016-10-11 18:42:47	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 8.47 and type = 0 and is_close = 0 and start_time <= "2016-10-11 18:42:47" and end_time >= "2016-10-11 18:42:47" and seller_id = 1 and award_type in (6) and (user_group = "all" or FIND_IN_SET(7,user_group)) ORDER BY `condition` DESC  limit 50000	
+2016-10-11 18:42:47	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 8.47 and type = 0 and is_close = 0 and start_time <= "2016-10-11 18:42:47" and end_time >= "2016-10-11 18:42:47" and seller_id = 1 and award_type in (3,4,5,6,7) and (user_group = "all" or FIND_IN_SET(7,user_group)) ORDER BY `condition` DESC  limit 50000	
+2016-10-11 18:42:47	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 8.47 and type = 0 and is_close = 0 and start_time <= "2016-10-11 18:42:47" and end_time >= "2016-10-11 18:42:47" and seller_id = 1 and award_type in (1,2) and (user_group = "all" or FIND_IN_SET(7,user_group)) ORDER BY `condition` DESC  limit 50000	
+2016-10-11 18:42:47	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 8.47 and type = 0 and is_close = 0 and start_time <= "2016-10-11 18:42:47" and end_time >= "2016-10-11 18:42:47" and seller_id = 1 and award_type in (1,2) and (user_group = "all" or FIND_IN_SET(7,user_group)) ORDER BY `condition` DESC  limit 50000	
+2016-10-11 18:42:47	SELECT * FROM iwebshop_address WHERE user_id = 1 limit 50000	
+2016-10-11 18:42:47	SELECT * FROM iwebshop_areas WHERE area_id in (230000,230200,230202) limit 50000	
+2016-10-11 18:42:47	SELECT prop,custom FROM iwebshop_member WHERE user_id = 1 limit 1	
+2016-10-11 18:42:47	SELECT * FROM iwebshop_seller WHERE id in (1) limit 50000	
+2016-10-11 18:42:47	SELECT * FROM iwebshop_payment WHERE status = 0 and client_type in(1,3)  limit 50000	
+2016-10-11 18:42:47	SELECT poundage,poundage_type FROM iwebshop_payment WHERE id = 1 limit 1	
+2016-10-11 18:42:47	SELECT poundage,poundage_type FROM iwebshop_payment WHERE id = 8 limit 1	
+2016-10-11 18:42:47	SELECT poundage,poundage_type FROM iwebshop_payment WHERE id = 9 limit 1	
+2016-10-11 18:42:47	SELECT poundage,poundage_type FROM iwebshop_payment WHERE id = 10 limit 1	
+2016-10-11 18:42:47	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 18:42:47	SELECT * FROM iwebshop_areas WHERE parent_id=0 ORDER BY sort ASC  limit 50000	
+2016-10-11 18:42:50	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 18:42:50	SELECT * FROM iwebshop_areas WHERE parent_id=0 ORDER BY sort ASC  limit 50000	
+2016-10-11 18:42:50	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 18:42:50	SELECT * FROM iwebshop_areas WHERE parent_id=230200 ORDER BY sort ASC  limit 50000	
+2016-10-11 18:42:50	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 18:42:50	SELECT * FROM iwebshop_areas WHERE parent_id=230000 ORDER BY sort ASC  limit 50000	
+2016-10-11 18:43:08	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 18:43:08	SELECT * FROM iwebshop_goods WHERE id=2 AND is_del=0 limit 1	
+2016-10-11 18:43:08	SELECT * FROM iwebshop_brand WHERE id=1 limit 1	
+2016-10-11 18:43:08	SELECT c.id,c.name FROM iwebshop_category_extend as ca,iwebshop_category as c WHERE ca.goods_id = 2 and ca.category_id = c.id limit 1	
+2016-10-11 18:43:08	SELECT count(*) as totalNum FROM iwebshop_refer WHERE goods_id=2 limit 1	
+2016-10-11 18:43:08	SELECT count(*) as totalNum FROM iwebshop_discussion WHERE goods_id=2 limit 1	
+2016-10-11 18:43:08	SELECT max(sell_price) as maxSellPrice ,min(sell_price) as minSellPrice,max(market_price) as maxMarketPrice,min(market_price) as minMarketPrice FROM iwebshop_products WHERE goods_id=2 limit 1	
+2016-10-11 18:43:08	SELECT g.* FROM iwebshop_member as m,iwebshop_user_group as g WHERE m.user_id = 1 and m.group_id = g.id limit 1	
+2016-10-11 18:43:08	SELECT price FROM iwebshop_group_price WHERE goods_id = 2 and group_id = 7 limit 1	
+2016-10-11 18:43:08	SELECT sell_price FROM iwebshop_goods WHERE id = 2 limit 1	
+2016-10-11 18:43:08	SELECT * FROM iwebshop_seller WHERE id = 1 limit 1	
+2016-10-11 18:43:08	SELECT * FROM iwebshop_ad_position WHERE id=1 AND `status`=1 limit 1	
+2016-10-11 18:43:08	SELECT * FROM iwebshop_ad_manage WHERE position_id=1 and goods_cat_id = 0 and start_time < '2016-10-11 18:43:08' AND end_time > '2016-10-11 18:43:08' ORDER BY `order` ASC  limit 50000	
+2016-10-11 18:43:08	SELECT * FROM iwebshop_category WHERE id = '1' limit 1	
+2016-10-11 18:43:08	SELECT * FROM iwebshop_category WHERE id = 0 limit 1	
+2016-10-11 18:43:08	SELECT * FROM iwebshop_areas WHERE area_id in (110000,110100,110108) limit 50000	
+2016-10-11 18:43:08	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 999999999 and type = 0 and is_close = 0 and start_time <= "2016-10-11 18:43:08" and end_time >= "2016-10-11 18:43:08" and seller_id = 1 and award_type in (3,4,5,6,7) and user_group = "all"  ORDER BY `condition` DESC  limit 50000	
+2016-10-11 18:43:08	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 999999999 and type = 0 and is_close = 0 and start_time <= "2016-10-11 18:43:08" and end_time >= "2016-10-11 18:43:08" and seller_id = 1 and award_type in (1,2) and user_group = "all"  ORDER BY `condition` DESC  limit 50000	
+2016-10-11 18:43:08	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 18:43:11	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 18:43:12	SELECT id as goods_id,sell_price,store_nums FROM iwebshop_goods WHERE id = 2 and is_del = 0 limit 1	
+2016-10-11 18:43:12	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 18:43:12	SELECT id,name,img,sell_price FROM iwebshop_goods WHERE id in (2) limit 50000	
+2016-10-11 18:43:15	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 18:43:15	SELECT g.* FROM iwebshop_member as m,iwebshop_user_group as g WHERE m.user_id = 1 and m.group_id = g.id limit 1	
+2016-10-11 18:43:15	SELECT id,name,img,sell_price FROM iwebshop_goods WHERE id in (2) limit 50000	
+2016-10-11 18:43:15	SELECT go.name,go.id as goods_id,go.img,go.sell_price,go.point,go.weight,go.store_nums,go.exp,go.goods_no,0 as product_id,go.seller_id FROM iwebshop_goods as go WHERE go.id in (2) limit 50000	
+2016-10-11 18:43:15	SELECT price FROM iwebshop_group_price WHERE goods_id = 2 and group_id = 7 limit 1	
+2016-10-11 18:43:15	SELECT sell_price FROM iwebshop_goods WHERE id = 2 limit 1	
+2016-10-11 18:43:15	SELECT * FROM iwebshop_seller WHERE id = 1 limit 1	
+2016-10-11 18:43:15	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 8.47 and type = 0 and is_close = 0 and start_time <= "2016-10-11 18:43:15" and end_time >= "2016-10-11 18:43:15" and seller_id = 1 and award_type in (6) and (user_group = "all" or FIND_IN_SET(7,user_group)) ORDER BY `condition` DESC  limit 50000	
+2016-10-11 18:43:15	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 8.47 and type = 0 and is_close = 0 and start_time <= "2016-10-11 18:43:15" and end_time >= "2016-10-11 18:43:15" and seller_id = 1 and award_type in (3,4,5,6,7) and (user_group = "all" or FIND_IN_SET(7,user_group)) ORDER BY `condition` DESC  limit 50000	
+2016-10-11 18:43:15	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 8.47 and type = 0 and is_close = 0 and start_time <= "2016-10-11 18:43:15" and end_time >= "2016-10-11 18:43:15" and seller_id = 1 and award_type in (1,2) and (user_group = "all" or FIND_IN_SET(7,user_group)) ORDER BY `condition` DESC  limit 50000	
+2016-10-11 18:43:15	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 8.47 and type = 0 and is_close = 0 and start_time <= "2016-10-11 18:43:15" and end_time >= "2016-10-11 18:43:15" and seller_id = 1 and award_type in (1,2) and (user_group = "all" or FIND_IN_SET(7,user_group)) ORDER BY `condition` DESC  limit 50000	
+2016-10-11 18:43:22	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 18:43:22	SELECT g.* FROM iwebshop_member as m,iwebshop_user_group as g WHERE m.user_id = 1 and m.group_id = g.id limit 1	
+2016-10-11 18:43:22	SELECT id,name,img,sell_price FROM iwebshop_goods WHERE id in (2) limit 50000	
+2016-10-11 18:43:22	SELECT go.name,go.id as goods_id,go.img,go.sell_price,go.point,go.weight,go.store_nums,go.exp,go.goods_no,0 as product_id,go.seller_id FROM iwebshop_goods as go WHERE go.id in (2) limit 50000	
+2016-10-11 18:43:22	SELECT price FROM iwebshop_group_price WHERE goods_id = 2 and group_id = 7 limit 1	
+2016-10-11 18:43:22	SELECT sell_price FROM iwebshop_goods WHERE id = 2 limit 1	
+2016-10-11 18:43:22	SELECT * FROM iwebshop_seller WHERE id = 1 limit 1	
+2016-10-11 18:43:22	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 8.47 and type = 0 and is_close = 0 and start_time <= "2016-10-11 18:43:22" and end_time >= "2016-10-11 18:43:22" and seller_id = 1 and award_type in (6) and (user_group = "all" or FIND_IN_SET(7,user_group)) ORDER BY `condition` DESC  limit 50000	
+2016-10-11 18:43:22	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 8.47 and type = 0 and is_close = 0 and start_time <= "2016-10-11 18:43:22" and end_time >= "2016-10-11 18:43:22" and seller_id = 1 and award_type in (3,4,5,6,7) and (user_group = "all" or FIND_IN_SET(7,user_group)) ORDER BY `condition` DESC  limit 50000	
+2016-10-11 18:43:22	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 8.47 and type = 0 and is_close = 0 and start_time <= "2016-10-11 18:43:22" and end_time >= "2016-10-11 18:43:22" and seller_id = 1 and award_type in (1,2) and (user_group = "all" or FIND_IN_SET(7,user_group)) ORDER BY `condition` DESC  limit 50000	
+2016-10-11 18:43:22	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 8.47 and type = 0 and is_close = 0 and start_time <= "2016-10-11 18:43:22" and end_time >= "2016-10-11 18:43:22" and seller_id = 1 and award_type in (1,2) and (user_group = "all" or FIND_IN_SET(7,user_group)) ORDER BY `condition` DESC  limit 50000	
+2016-10-11 18:43:22	SELECT * FROM iwebshop_address WHERE user_id = 1 limit 50000	
+2016-10-11 18:43:22	SELECT * FROM iwebshop_areas WHERE area_id in (230000,230200,230202) limit 50000	
+2016-10-11 18:43:22	SELECT prop,custom FROM iwebshop_member WHERE user_id = 1 limit 1	
+2016-10-11 18:43:22	SELECT * FROM iwebshop_seller WHERE id in (1) limit 50000	
+2016-10-11 18:43:22	SELECT * FROM iwebshop_payment WHERE status = 0 and client_type in(1,3)  limit 50000	
+2016-10-11 18:43:22	SELECT poundage,poundage_type FROM iwebshop_payment WHERE id = 1 limit 1	
+2016-10-11 18:43:22	SELECT poundage,poundage_type FROM iwebshop_payment WHERE id = 8 limit 1	
+2016-10-11 18:43:22	SELECT poundage,poundage_type FROM iwebshop_payment WHERE id = 9 limit 1	
+2016-10-11 18:43:22	SELECT poundage,poundage_type FROM iwebshop_payment WHERE id = 10 limit 1	
+2016-10-11 18:43:22	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 18:43:22	SELECT * FROM iwebshop_areas WHERE parent_id=0 ORDER BY sort ASC  limit 50000	
+2016-10-11 18:43:25	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 18:43:25	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 18:43:25	SELECT * FROM iwebshop_areas WHERE parent_id=0 ORDER BY sort ASC  limit 50000	
+2016-10-11 18:43:25	SELECT * FROM iwebshop_areas WHERE parent_id=230000 ORDER BY sort ASC  limit 50000	
+2016-10-11 18:43:25	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 18:43:25	SELECT * FROM iwebshop_areas WHERE parent_id=230200 ORDER BY sort ASC  limit 50000	
+2016-10-11 18:43:30	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 18:43:30	SELECT * FROM iwebshop_address WHERE user_id="1" and accept_name="dsd" and zip="456511" and telphone="18101301805" and province="230000" and city="230200" and area="230202" and address="北京市, 北京市, 海淀区, 长春桥," and mobile="18101301805" limit 1	
+2016-10-11 18:43:30	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 18:43:30	SELECT * FROM iwebshop_delivery WHERE is_delete = 0 and status = 1 and id = 1 limit 1	
+2016-10-11 18:43:30	SELECT g.* FROM iwebshop_member as m,iwebshop_user_group as g WHERE m.user_id = 1 and m.group_id = g.id limit 1	
+2016-10-11 18:43:30	SELECT id,name,img,sell_price FROM iwebshop_goods WHERE id in (2) limit 50000	
+2016-10-11 18:43:30	SELECT go.name,go.id as goods_id,go.img,go.sell_price,go.point,go.weight,go.store_nums,go.exp,go.goods_no,0 as product_id,go.seller_id FROM iwebshop_goods as go WHERE go.id in (2) limit 50000	
+2016-10-11 18:43:30	SELECT price FROM iwebshop_group_price WHERE goods_id = 2 and group_id = 7 limit 1	
+2016-10-11 18:43:30	SELECT sell_price FROM iwebshop_goods WHERE id = 2 limit 1	
+2016-10-11 18:43:30	SELECT * FROM iwebshop_seller WHERE id = 1 limit 1	
+2016-10-11 18:43:30	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 8.47 and type = 0 and is_close = 0 and start_time <= "2016-10-11 18:43:30" and end_time >= "2016-10-11 18:43:30" and seller_id = 1 and award_type in (6) and (user_group = "all" or FIND_IN_SET(7,user_group)) ORDER BY `condition` DESC  limit 50000	
+2016-10-11 18:43:30	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 8.47 and type = 0 and is_close = 0 and start_time <= "2016-10-11 18:43:30" and end_time >= "2016-10-11 18:43:30" and seller_id = 1 and award_type in (3,4,5,6,7) and (user_group = "all" or FIND_IN_SET(7,user_group)) ORDER BY `condition` DESC  limit 50000	
+2016-10-11 18:43:30	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 8.47 and type = 0 and is_close = 0 and start_time <= "2016-10-11 18:43:30" and end_time >= "2016-10-11 18:43:30" and seller_id = 1 and award_type in (1,2) and (user_group = "all" or FIND_IN_SET(7,user_group)) ORDER BY `condition` DESC  limit 50000	
+2016-10-11 18:43:30	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 8.47 and type = 0 and is_close = 0 and start_time <= "2016-10-11 18:43:30" and end_time >= "2016-10-11 18:43:30" and seller_id = 1 and award_type in (1,2) and (user_group = "all" or FIND_IN_SET(7,user_group)) ORDER BY `condition` DESC  limit 50000	
+2016-10-11 18:43:30	SELECT * FROM iwebshop_delivery_extend WHERE delivery_id = 1 and seller_id = 1 limit 1	
+2016-10-11 18:43:37	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 18:43:37	SELECT g.* FROM iwebshop_member as m,iwebshop_user_group as g WHERE m.user_id = 1 and m.group_id = g.id limit 1	
+2016-10-11 18:43:37	SELECT id,name,img,sell_price FROM iwebshop_goods WHERE id in (2) limit 50000	
+2016-10-11 18:43:37	SELECT go.name,go.id as goods_id,go.img,go.sell_price,go.point,go.weight,go.store_nums,go.exp,go.goods_no,0 as product_id,go.seller_id FROM iwebshop_goods as go WHERE go.id in (2) limit 50000	
+2016-10-11 18:43:37	SELECT price FROM iwebshop_group_price WHERE goods_id = 2 and group_id = 7 limit 1	
+2016-10-11 18:43:37	SELECT sell_price FROM iwebshop_goods WHERE id = 2 limit 1	
+2016-10-11 18:43:37	SELECT * FROM iwebshop_seller WHERE id = 1 limit 1	
+2016-10-11 18:43:37	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 8.47 and type = 0 and is_close = 0 and start_time <= "2016-10-11 18:43:37" and end_time >= "2016-10-11 18:43:37" and seller_id = 1 and award_type in (6) and (user_group = "all" or FIND_IN_SET(7,user_group)) ORDER BY `condition` DESC  limit 50000	
+2016-10-11 18:43:37	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 8.47 and type = 0 and is_close = 0 and start_time <= "2016-10-11 18:43:37" and end_time >= "2016-10-11 18:43:37" and seller_id = 1 and award_type in (3,4,5,6,7) and (user_group = "all" or FIND_IN_SET(7,user_group)) ORDER BY `condition` DESC  limit 50000	
+2016-10-11 18:43:37	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 8.47 and type = 0 and is_close = 0 and start_time <= "2016-10-11 18:43:37" and end_time >= "2016-10-11 18:43:37" and seller_id = 1 and award_type in (1,2) and (user_group = "all" or FIND_IN_SET(7,user_group)) ORDER BY `condition` DESC  limit 50000	
+2016-10-11 18:43:37	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 8.47 and type = 0 and is_close = 0 and start_time <= "2016-10-11 18:43:37" and end_time >= "2016-10-11 18:43:37" and seller_id = 1 and award_type in (1,2) and (user_group = "all" or FIND_IN_SET(7,user_group)) ORDER BY `condition` DESC  limit 50000	
+2016-10-11 18:43:37	SELECT * FROM iwebshop_order WHERE `accept_name` = 'dsd' and `province` = '230000' and `city` = '230200' and `area` = '230202' and `address` = '北京市, 北京市, 海淀区, 长春桥,' and `mobile` = '18101301805' and `distribution` = '1' and  NOW() < date_add(create_time,INTERVAL 2 MINUTE)  limit 50000	
+2016-10-11 18:43:37	SELECT * FROM iwebshop_delivery WHERE id = 1 limit 1	
+2016-10-11 18:43:37	SELECT type,name FROM iwebshop_payment WHERE id = 8 limit 1	
+2016-10-11 18:43:37	SELECT id,name,img,sell_price FROM iwebshop_goods WHERE id in (2) limit 50000	
+2016-10-11 18:43:37	SELECT go.name,go.id as goods_id,go.img,go.sell_price,go.point,go.weight,go.store_nums,go.exp,go.goods_no,0 as product_id,go.seller_id FROM iwebshop_goods as go WHERE go.id in (2) limit 50000	
+2016-10-11 18:43:37	SELECT price FROM iwebshop_group_price WHERE goods_id = 2 and group_id = 7 limit 1	
+2016-10-11 18:43:37	SELECT sell_price FROM iwebshop_goods WHERE id = 2 limit 1	
+2016-10-11 18:43:37	SELECT * FROM iwebshop_seller WHERE id = 1 limit 1	
+2016-10-11 18:43:37	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 8.47 and type = 0 and is_close = 0 and start_time <= "2016-10-11 18:43:37" and end_time >= "2016-10-11 18:43:37" and seller_id = 1 and award_type in (6) and (user_group = "all" or FIND_IN_SET(7,user_group)) ORDER BY `condition` DESC  limit 50000	
+2016-10-11 18:43:37	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 8.47 and type = 0 and is_close = 0 and start_time <= "2016-10-11 18:43:37" and end_time >= "2016-10-11 18:43:37" and seller_id = 1 and award_type in (3,4,5,6,7) and (user_group = "all" or FIND_IN_SET(7,user_group)) ORDER BY `condition` DESC  limit 50000	
+2016-10-11 18:43:37	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 8.47 and type = 0 and is_close = 0 and start_time <= "2016-10-11 18:43:37" and end_time >= "2016-10-11 18:43:37" and seller_id = 1 and award_type in (1,2) and (user_group = "all" or FIND_IN_SET(7,user_group)) ORDER BY `condition` DESC  limit 50000	
+2016-10-11 18:43:37	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 8.47 and type = 0 and is_close = 0 and start_time <= "2016-10-11 18:43:37" and end_time >= "2016-10-11 18:43:37" and seller_id = 1 and award_type in (1,2) and (user_group = "all" or FIND_IN_SET(7,user_group)) ORDER BY `condition` DESC  limit 50000	
+2016-10-11 18:43:37	SELECT * FROM iwebshop_delivery WHERE is_delete = 0 and status = 1 and id = 1 limit 1	
+2016-10-11 18:43:37	SELECT g.* FROM iwebshop_member as m,iwebshop_user_group as g WHERE m.user_id = 1 and m.group_id = g.id limit 1	
+2016-10-11 18:43:37	SELECT id,name,img,sell_price FROM iwebshop_goods WHERE id in (2) limit 50000	
+2016-10-11 18:43:37	SELECT go.name,go.id as goods_id,go.img,go.sell_price,go.point,go.weight,go.store_nums,go.exp,go.goods_no,0 as product_id,go.seller_id FROM iwebshop_goods as go WHERE go.id in (2) limit 50000	
+2016-10-11 18:43:37	SELECT price FROM iwebshop_group_price WHERE goods_id = 2 and group_id = 7 limit 1	
+2016-10-11 18:43:37	SELECT sell_price FROM iwebshop_goods WHERE id = 2 limit 1	
+2016-10-11 18:43:37	SELECT * FROM iwebshop_seller WHERE id = 1 limit 1	
+2016-10-11 18:43:37	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 8.47 and type = 0 and is_close = 0 and start_time <= "2016-10-11 18:43:37" and end_time >= "2016-10-11 18:43:37" and seller_id = 1 and award_type in (6) and (user_group = "all" or FIND_IN_SET(7,user_group)) ORDER BY `condition` DESC  limit 50000	
+2016-10-11 18:43:37	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 8.47 and type = 0 and is_close = 0 and start_time <= "2016-10-11 18:43:37" and end_time >= "2016-10-11 18:43:37" and seller_id = 1 and award_type in (3,4,5,6,7) and (user_group = "all" or FIND_IN_SET(7,user_group)) ORDER BY `condition` DESC  limit 50000	
+2016-10-11 18:43:37	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 8.47 and type = 0 and is_close = 0 and start_time <= "2016-10-11 18:43:37" and end_time >= "2016-10-11 18:43:37" and seller_id = 1 and award_type in (1,2) and (user_group = "all" or FIND_IN_SET(7,user_group)) ORDER BY `condition` DESC  limit 50000	
+2016-10-11 18:43:37	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 8.47 and type = 0 and is_close = 0 and start_time <= "2016-10-11 18:43:37" and end_time >= "2016-10-11 18:43:37" and seller_id = 1 and award_type in (1,2) and (user_group = "all" or FIND_IN_SET(7,user_group)) ORDER BY `condition` DESC  limit 50000	
+2016-10-11 18:43:37	SELECT * FROM iwebshop_delivery_extend WHERE delivery_id = 1 and seller_id = 1 limit 1	
+2016-10-11 18:43:37	SELECT poundage,poundage_type FROM iwebshop_payment WHERE id = 8 limit 1	
+2016-10-11 18:43:37	SELECT custom FROM iwebshop_member WHERE user_id = 1 limit 1	
+2016-10-11 18:43:37	SELECT * FROM iwebshop_address WHERE user_id = 1 and `default` = 1 limit 1	
+2016-10-11 20:39:46	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 20:39:46	SELECT * FROM iwebshop_ad_position WHERE id=1 AND `status`=1 limit 1	
+2016-10-11 20:39:46	SELECT * FROM iwebshop_ad_manage WHERE position_id=1 and goods_cat_id = 0 and start_time < '2016-10-11 20:39:46' AND end_time > '2016-10-11 20:39:46' ORDER BY `order` ASC  limit 50000	
+2016-10-11 20:39:46	SELECT * FROM iwebshop_ad_position WHERE id=7 AND `status`=1 limit 1	
+2016-10-11 20:39:46	SELECT * FROM iwebshop_ad_manage WHERE position_id=7 and goods_cat_id = 0 and start_time < '2016-10-11 20:39:46' AND end_time > '2016-10-11 20:39:46' ORDER BY `order` ASC  limit 50000	
+2016-10-11 20:39:46	SELECT * FROM iwebshop_ad_position WHERE id=6 AND `status`=1 limit 1	
+2016-10-11 20:39:46	SELECT * FROM iwebshop_ad_manage WHERE position_id=6 and goods_cat_id = 0 and start_time < '2016-10-11 20:39:46' AND end_time > '2016-10-11 20:39:46' ORDER BY `order` ASC  limit 50000	
+2016-10-11 20:39:46	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 999999999 and type = 0 and is_close = 0 and start_time <= "2016-10-11 20:39:46" and end_time >= "2016-10-11 20:39:46" and seller_id = 0 and award_type in (3,4,5,6,7) and user_group = "all"  ORDER BY `condition` DESC  limit 50000	
+2016-10-11 20:39:46	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 999999999 and type = 0 and is_close = 0 and start_time <= "2016-10-11 20:39:46" and end_time >= "2016-10-11 20:39:46" and seller_id = 0 and award_type in (1,2) and user_group = "all"  ORDER BY `condition` DESC  limit 50000	
+2016-10-11 20:39:54	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 20:40:22	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 20:40:22	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 20:40:22	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 20:40:22	SELECT count(*) as num FROM iwebshop_goods WHERE is_del != 1 limit 1	
+2016-10-11 20:40:22	SELECT count(*) as num FROM iwebshop_comment as co,iwebshop_goods as go WHERE co.status = 1 and co.goods_id = go.id and co.recomment_time<=0 limit 1	
+2016-10-11 20:40:22	SELECT count(*) as num FROM iwebshop_refer as re,iwebshop_goods as go WHERE re.goods_id = go.id and re.status = 0 limit 1	
+2016-10-11 20:40:22	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 20:40:31	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 20:40:31	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 20:40:31	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 20:40:33	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 20:40:33	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 20:40:33	SELECT * FROM iwebshop_user_group limit 50000	
+2016-10-11 20:40:33	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 20:40:36	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 20:40:36	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 20:40:36	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 20:40:38	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 20:40:38	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 20:40:38	SELECT * FROM iwebshop_user_group limit 50000	
+2016-10-11 20:40:38	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 20:40:44	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 20:40:44	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 20:40:54	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 20:40:54	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 20:40:54	SELECT * FROM iwebshop_member WHERE user_id in (2,1) limit 50000	
+2016-10-11 20:40:54	SELECT * FROM iwebshop_admin WHERE  id = 1  limit 1	
+2016-10-11 20:40:54	SELECT * FROM iwebshop_admin WHERE  id = 1  limit 1	
+2016-10-11 20:40:54	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 20:40:54	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 20:40:54	SELECT * FROM iwebshop_user_group limit 50000	
+2016-10-11 20:40:54	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 20:41:39	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 20:41:39	SELECT * FROM iwebshop_ad_position WHERE id=1 AND `status`=1 limit 1	
+2016-10-11 20:41:39	SELECT * FROM iwebshop_ad_manage WHERE position_id=1 and goods_cat_id = 0 and start_time < '2016-10-11 20:41:39' AND end_time > '2016-10-11 20:41:39' ORDER BY `order` ASC  limit 50000	
+2016-10-11 20:41:39	SELECT * FROM iwebshop_ad_position WHERE id=7 AND `status`=1 limit 1	
+2016-10-11 20:41:39	SELECT * FROM iwebshop_ad_manage WHERE position_id=7 and goods_cat_id = 0 and start_time < '2016-10-11 20:41:39' AND end_time > '2016-10-11 20:41:39' ORDER BY `order` ASC  limit 50000	
+2016-10-11 20:41:39	SELECT * FROM iwebshop_ad_position WHERE id=6 AND `status`=1 limit 1	
+2016-10-11 20:41:39	SELECT * FROM iwebshop_ad_manage WHERE position_id=6 and goods_cat_id = 0 and start_time < '2016-10-11 20:41:39' AND end_time > '2016-10-11 20:41:39' ORDER BY `order` ASC  limit 50000	
+2016-10-11 20:41:39	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 999999999 and type = 0 and is_close = 0 and start_time <= "2016-10-11 20:41:39" and end_time >= "2016-10-11 20:41:39" and seller_id = 0 and award_type in (3,4,5,6,7) and user_group = "all"  ORDER BY `condition` DESC  limit 50000	
+2016-10-11 20:41:39	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 999999999 and type = 0 and is_close = 0 and start_time <= "2016-10-11 20:41:39" and end_time >= "2016-10-11 20:41:39" and seller_id = 0 and award_type in (1,2) and user_group = "all"  ORDER BY `condition` DESC  limit 50000	
+2016-10-11 20:41:44	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 20:41:44	SELECT * FROM iwebshop_goods WHERE id=2 AND is_del=0 limit 1	
+2016-10-11 20:41:44	SELECT * FROM iwebshop_brand WHERE id=1 limit 1	
+2016-10-11 20:41:44	SELECT c.id,c.name FROM iwebshop_category_extend as ca,iwebshop_category as c WHERE ca.goods_id = 2 and ca.category_id = c.id limit 1	
+2016-10-11 20:41:44	SELECT count(*) as totalNum FROM iwebshop_refer WHERE goods_id=2 limit 1	
+2016-10-11 20:41:44	SELECT count(*) as totalNum FROM iwebshop_discussion WHERE goods_id=2 limit 1	
+2016-10-11 20:41:44	SELECT max(sell_price) as maxSellPrice ,min(sell_price) as minSellPrice,max(market_price) as maxMarketPrice,min(market_price) as minMarketPrice FROM iwebshop_products WHERE goods_id=2 limit 1	
+2016-10-11 20:41:44	SELECT g.* FROM iwebshop_member as m,iwebshop_user_group as g WHERE m.user_id = 1 and m.group_id = g.id limit 1	
+2016-10-11 20:41:44	SELECT price FROM iwebshop_group_price WHERE goods_id = 2 and group_id = 7 limit 1	
+2016-10-11 20:41:44	SELECT sell_price FROM iwebshop_goods WHERE id = 2 limit 1	
+2016-10-11 20:41:44	SELECT * FROM iwebshop_seller WHERE id = 1 limit 1	
+2016-10-11 20:41:44	SELECT * FROM iwebshop_ad_position WHERE id=1 AND `status`=1 limit 1	
+2016-10-11 20:41:44	SELECT * FROM iwebshop_ad_manage WHERE position_id=1 and goods_cat_id = 0 and start_time < '2016-10-11 20:41:44' AND end_time > '2016-10-11 20:41:44' ORDER BY `order` ASC  limit 50000	
+2016-10-11 20:41:44	SELECT * FROM iwebshop_category WHERE id = '1' limit 1	
+2016-10-11 20:41:44	SELECT * FROM iwebshop_category WHERE id = 0 limit 1	
+2016-10-11 20:41:44	SELECT * FROM iwebshop_areas WHERE area_id in (110000,110100,110108) limit 50000	
+2016-10-11 20:41:44	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 999999999 and type = 0 and is_close = 0 and start_time <= "2016-10-11 20:41:44" and end_time >= "2016-10-11 20:41:44" and seller_id = 1 and award_type in (3,4,5,6,7) and user_group = "all"  ORDER BY `condition` DESC  limit 50000	
+2016-10-11 20:41:44	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 999999999 and type = 0 and is_close = 0 and start_time <= "2016-10-11 20:41:44" and end_time >= "2016-10-11 20:41:44" and seller_id = 1 and award_type in (1,2) and user_group = "all"  ORDER BY `condition` DESC  limit 50000	
+2016-10-11 20:41:45	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 20:41:48	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 20:41:48	SELECT g.* FROM iwebshop_member as m,iwebshop_user_group as g WHERE m.user_id = 1 and m.group_id = g.id limit 1	
+2016-10-11 20:41:48	SELECT go.name,go.id as goods_id,go.img,go.sell_price,go.point,go.weight,go.store_nums,go.exp,go.goods_no,0 as product_id,go.seller_id FROM iwebshop_goods as go WHERE go.id in (2) limit 50000	
+2016-10-11 20:41:48	SELECT price FROM iwebshop_group_price WHERE goods_id = 2 and group_id = 7 limit 1	
+2016-10-11 20:41:48	SELECT sell_price FROM iwebshop_goods WHERE id = 2 limit 1	
+2016-10-11 20:41:48	SELECT * FROM iwebshop_seller WHERE id = 1 limit 1	
+2016-10-11 20:41:48	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 8.47 and type = 0 and is_close = 0 and start_time <= "2016-10-11 20:41:48" and end_time >= "2016-10-11 20:41:48" and seller_id = 1 and award_type in (6) and (user_group = "all" or FIND_IN_SET(7,user_group)) ORDER BY `condition` DESC  limit 50000	
+2016-10-11 20:41:48	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 8.47 and type = 0 and is_close = 0 and start_time <= "2016-10-11 20:41:48" and end_time >= "2016-10-11 20:41:48" and seller_id = 1 and award_type in (3,4,5,6,7) and (user_group = "all" or FIND_IN_SET(7,user_group)) ORDER BY `condition` DESC  limit 50000	
+2016-10-11 20:41:48	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 8.47 and type = 0 and is_close = 0 and start_time <= "2016-10-11 20:41:48" and end_time >= "2016-10-11 20:41:48" and seller_id = 1 and award_type in (1,2) and (user_group = "all" or FIND_IN_SET(7,user_group)) ORDER BY `condition` DESC  limit 50000	
+2016-10-11 20:41:48	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 8.47 and type = 0 and is_close = 0 and start_time <= "2016-10-11 20:41:48" and end_time >= "2016-10-11 20:41:48" and seller_id = 1 and award_type in (1,2) and (user_group = "all" or FIND_IN_SET(7,user_group)) ORDER BY `condition` DESC  limit 50000	
+2016-10-11 20:41:48	SELECT * FROM iwebshop_address WHERE user_id = 1 limit 50000	
+2016-10-11 20:41:48	SELECT * FROM iwebshop_areas WHERE area_id in (230000,230200,230202) limit 50000	
+2016-10-11 20:41:48	SELECT prop,custom FROM iwebshop_member WHERE user_id = 1 limit 1	
+2016-10-11 20:41:48	SELECT * FROM iwebshop_seller WHERE id in (1) limit 50000	
+2016-10-11 20:41:48	SELECT * FROM iwebshop_payment WHERE status = 0 and client_type in(1,3)  limit 50000	
+2016-10-11 20:41:48	SELECT poundage,poundage_type FROM iwebshop_payment WHERE id = 1 limit 1	
+2016-10-11 20:41:48	SELECT poundage,poundage_type FROM iwebshop_payment WHERE id = 8 limit 1	
+2016-10-11 20:41:48	SELECT poundage,poundage_type FROM iwebshop_payment WHERE id = 9 limit 1	
+2016-10-11 20:41:48	SELECT poundage,poundage_type FROM iwebshop_payment WHERE id = 10 limit 1	
+2016-10-11 20:41:48	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 20:41:48	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 20:41:48	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 20:41:48	SELECT * FROM iwebshop_areas WHERE parent_id=230000 ORDER BY sort ASC  limit 50000	
+2016-10-11 20:41:48	SELECT * FROM iwebshop_areas WHERE parent_id=230200 ORDER BY sort ASC  limit 50000	
+2016-10-11 20:41:48	SELECT * FROM iwebshop_areas WHERE parent_id=0 ORDER BY sort ASC  limit 50000	
+2016-10-11 20:41:49	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 20:41:49	SELECT * FROM iwebshop_delivery WHERE is_delete = 0 and status = 1 and id = 1 limit 1	
+2016-10-11 20:41:49	SELECT g.* FROM iwebshop_member as m,iwebshop_user_group as g WHERE m.user_id = 1 and m.group_id = g.id limit 1	
+2016-10-11 20:41:49	SELECT id,name,img,sell_price FROM iwebshop_goods WHERE id in (2) limit 50000	
+2016-10-11 20:41:49	SELECT go.name,go.id as goods_id,go.img,go.sell_price,go.point,go.weight,go.store_nums,go.exp,go.goods_no,0 as product_id,go.seller_id FROM iwebshop_goods as go WHERE go.id in (2) limit 50000	
+2016-10-11 20:41:49	SELECT price FROM iwebshop_group_price WHERE goods_id = 2 and group_id = 7 limit 1	
+2016-10-11 20:41:49	SELECT sell_price FROM iwebshop_goods WHERE id = 2 limit 1	
+2016-10-11 20:41:49	SELECT * FROM iwebshop_seller WHERE id = 1 limit 1	
+2016-10-11 20:41:49	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 8.47 and type = 0 and is_close = 0 and start_time <= "2016-10-11 20:41:49" and end_time >= "2016-10-11 20:41:49" and seller_id = 1 and award_type in (6) and (user_group = "all" or FIND_IN_SET(7,user_group)) ORDER BY `condition` DESC  limit 50000	
+2016-10-11 20:41:49	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 8.47 and type = 0 and is_close = 0 and start_time <= "2016-10-11 20:41:49" and end_time >= "2016-10-11 20:41:49" and seller_id = 1 and award_type in (3,4,5,6,7) and (user_group = "all" or FIND_IN_SET(7,user_group)) ORDER BY `condition` DESC  limit 50000	
+2016-10-11 20:41:49	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 8.47 and type = 0 and is_close = 0 and start_time <= "2016-10-11 20:41:49" and end_time >= "2016-10-11 20:41:49" and seller_id = 1 and award_type in (1,2) and (user_group = "all" or FIND_IN_SET(7,user_group)) ORDER BY `condition` DESC  limit 50000	
+2016-10-11 20:41:49	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 8.47 and type = 0 and is_close = 0 and start_time <= "2016-10-11 20:41:49" and end_time >= "2016-10-11 20:41:49" and seller_id = 1 and award_type in (1,2) and (user_group = "all" or FIND_IN_SET(7,user_group)) ORDER BY `condition` DESC  limit 50000	
+2016-10-11 20:41:49	SELECT * FROM iwebshop_delivery_extend WHERE delivery_id = 1 and seller_id = 1 limit 1	
+2016-10-11 20:42:05	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 20:42:05	SELECT g.* FROM iwebshop_member as m,iwebshop_user_group as g WHERE m.user_id = 1 and m.group_id = g.id limit 1	
+2016-10-11 20:42:05	SELECT go.name,go.id as goods_id,go.img,go.sell_price,go.point,go.weight,go.store_nums,go.exp,go.goods_no,0 as product_id,go.seller_id FROM iwebshop_goods as go WHERE go.id in (2) limit 50000	
+2016-10-11 20:42:05	SELECT price FROM iwebshop_group_price WHERE goods_id = 2 and group_id = 7 limit 1	
+2016-10-11 20:42:05	SELECT sell_price FROM iwebshop_goods WHERE id = 2 limit 1	
+2016-10-11 20:42:05	SELECT * FROM iwebshop_seller WHERE id = 1 limit 1	
+2016-10-11 20:42:05	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 8.47 and type = 0 and is_close = 0 and start_time <= "2016-10-11 20:42:05" and end_time >= "2016-10-11 20:42:05" and seller_id = 1 and award_type in (6) and (user_group = "all" or FIND_IN_SET(7,user_group)) ORDER BY `condition` DESC  limit 50000	
+2016-10-11 20:42:05	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 8.47 and type = 0 and is_close = 0 and start_time <= "2016-10-11 20:42:05" and end_time >= "2016-10-11 20:42:05" and seller_id = 1 and award_type in (3,4,5,6,7) and (user_group = "all" or FIND_IN_SET(7,user_group)) ORDER BY `condition` DESC  limit 50000	
+2016-10-11 20:42:05	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 8.47 and type = 0 and is_close = 0 and start_time <= "2016-10-11 20:42:05" and end_time >= "2016-10-11 20:42:05" and seller_id = 1 and award_type in (1,2) and (user_group = "all" or FIND_IN_SET(7,user_group)) ORDER BY `condition` DESC  limit 50000	
+2016-10-11 20:42:05	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 8.47 and type = 0 and is_close = 0 and start_time <= "2016-10-11 20:42:05" and end_time >= "2016-10-11 20:42:05" and seller_id = 1 and award_type in (1,2) and (user_group = "all" or FIND_IN_SET(7,user_group)) ORDER BY `condition` DESC  limit 50000	
+2016-10-11 20:42:05	SELECT * FROM iwebshop_order WHERE `accept_name` = 'dsd' and `province` = '230000' and `city` = '230200' and `area` = '230202' and `address` = '北京市, 北京市, 海淀区, 长春桥,' and `mobile` = '18101301805' and `distribution` = '1' and  NOW() < date_add(create_time,INTERVAL 2 MINUTE)  limit 50000	
+2016-10-11 20:42:05	SELECT * FROM iwebshop_delivery WHERE id = 1 limit 1	
+2016-10-11 20:42:05	SELECT type,name FROM iwebshop_payment WHERE id = 1 limit 1	
+2016-10-11 20:42:05	SELECT id,name,img,sell_price FROM iwebshop_goods WHERE id in (2) limit 50000	
+2016-10-11 20:42:05	SELECT go.name,go.id as goods_id,go.img,go.sell_price,go.point,go.weight,go.store_nums,go.exp,go.goods_no,0 as product_id,go.seller_id FROM iwebshop_goods as go WHERE go.id in (2) limit 50000	
+2016-10-11 20:42:05	SELECT price FROM iwebshop_group_price WHERE goods_id = 2 and group_id = 7 limit 1	
+2016-10-11 20:42:05	SELECT sell_price FROM iwebshop_goods WHERE id = 2 limit 1	
+2016-10-11 20:42:05	SELECT * FROM iwebshop_seller WHERE id = 1 limit 1	
+2016-10-11 20:42:05	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 8.47 and type = 0 and is_close = 0 and start_time <= "2016-10-11 20:42:05" and end_time >= "2016-10-11 20:42:05" and seller_id = 1 and award_type in (6) and (user_group = "all" or FIND_IN_SET(7,user_group)) ORDER BY `condition` DESC  limit 50000	
+2016-10-11 20:42:05	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 8.47 and type = 0 and is_close = 0 and start_time <= "2016-10-11 20:42:05" and end_time >= "2016-10-11 20:42:05" and seller_id = 1 and award_type in (3,4,5,6,7) and (user_group = "all" or FIND_IN_SET(7,user_group)) ORDER BY `condition` DESC  limit 50000	
+2016-10-11 20:42:05	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 8.47 and type = 0 and is_close = 0 and start_time <= "2016-10-11 20:42:05" and end_time >= "2016-10-11 20:42:05" and seller_id = 1 and award_type in (1,2) and (user_group = "all" or FIND_IN_SET(7,user_group)) ORDER BY `condition` DESC  limit 50000	
+2016-10-11 20:42:05	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 8.47 and type = 0 and is_close = 0 and start_time <= "2016-10-11 20:42:05" and end_time >= "2016-10-11 20:42:05" and seller_id = 1 and award_type in (1,2) and (user_group = "all" or FIND_IN_SET(7,user_group)) ORDER BY `condition` DESC  limit 50000	
+2016-10-11 20:42:05	SELECT * FROM iwebshop_delivery WHERE is_delete = 0 and status = 1 and id = 1 limit 1	
+2016-10-11 20:42:05	SELECT g.* FROM iwebshop_member as m,iwebshop_user_group as g WHERE m.user_id = 1 and m.group_id = g.id limit 1	
+2016-10-11 20:42:05	SELECT id,name,img,sell_price FROM iwebshop_goods WHERE id in (2) limit 50000	
+2016-10-11 20:42:05	SELECT go.name,go.id as goods_id,go.img,go.sell_price,go.point,go.weight,go.store_nums,go.exp,go.goods_no,0 as product_id,go.seller_id FROM iwebshop_goods as go WHERE go.id in (2) limit 50000	
+2016-10-11 20:42:05	SELECT price FROM iwebshop_group_price WHERE goods_id = 2 and group_id = 7 limit 1	
+2016-10-11 20:42:05	SELECT sell_price FROM iwebshop_goods WHERE id = 2 limit 1	
+2016-10-11 20:42:05	SELECT * FROM iwebshop_seller WHERE id = 1 limit 1	
+2016-10-11 20:42:05	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 8.47 and type = 0 and is_close = 0 and start_time <= "2016-10-11 20:42:05" and end_time >= "2016-10-11 20:42:05" and seller_id = 1 and award_type in (6) and (user_group = "all" or FIND_IN_SET(7,user_group)) ORDER BY `condition` DESC  limit 50000	
+2016-10-11 20:42:05	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 8.47 and type = 0 and is_close = 0 and start_time <= "2016-10-11 20:42:05" and end_time >= "2016-10-11 20:42:05" and seller_id = 1 and award_type in (3,4,5,6,7) and (user_group = "all" or FIND_IN_SET(7,user_group)) ORDER BY `condition` DESC  limit 50000	
+2016-10-11 20:42:05	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 8.47 and type = 0 and is_close = 0 and start_time <= "2016-10-11 20:42:05" and end_time >= "2016-10-11 20:42:05" and seller_id = 1 and award_type in (1,2) and (user_group = "all" or FIND_IN_SET(7,user_group)) ORDER BY `condition` DESC  limit 50000	
+2016-10-11 20:42:05	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 8.47 and type = 0 and is_close = 0 and start_time <= "2016-10-11 20:42:05" and end_time >= "2016-10-11 20:42:05" and seller_id = 1 and award_type in (1,2) and (user_group = "all" or FIND_IN_SET(7,user_group)) ORDER BY `condition` DESC  limit 50000	
+2016-10-11 20:42:05	SELECT * FROM iwebshop_delivery_extend WHERE delivery_id = 1 and seller_id = 1 limit 1	
+2016-10-11 20:42:05	SELECT poundage,poundage_type FROM iwebshop_payment WHERE id = 1 limit 1	
+2016-10-11 20:42:05	SELECT custom FROM iwebshop_member WHERE user_id = 1 limit 1	
+2016-10-11 20:42:05	SELECT * FROM iwebshop_address WHERE user_id = 1 and `default` = 1 limit 1	
+2016-10-11 20:42:07	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 20:42:07	SELECT * FROM iwebshop_order WHERE id = 3 limit 1	
+2016-10-11 20:42:07	SELECT * FROM iwebshop_payment WHERE id = 1 limit 1	
+2016-10-11 20:42:07	SELECT * FROM iwebshop_payment WHERE id = 1 limit 1	
+2016-10-11 20:42:07	SELECT * FROM iwebshop_payment WHERE id = 1 limit 1	
+2016-10-11 20:42:07	SELECT * FROM iwebshop_order WHERE id = 3 and status = 1 limit 1	
+2016-10-11 20:42:07	SELECT * FROM iwebshop_order_goods WHERE order_id = 3 limit 50000	
+2016-10-11 20:42:07	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 20:42:07	SELECT * FROM iwebshop_payment WHERE class_name = "balance"  limit 1	
+2016-10-11 20:42:07	SELECT * FROM iwebshop_payment WHERE id = 1 limit 1	
+2016-10-11 20:42:07	SELECT * FROM iwebshop_member WHERE user_id = 1 limit 1	
+2016-10-11 20:42:07	SELECT * FROM iwebshop_order WHERE order_no  = "20161011204205857315" and pay_status = 0 and status = 1 and user_id = 1 limit 1	
+2016-10-11 20:42:07	SELECT * FROM iwebshop_order WHERE order_no = "20161011204205857315" limit 1	
+2016-10-11 20:42:07	SELECT prop,group_id FROM iwebshop_member WHERE user_id = 1 limit 1	
+2016-10-11 20:42:07	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 8.47 and type = 0 and is_close = 0 and start_time <= "2016-10-11 20:42:07" and end_time >= "2016-10-11 20:42:07" and seller_id = 1 and award_type in (3,4,5,6,7) and (user_group = "all" or FIND_IN_SET(7,user_group)) ORDER BY `condition` DESC  limit 50000	
+2016-10-11 20:42:07	SELECT * FROM iwebshop_order_goods WHERE order_id = 3 limit 50000	
+2016-10-11 20:42:07	SELECT goods_id,product_id,goods_nums FROM iwebshop_order_goods WHERE id in(3) and is_send = 0 limit 50000	
+2016-10-11 20:42:07	SELECT store_nums FROM iwebshop_goods WHERE id = 2 limit 1	
+2016-10-11 20:42:08	SELECT * FROM iwebshop_order WHERE order_no = "20161011204205857315" limit 1	
+2016-10-11 20:42:08	SELECT * FROM iwebshop_seller WHERE id = 1 limit 1	
+2016-10-11 20:42:09	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 20:42:09	SELECT * FROM iwebshop_payment WHERE id = 1 limit 1	
+2016-10-11 20:42:09	SELECT * FROM iwebshop_payment WHERE id = 1 limit 1	
+2016-10-11 20:42:09	SELECT * FROM iwebshop_order WHERE order_no = "20161011204205857315" limit 1	
+2016-10-11 20:42:09	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 20:42:09	SELECT * FROM iwebshop_ad_position WHERE id=1 AND `status`=1 limit 1	
+2016-10-11 20:42:09	SELECT * FROM iwebshop_ad_manage WHERE position_id=1 and goods_cat_id = 0 and start_time < '2016-10-11 20:42:09' AND end_time > '2016-10-11 20:42:09' ORDER BY `order` ASC  limit 50000	
+2016-10-11 20:42:13	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 20:42:13	SELECT * FROM iwebshop_member WHERE user_id=1 limit 1	
+2016-10-11 20:42:13	SELECT * FROM iwebshop_member WHERE user_id = 1 limit 1	
+2016-10-11 20:42:13	SELECT count(id) as num FROM iwebshop_comment WHERE user_id = 1 and status = 0 limit 1	
+2016-10-11 20:42:13	SELECT count(id) as num FROM iwebshop_order WHERE user_id = 1 and status = 1 and if_del = 0 limit 1	
+2016-10-11 20:42:13	SELECT count(id) as num FROM iwebshop_order WHERE user_id = 1 and status = 2 and distribution_status = 1 and if_del = 0 limit 1	
+2016-10-11 20:42:26	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 20:42:26	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 20:42:26	SELECT * FROM iwebshop_user_group limit 50000	
+2016-10-11 20:42:26	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 20:42:41	SELECT id,order_no,4 as type_data FROM iwebshop_order WHERE  if_del = 0 and pay_type != 0 and status in(1) and datediff(NOW(),create_time) >= 7  limit 50000	
+2016-10-11 20:42:41	SELECT id,order_no,5 as type_data FROM iwebshop_order WHERE  if_del = 0 and distribution_status = 1 and status in(1,2) and datediff(NOW(),send_time) >= 20  limit 50000	
+2016-10-11 20:42:41	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 20:42:41	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 20:42:41	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 20:42:42	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 20:42:42	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 20:42:42	SELECT * FROM iwebshop_user_group limit 50000	
+2016-10-11 20:42:42	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 20:42:53	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 20:42:53	SELECT id,order_no,4 as type_data FROM iwebshop_order WHERE  if_del = 0 and pay_type != 0 and status in(1) and datediff(NOW(),create_time) >= 7  limit 50000	
+2016-10-11 20:42:53	SELECT id,order_no,5 as type_data FROM iwebshop_order WHERE  if_del = 0 and distribution_status = 1 and status in(1,2) and datediff(NOW(),send_time) >= 20  limit 50000	
+2016-10-11 20:44:10	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 20:44:10	SELECT point FROM iwebshop_member WHERE user_id = 1 limit 1	
+2016-10-11 20:44:15	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 20:44:15	SELECT * FROM iwebshop_member WHERE user_id=1 limit 1	
+2016-10-11 20:44:17	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 20:44:17	SELECT point FROM iwebshop_member WHERE user_id = 1 limit 1	
+2016-10-11 20:44:18	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 20:44:18	SELECT id,order_no,4 as type_data FROM iwebshop_order WHERE  if_del = 0 and pay_type != 0 and status in(1) and datediff(NOW(),create_time) >= 7  limit 50000	
+2016-10-11 20:44:18	SELECT id,order_no,5 as type_data FROM iwebshop_order WHERE  if_del = 0 and distribution_status = 1 and status in(1,2) and datediff(NOW(),send_time) >= 20  limit 50000	
+2016-10-11 20:45:18	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 20:50:00	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 20:50:00	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 20:50:00	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 20:50:00	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 20:50:06	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 20:50:06	SELECT * FROM iwebshop_user WHERE id = 1 limit 1	
+2016-10-11 20:50:06	SELECT * FROM iwebshop_member WHERE user_id = 1 limit 1	
+2016-10-11 20:50:06	SELECT * FROM iwebshop_user_group WHERE id = 7 limit 1	
+2016-10-11 20:50:06	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 20:50:06	SELECT * FROM iwebshop_ad_position WHERE id=1 AND `status`=1 limit 1	
+2016-10-11 20:50:06	SELECT * FROM iwebshop_ad_manage WHERE position_id=1 and goods_cat_id = 0 and start_time < '2016-10-11 20:50:06' AND end_time > '2016-10-11 20:50:06' ORDER BY `order` ASC  limit 50000	
+2016-10-11 20:50:06	SELECT * FROM iwebshop_ad_position WHERE id=7 AND `status`=1 limit 1	
+2016-10-11 20:50:06	SELECT * FROM iwebshop_ad_manage WHERE position_id=7 and goods_cat_id = 0 and start_time < '2016-10-11 20:50:06' AND end_time > '2016-10-11 20:50:06' ORDER BY `order` ASC  limit 50000	
+2016-10-11 20:50:06	SELECT * FROM iwebshop_ad_position WHERE id=6 AND `status`=1 limit 1	
+2016-10-11 20:50:06	SELECT * FROM iwebshop_ad_manage WHERE position_id=6 and goods_cat_id = 0 and start_time < '2016-10-11 20:50:06' AND end_time > '2016-10-11 20:50:06' ORDER BY `order` ASC  limit 50000	
+2016-10-11 20:50:06	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 999999999 and type = 0 and is_close = 0 and start_time <= "2016-10-11 20:50:06" and end_time >= "2016-10-11 20:50:06" and seller_id = 0 and award_type in (3,4,5,6,7) and user_group = "all"  ORDER BY `condition` DESC  limit 50000	
+2016-10-11 20:50:06	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 999999999 and type = 0 and is_close = 0 and start_time <= "2016-10-11 20:50:06" and end_time >= "2016-10-11 20:50:06" and seller_id = 0 and award_type in (1,2) and user_group = "all"  ORDER BY `condition` DESC  limit 50000	
+2016-10-11 20:50:06	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 20:50:06	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 20:50:06	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 20:50:06	SELECT * FROM iwebshop_areas WHERE parent_id=130400 ORDER BY sort ASC  limit 50000	
+2016-10-11 20:50:06	SELECT * FROM iwebshop_areas WHERE parent_id=130000 ORDER BY sort ASC  limit 50000	
+2016-10-11 20:50:06	SELECT * FROM iwebshop_areas WHERE parent_id=0 ORDER BY sort ASC  limit 50000	
+2016-10-11 20:50:15	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 20:50:15	SELECT * FROM iwebshop_areas WHERE area_id in (230000,230200,230202) limit 50000	
+2016-10-11 20:50:15	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 20:50:15	SELECT * FROM iwebshop_areas WHERE parent_id=0 ORDER BY sort ASC  limit 50000	
+2016-10-11 20:50:20	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 20:50:20	SELECT * FROM iwebshop_member WHERE user_id = 1 limit 1	
+2016-10-11 20:50:35	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 20:50:40	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 20:50:48	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 20:50:48	SELECT * FROM iwebshop_ad_position WHERE id=1 AND `status`=1 limit 1	
+2016-10-11 20:50:48	SELECT * FROM iwebshop_ad_manage WHERE position_id=1 and goods_cat_id = 0 and start_time < '2016-10-11 20:50:48' AND end_time > '2016-10-11 20:50:48' ORDER BY `order` ASC  limit 50000	
+2016-10-11 20:50:48	SELECT * FROM iwebshop_ad_position WHERE id=7 AND `status`=1 limit 1	
+2016-10-11 20:50:48	SELECT * FROM iwebshop_ad_manage WHERE position_id=7 and goods_cat_id = 0 and start_time < '2016-10-11 20:50:48' AND end_time > '2016-10-11 20:50:48' ORDER BY `order` ASC  limit 50000	
+2016-10-11 20:50:48	SELECT * FROM iwebshop_ad_position WHERE id=6 AND `status`=1 limit 1	
+2016-10-11 20:50:48	SELECT * FROM iwebshop_ad_manage WHERE position_id=6 and goods_cat_id = 0 and start_time < '2016-10-11 20:50:48' AND end_time > '2016-10-11 20:50:48' ORDER BY `order` ASC  limit 50000	
+2016-10-11 20:50:48	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 999999999 and type = 0 and is_close = 0 and start_time <= "2016-10-11 20:50:48" and end_time >= "2016-10-11 20:50:48" and seller_id = 0 and award_type in (3,4,5,6,7) and user_group = "all"  ORDER BY `condition` DESC  limit 50000	
+2016-10-11 20:50:48	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 999999999 and type = 0 and is_close = 0 and start_time <= "2016-10-11 20:50:48" and end_time >= "2016-10-11 20:50:48" and seller_id = 0 and award_type in (1,2) and user_group = "all"  ORDER BY `condition` DESC  limit 50000	
+2016-10-11 20:50:54	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 20:50:54	SELECT * FROM iwebshop_goods WHERE id=1 AND is_del=0 limit 1	
+2016-10-11 20:50:54	SELECT * FROM iwebshop_brand WHERE id=1 limit 1	
+2016-10-11 20:50:54	SELECT c.id,c.name FROM iwebshop_category_extend as ca,iwebshop_category as c WHERE ca.goods_id = 1 and ca.category_id = c.id limit 1	
+2016-10-11 20:50:54	SELECT count(*) as totalNum FROM iwebshop_refer WHERE goods_id=1 limit 1	
+2016-10-11 20:50:54	SELECT count(*) as totalNum FROM iwebshop_discussion WHERE goods_id=1 limit 1	
+2016-10-11 20:50:54	SELECT max(sell_price) as maxSellPrice ,min(sell_price) as minSellPrice,max(market_price) as maxMarketPrice,min(market_price) as minMarketPrice FROM iwebshop_products WHERE goods_id=1 limit 1	
+2016-10-11 20:50:54	SELECT g.* FROM iwebshop_member as m,iwebshop_user_group as g WHERE m.user_id = 1 and m.group_id = g.id limit 1	
+2016-10-11 20:50:54	SELECT price FROM iwebshop_group_price WHERE goods_id = 1 and group_id = 7 limit 1	
+2016-10-11 20:50:54	SELECT sell_price FROM iwebshop_goods WHERE id = 1 limit 1	
+2016-10-11 20:50:54	SELECT * FROM iwebshop_seller WHERE id = 1 limit 1	
+2016-10-11 20:50:54	SELECT * FROM iwebshop_ad_position WHERE id=1 AND `status`=1 limit 1	
+2016-10-11 20:50:54	SELECT * FROM iwebshop_ad_manage WHERE position_id=1 and goods_cat_id = 0 and start_time < '2016-10-11 20:50:54' AND end_time > '2016-10-11 20:50:54' ORDER BY `order` ASC  limit 50000	
+2016-10-11 20:50:54	SELECT * FROM iwebshop_category WHERE id = '2' limit 1	
+2016-10-11 20:50:54	SELECT * FROM iwebshop_category WHERE id = 0 limit 1	
+2016-10-11 20:50:54	SELECT * FROM iwebshop_areas WHERE area_id in (110000,110100,110108) limit 50000	
+2016-10-11 20:50:54	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 999999999 and type = 0 and is_close = 0 and start_time <= "2016-10-11 20:50:54" and end_time >= "2016-10-11 20:50:54" and seller_id = 1 and award_type in (3,4,5,6,7) and user_group = "all"  ORDER BY `condition` DESC  limit 50000	
+2016-10-11 20:50:54	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 999999999 and type = 0 and is_close = 0 and start_time <= "2016-10-11 20:50:54" and end_time >= "2016-10-11 20:50:54" and seller_id = 1 and award_type in (1,2) and user_group = "all"  ORDER BY `condition` DESC  limit 50000	
+2016-10-11 20:50:54	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 20:54:14	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 20:54:14	SELECT * FROM iwebshop_ad_position WHERE id=1 AND `status`=1 limit 1	
+2016-10-11 20:54:14	SELECT * FROM iwebshop_ad_manage WHERE position_id=1 and goods_cat_id = 0 and start_time < '2016-10-11 20:54:14' AND end_time > '2016-10-11 20:54:14' ORDER BY `order` ASC  limit 50000	
+2016-10-11 20:54:14	SELECT * FROM iwebshop_ad_position WHERE id=7 AND `status`=1 limit 1	
+2016-10-11 20:54:14	SELECT * FROM iwebshop_ad_manage WHERE position_id=7 and goods_cat_id = 0 and start_time < '2016-10-11 20:54:14' AND end_time > '2016-10-11 20:54:14' ORDER BY `order` ASC  limit 50000	
+2016-10-11 20:54:14	SELECT * FROM iwebshop_ad_position WHERE id=6 AND `status`=1 limit 1	
+2016-10-11 20:54:14	SELECT * FROM iwebshop_ad_manage WHERE position_id=6 and goods_cat_id = 0 and start_time < '2016-10-11 20:54:14' AND end_time > '2016-10-11 20:54:14' ORDER BY `order` ASC  limit 50000	
+2016-10-11 20:54:14	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 999999999 and type = 0 and is_close = 0 and start_time <= "2016-10-11 20:54:14" and end_time >= "2016-10-11 20:54:14" and seller_id = 0 and award_type in (3,4,5,6,7) and user_group = "all"  ORDER BY `condition` DESC  limit 50000	
+2016-10-11 20:54:14	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 999999999 and type = 0 and is_close = 0 and start_time <= "2016-10-11 20:54:14" and end_time >= "2016-10-11 20:54:14" and seller_id = 0 and award_type in (1,2) and user_group = "all"  ORDER BY `condition` DESC  limit 50000	
+2016-10-11 20:54:20	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 20:54:20	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 20:54:20	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 20:54:24	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 20:54:24	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 20:54:24	SELECT * FROM iwebshop_goods WHERE  id = 0  limit 1	
+2016-10-11 20:54:24	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 20:55:01	SELECT * FROM iwebshop_seller WHERE seller_name = 'pr' and is_del = 0 and is_lock = 0 limit 1	
+2016-10-11 20:55:01	SELECT * FROM iwebshop_seller WHERE seller_name = 'pr' and is_del = 0 and is_lock = 0 limit 1	
+2016-10-11 20:55:01	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 20:55:05	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 20:55:42	SELECT * FROM iwebshop_seller WHERE seller_name = 'pr' and is_del = 0 and is_lock = 0 limit 1	
+2016-10-11 20:55:42	SELECT * FROM iwebshop_seller WHERE seller_name = 'pr' and is_del = 0 and is_lock = 0 limit 1	
+2016-10-11 20:55:42	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 20:55:55	SELECT * FROM iwebshop_seller WHERE seller_name = 'pr' and is_del = 0 and is_lock = 0 limit 1	
+2016-10-11 20:55:55	SELECT * FROM iwebshop_seller WHERE seller_name = 'pr' and is_del = 0 and is_lock = 0 limit 1	
+2016-10-11 20:55:55	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 20:55:59	SELECT * FROM iwebshop_seller WHERE seller_name = 'pr' and is_del = 0 and is_lock = 0 limit 1	
+2016-10-11 20:55:59	SELECT * FROM iwebshop_seller WHERE seller_name = 'pr' and is_del = 0 and is_lock = 0 limit 1	
+2016-10-11 20:55:59	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 20:56:01	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 20:56:01	SELECT * FROM iwebshop_spec WHERE id = 1 limit 1	
+2016-10-11 20:56:40	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 20:56:40	SELECT * FROM iwebshop_goods_photo WHERE id = '6beef8f82646a720b54f776b558ceda9' limit 1	
+2016-10-11 20:56:40	SELECT * FROM iwebshop_goods_photo WHERE id = "6beef8f82646a720b54f776b558ceda9" limit 1	
+2016-10-11 20:56:52	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 20:56:52	SELECT * FROM iwebshop_goods_photo WHERE id = 'd255cd83d640c11b7d8da20888a0e773' limit 1	
+2016-10-11 20:56:52	SELECT * FROM iwebshop_goods_photo WHERE id = "d255cd83d640c11b7d8da20888a0e773" limit 1	
+2016-10-11 20:57:13	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 20:57:13	SELECT * FROM iwebshop_goods_photo WHERE id = '5f5c1c7e39429c6787966d4e9ff42cb6' limit 1	
+2016-10-11 20:57:13	SELECT * FROM iwebshop_goods_photo WHERE id = "5f5c1c7e39429c6787966d4e9ff42cb6" limit 1	
+2016-10-11 20:57:22	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 20:57:22	SELECT * FROM iwebshop_goods_photo WHERE id = 'c2c876966fc2bd4d3a00abab07b68e6e' limit 1	
+2016-10-11 20:57:22	SELECT * FROM iwebshop_goods_photo WHERE id = "c2c876966fc2bd4d3a00abab07b68e6e" limit 1	
+2016-10-11 20:57:33	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 20:57:33	SELECT * FROM iwebshop_goods_photo WHERE id = '35e27c64c3ab7ae66528f645df64dbf2' limit 1	
+2016-10-11 20:57:33	SELECT * FROM iwebshop_goods_photo WHERE id = "35e27c64c3ab7ae66528f645df64dbf2" limit 1	
+2016-10-11 20:57:58	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 20:57:58	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 20:57:58	SELECT count(*) as num FROM iwebshop_goods WHERE name like "%Be%" or FIND_IN_SET("Be", search_words) AND is_del=0  limit 1	
+2016-10-11 20:57:58	SELECT count(*) as num FROM iwebshop_goods WHERE name like "%friends%" or FIND_IN_SET("friends", search_words) AND is_del=0  limit 1	
+2016-10-11 20:57:58	SELECT count(*) as num FROM iwebshop_goods WHERE name like "%or%" or FIND_IN_SET("or", search_words) AND is_del=0  limit 1	
+2016-10-11 20:57:58	SELECT count(*) as num FROM iwebshop_goods WHERE name like "%nothing%" or FIND_IN_SET("nothing", search_words) AND is_del=0  limit 1	
+2016-10-11 20:57:58	SELECT hot FROM iwebshop_keyword WHERE word = "Be" limit 1	
+2016-10-11 20:57:58	SELECT hot FROM iwebshop_keyword WHERE word = "friends" limit 1	
+2016-10-11 20:57:58	SELECT hot FROM iwebshop_keyword WHERE word = "or" limit 1	
+2016-10-11 20:57:58	SELECT hot FROM iwebshop_keyword WHERE word = "nothing" limit 1	
+2016-10-11 20:57:58	SELECT id FROM iwebshop_goods_photo WHERE img in ("upload/2016/10/11/20161011205640699.jpg","upload/2016/10/11/20161011205652899.jpg","upload/2016/10/11/20161011205713304.jpg","upload/2016/10/11/20161011205722465.jpg","upload/2016/10/11/20161011205733257.jpg") limit 50000	
+2016-10-11 20:57:58	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 20:57:58	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 20:57:58	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 20:58:14	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 20:58:14	SELECT * FROM iwebshop_ad_position WHERE id=1 AND `status`=1 limit 1	
+2016-10-11 20:58:14	SELECT * FROM iwebshop_ad_manage WHERE position_id=1 and goods_cat_id = 0 and start_time < '2016-10-11 20:58:14' AND end_time > '2016-10-11 20:58:14' ORDER BY `order` ASC  limit 50000	
+2016-10-11 20:58:14	SELECT * FROM iwebshop_ad_position WHERE id=7 AND `status`=1 limit 1	
+2016-10-11 20:58:14	SELECT * FROM iwebshop_ad_manage WHERE position_id=7 and goods_cat_id = 0 and start_time < '2016-10-11 20:58:14' AND end_time > '2016-10-11 20:58:14' ORDER BY `order` ASC  limit 50000	
+2016-10-11 20:58:14	SELECT * FROM iwebshop_ad_position WHERE id=6 AND `status`=1 limit 1	
+2016-10-11 20:58:14	SELECT * FROM iwebshop_ad_manage WHERE position_id=6 and goods_cat_id = 0 and start_time < '2016-10-11 20:58:14' AND end_time > '2016-10-11 20:58:14' ORDER BY `order` ASC  limit 50000	
+2016-10-11 20:58:14	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 999999999 and type = 0 and is_close = 0 and start_time <= "2016-10-11 20:58:14" and end_time >= "2016-10-11 20:58:14" and seller_id = 0 and award_type in (3,4,5,6,7) and user_group = "all"  ORDER BY `condition` DESC  limit 50000	
+2016-10-11 20:58:14	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 999999999 and type = 0 and is_close = 0 and start_time <= "2016-10-11 20:58:14" and end_time >= "2016-10-11 20:58:14" and seller_id = 0 and award_type in (1,2) and user_group = "all"  ORDER BY `condition` DESC  limit 50000	
+2016-10-11 20:58:27	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 20:58:27	SELECT * FROM iwebshop_goods WHERE id=3 AND is_del=0 limit 1	
+2016-10-11 20:58:27	SELECT * FROM iwebshop_brand WHERE id=1 limit 1	
+2016-10-11 20:58:27	SELECT c.id,c.name FROM iwebshop_category_extend as ca,iwebshop_category as c WHERE ca.goods_id = 3 and ca.category_id = c.id limit 1	
+2016-10-11 20:58:27	SELECT count(*) as totalNum FROM iwebshop_refer WHERE goods_id=3 limit 1	
+2016-10-11 20:58:27	SELECT count(*) as totalNum FROM iwebshop_discussion WHERE goods_id=3 limit 1	
+2016-10-11 20:58:27	SELECT max(sell_price) as maxSellPrice ,min(sell_price) as minSellPrice,max(market_price) as maxMarketPrice,min(market_price) as minMarketPrice FROM iwebshop_products WHERE goods_id=3 limit 1	
+2016-10-11 20:58:27	SELECT g.* FROM iwebshop_member as m,iwebshop_user_group as g WHERE m.user_id = 1 and m.group_id = g.id limit 1	
+2016-10-11 20:58:27	SELECT price FROM iwebshop_group_price WHERE goods_id = 3 and group_id = 7 limit 1	
+2016-10-11 20:58:27	SELECT sell_price FROM iwebshop_goods WHERE id = 3 limit 1	
+2016-10-11 20:58:27	SELECT * FROM iwebshop_ad_position WHERE id=1 AND `status`=1 limit 1	
+2016-10-11 20:58:27	SELECT * FROM iwebshop_ad_manage WHERE position_id=1 and goods_cat_id = 0 and start_time < '2016-10-11 20:58:27' AND end_time > '2016-10-11 20:58:27' ORDER BY `order` ASC  limit 50000	
+2016-10-11 20:58:27	SELECT * FROM iwebshop_category WHERE id = '1' limit 1	
+2016-10-11 20:58:27	SELECT * FROM iwebshop_category WHERE id = 0 limit 1	
+2016-10-11 20:58:27	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 999999999 and type = 0 and is_close = 0 and start_time <= "2016-10-11 20:58:27" and end_time >= "2016-10-11 20:58:27" and seller_id = 0 and award_type in (3,4,5,6,7) and user_group = "all"  ORDER BY `condition` DESC  limit 50000	
+2016-10-11 20:58:27	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 999999999 and type = 0 and is_close = 0 and start_time <= "2016-10-11 20:58:27" and end_time >= "2016-10-11 20:58:27" and seller_id = 0 and award_type in (1,2) and user_group = "all"  ORDER BY `condition` DESC  limit 50000	
+2016-10-11 20:58:28	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 20:59:32	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 20:59:33	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 20:59:47	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 20:59:47	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 20:59:47	SELECT * FROM iwebshop_category ORDER BY sort ASC  limit 50000	
+2016-10-11 20:59:47	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 20:59:53	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 20:59:53	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 20:59:53	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 20:59:59	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 20:59:59	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 20:59:59	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 21:00:00	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:00:00	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:00:00	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 21:00:07	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:00:07	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:00:07	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 21:01:15	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:01:15	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:01:15	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:01:15	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:01:15	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 21:01:18	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:01:18	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:01:18	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 21:01:19	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:01:19	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:01:19	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 21:01:58	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:01:58	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:01:58	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:01:58	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:01:58	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 21:02:00	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:02:00	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:02:00	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 21:02:10	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:02:10	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:02:10	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:02:10	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:02:10	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 21:02:12	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:02:12	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:02:12	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 21:02:21	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:02:21	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:02:21	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:02:21	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:02:21	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 21:02:24	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:02:24	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:02:24	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 21:02:27	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:02:27	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:02:27	SELECT * FROM iwebshop_brand WHERE id=1 limit 1	
+2016-10-11 21:02:27	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 21:02:37	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:02:37	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:02:38	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:02:38	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:02:38	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 21:02:40	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:02:40	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:02:40	SELECT * FROM iwebshop_brand WHERE id=2 limit 1	
+2016-10-11 21:02:40	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 21:02:46	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:02:46	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:02:46	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:02:46	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:02:46	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 21:02:50	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:02:50	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:02:50	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 21:02:51	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:02:51	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:02:51	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 21:02:53	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:02:53	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:02:53	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 21:02:54	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:02:54	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:02:54	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 21:03:04	SELECT * FROM iwebshop_seller WHERE seller_name = 'pr' and is_del = 0 and is_lock = 0 limit 1	
+2016-10-11 21:03:04	SELECT * FROM iwebshop_seller WHERE seller_name = 'pr' and is_del = 0 and is_lock = 0 limit 1	
+2016-10-11 21:03:04	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:03:04	SELECT * FROM iwebshop_spec WHERE id = 1 limit 1	
+2016-10-11 21:03:19	SELECT * FROM iwebshop_seller WHERE seller_name = 'pr' and is_del = 0 and is_lock = 0 limit 1	
+2016-10-11 21:03:19	SELECT * FROM iwebshop_seller WHERE seller_name = 'pr' and is_del = 0 and is_lock = 0 limit 1	
+2016-10-11 21:03:19	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:03:19	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:03:19	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:03:19	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 21:03:22	SELECT * FROM iwebshop_seller WHERE seller_name = 'pr' and is_del = 0 and is_lock = 0 limit 1	
+2016-10-11 21:03:22	SELECT * FROM iwebshop_seller WHERE seller_name = 'pr' and is_del = 0 and is_lock = 0 limit 1	
+2016-10-11 21:03:22	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:03:22	SELECT * FROM iwebshop_spec WHERE id = 1 limit 1	
+2016-10-11 21:03:34	SELECT * FROM iwebshop_seller WHERE seller_name = 'pr' and is_del = 0 and is_lock = 0 limit 1	
+2016-10-11 21:03:34	SELECT * FROM iwebshop_seller WHERE seller_name = 'pr' and is_del = 0 and is_lock = 0 limit 1	
+2016-10-11 21:03:34	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:03:34	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:03:34	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:03:34	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 21:03:37	SELECT * FROM iwebshop_seller WHERE seller_name = 'pr' and is_del = 0 and is_lock = 0 limit 1	
+2016-10-11 21:03:37	SELECT * FROM iwebshop_seller WHERE seller_name = 'pr' and is_del = 0 and is_lock = 0 limit 1	
+2016-10-11 21:03:37	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:03:37	SELECT * FROM iwebshop_spec WHERE id = 1 limit 1	
+2016-10-11 21:04:22	SELECT * FROM iwebshop_seller WHERE seller_name = 'pr' and is_del = 0 and is_lock = 0 limit 1	
+2016-10-11 21:04:22	SELECT * FROM iwebshop_seller WHERE seller_name = 'pr' and is_del = 0 and is_lock = 0 limit 1	
+2016-10-11 21:04:22	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:04:22	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:04:22	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:04:22	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 21:04:27	SELECT * FROM iwebshop_seller WHERE seller_name = 'pr' and is_del = 0 and is_lock = 0 limit 1	
+2016-10-11 21:04:27	SELECT * FROM iwebshop_seller WHERE seller_name = 'pr' and is_del = 0 and is_lock = 0 limit 1	
+2016-10-11 21:04:27	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:05:01	SELECT * FROM iwebshop_seller WHERE seller_name = 'pr' and is_del = 0 and is_lock = 0 limit 1	
+2016-10-11 21:05:01	SELECT * FROM iwebshop_seller WHERE seller_name = 'pr' and is_del = 0 and is_lock = 0 limit 1	
+2016-10-11 21:05:01	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:05:01	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:05:01	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:05:01	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 21:05:05	SELECT * FROM iwebshop_seller WHERE seller_name = 'pr' and is_del = 0 and is_lock = 0 limit 1	
+2016-10-11 21:05:05	SELECT * FROM iwebshop_seller WHERE seller_name = 'pr' and is_del = 0 and is_lock = 0 limit 1	
+2016-10-11 21:05:05	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:05:26	SELECT * FROM iwebshop_seller WHERE seller_name = 'pr' and is_del = 0 and is_lock = 0 limit 1	
+2016-10-11 21:05:26	SELECT * FROM iwebshop_seller WHERE seller_name = 'pr' and is_del = 0 and is_lock = 0 limit 1	
+2016-10-11 21:05:26	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:05:26	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:05:26	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:05:26	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 21:05:30	SELECT * FROM iwebshop_seller WHERE seller_name = 'pr' and is_del = 0 and is_lock = 0 limit 1	
+2016-10-11 21:05:30	SELECT * FROM iwebshop_seller WHERE seller_name = 'pr' and is_del = 0 and is_lock = 0 limit 1	
+2016-10-11 21:05:30	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:06:41	SELECT * FROM iwebshop_seller WHERE seller_name = 'pr' and is_del = 0 and is_lock = 0 limit 1	
+2016-10-11 21:06:41	SELECT * FROM iwebshop_seller WHERE seller_name = 'pr' and is_del = 0 and is_lock = 0 limit 1	
+2016-10-11 21:06:41	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:06:41	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:06:41	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:06:41	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 21:06:45	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:06:45	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:06:45	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 21:06:46	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:06:46	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:06:46	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 21:06:51	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:06:51	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:06:51	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 21:06:53	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:06:53	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:06:53	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 21:06:55	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:06:55	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:06:55	SELECT * FROM iwebshop_category ORDER BY sort ASC  limit 50000	
+2016-10-11 21:06:55	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 21:06:56	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:06:56	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:06:56	SELECT * FROM iwebshop_goods WHERE  id = 0  limit 1	
+2016-10-11 21:06:56	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 21:06:57	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:06:57	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:06:57	SELECT * FROM iwebshop_goods WHERE  id = 0  limit 1	
+2016-10-11 21:06:57	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 21:07:00	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:07:00	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:07:00	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 21:07:04	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:07:04	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:07:04	SELECT * FROM iwebshop_goods WHERE  id = 3  limit 1	
+2016-10-11 21:07:04	SELECT * FROM iwebshop_group_price WHERE goods_id = 3 and product_id is NULL  limit 50000	
+2016-10-11 21:07:04	SELECT * FROM iwebshop_products WHERE goods_id = 3 limit 50000	
+2016-10-11 21:07:04	SELECT commend_id FROM iwebshop_commend_goods WHERE goods_id=3 limit 50000	
+2016-10-11 21:07:04	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 21:07:04	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 21:07:04	SELECT * FROM iwebshop_attribute WHERE model_id=0 limit 50000	
+2016-10-11 21:07:10	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 21:07:18	SELECT * FROM iwebshop_seller WHERE seller_name = 'pr' and is_del = 0 and is_lock = 0 limit 1	
+2016-10-11 21:07:18	SELECT * FROM iwebshop_seller WHERE seller_name = 'pr' and is_del = 0 and is_lock = 0 limit 1	
+2016-10-11 21:07:18	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:07:18	SELECT spec_array FROM iwebshop_goods WHERE id = 3 limit 1	
+2016-10-11 21:07:20	SELECT * FROM iwebshop_seller WHERE seller_name = 'pr' and is_del = 0 and is_lock = 0 limit 1	
+2016-10-11 21:07:20	SELECT * FROM iwebshop_seller WHERE seller_name = 'pr' and is_del = 0 and is_lock = 0 limit 1	
+2016-10-11 21:07:20	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:07:22	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 21:07:22	SELECT * FROM iwebshop_spec WHERE id = 1 limit 1	
+2016-10-11 21:07:50	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:07:50	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:07:50	SELECT count(*) as num FROM iwebshop_goods WHERE name like "%Be%" or FIND_IN_SET("Be", search_words) AND is_del=0  limit 1	
+2016-10-11 21:07:50	SELECT count(*) as num FROM iwebshop_goods WHERE name like "%friends%" or FIND_IN_SET("friends", search_words) AND is_del=0  limit 1	
+2016-10-11 21:07:50	SELECT count(*) as num FROM iwebshop_goods WHERE name like "%or%" or FIND_IN_SET("or", search_words) AND is_del=0  limit 1	
+2016-10-11 21:07:50	SELECT count(*) as num FROM iwebshop_goods WHERE name like "%nothing%" or FIND_IN_SET("nothing", search_words) AND is_del=0  limit 1	
+2016-10-11 21:07:50	SELECT hot FROM iwebshop_keyword WHERE word = "Be" limit 1	
+2016-10-11 21:07:50	SELECT hot FROM iwebshop_keyword WHERE word = "friends" limit 1	
+2016-10-11 21:07:50	SELECT hot FROM iwebshop_keyword WHERE word = "or" limit 1	
+2016-10-11 21:07:50	SELECT hot FROM iwebshop_keyword WHERE word = "nothing" limit 1	
+2016-10-11 21:07:50	SELECT id FROM iwebshop_goods_photo WHERE img in ("upload/2016/10/11/20161011205733257.jpg","upload/2016/10/11/20161011205713304.jpg","upload/2016/10/11/20161011205640699.jpg","upload/2016/10/11/20161011205722465.jpg","upload/2016/10/11/20161011205652899.jpg") limit 50000	
+2016-10-11 21:07:50	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:07:50	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:07:50	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 21:07:55	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:07:55	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:07:55	SELECT * FROM iwebshop_goods WHERE  id = 2  limit 1	
+2016-10-11 21:07:55	SELECT * FROM iwebshop_group_price WHERE goods_id = 2 and product_id is NULL  limit 50000	
+2016-10-11 21:07:55	SELECT * FROM iwebshop_products WHERE goods_id = 2 limit 50000	
+2016-10-11 21:07:55	SELECT commend_id FROM iwebshop_commend_goods WHERE goods_id=2 limit 50000	
+2016-10-11 21:07:55	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 21:07:55	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 21:07:55	SELECT * FROM iwebshop_attribute WHERE model_id=0 limit 50000	
+2016-10-11 21:08:02	SELECT * FROM iwebshop_seller WHERE seller_name = 'pr' and is_del = 0 and is_lock = 0 limit 1	
+2016-10-11 21:08:02	SELECT * FROM iwebshop_seller WHERE seller_name = 'pr' and is_del = 0 and is_lock = 0 limit 1	
+2016-10-11 21:08:02	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:08:02	SELECT spec_array FROM iwebshop_goods WHERE id = 2 limit 1	
+2016-10-11 21:08:03	SELECT * FROM iwebshop_seller WHERE seller_name = 'pr' and is_del = 0 and is_lock = 0 limit 1	
+2016-10-11 21:08:04	SELECT * FROM iwebshop_seller WHERE seller_name = 'pr' and is_del = 0 and is_lock = 0 limit 1	
+2016-10-11 21:08:04	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:08:05	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 21:08:05	SELECT * FROM iwebshop_spec WHERE id = 3 limit 1	
+2016-10-11 21:08:11	SELECT * FROM iwebshop_seller WHERE seller_name = 'pr' and is_del = 0 and is_lock = 0 limit 1	
+2016-10-11 21:08:11	SELECT * FROM iwebshop_seller WHERE seller_name = 'pr' and is_del = 0 and is_lock = 0 limit 1	
+2016-10-11 21:08:11	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:08:24	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:08:24	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:08:24	SELECT count(*) as num FROM iwebshop_goods WHERE name like "%Waiting%" or FIND_IN_SET("Waiting", search_words) AND is_del=0  limit 1	
+2016-10-11 21:08:24	SELECT count(*) as num FROM iwebshop_goods WHERE name like "%for%" or FIND_IN_SET("for", search_words) AND is_del=0  limit 1	
+2016-10-11 21:08:24	SELECT count(*) as num FROM iwebshop_goods WHERE name like "%you%" or FIND_IN_SET("you", search_words) AND is_del=0  limit 1	
+2016-10-11 21:08:24	SELECT hot FROM iwebshop_keyword WHERE word = "Waiting" limit 1	
+2016-10-11 21:08:24	SELECT hot FROM iwebshop_keyword WHERE word = "for" limit 1	
+2016-10-11 21:08:24	SELECT hot FROM iwebshop_keyword WHERE word = "you" limit 1	
+2016-10-11 21:08:24	SELECT id FROM iwebshop_goods_photo WHERE img in ("upload/2016/10/11/20161011162645688.jpg","upload/2016/10/11/20161011162641340.jpg","upload/2016/10/11/20161011162631602.jpg") limit 50000	
+2016-10-11 21:08:24	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:08:24	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:08:24	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 21:08:27	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:08:27	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:08:27	SELECT * FROM iwebshop_goods WHERE  id = 1  limit 1	
+2016-10-11 21:08:27	SELECT * FROM iwebshop_group_price WHERE goods_id = 1 and product_id is NULL  limit 50000	
+2016-10-11 21:08:27	SELECT * FROM iwebshop_products WHERE goods_id = 1 limit 50000	
+2016-10-11 21:08:27	SELECT commend_id FROM iwebshop_commend_goods WHERE goods_id=1 limit 50000	
+2016-10-11 21:08:27	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-11 21:08:27	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 21:08:27	SELECT * FROM iwebshop_attribute WHERE model_id=0 limit 50000	
+2016-10-11 21:08:40	SELECT * FROM iwebshop_seller WHERE seller_name = 'pr' and is_del = 0 and is_lock = 0 limit 1	
+2016-10-11 21:08:40	SELECT * FROM iwebshop_seller WHERE seller_name = 'pr' and is_del = 0 and is_lock = 0 limit 1	
+2016-10-11 21:08:40	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:08:40	SELECT spec_array FROM iwebshop_goods WHERE id = 1 limit 1	
+2016-10-11 21:08:42	SELECT * FROM iwebshop_seller WHERE seller_name = 'pr' and is_del = 0 and is_lock = 0 limit 1	
+2016-10-11 21:08:42	SELECT * FROM iwebshop_seller WHERE seller_name = 'pr' and is_del = 0 and is_lock = 0 limit 1	
+2016-10-11 21:08:42	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:08:45	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 21:08:45	SELECT * FROM iwebshop_spec WHERE id = 4 limit 1	
+2016-10-11 21:08:51	SELECT * FROM iwebshop_seller WHERE seller_name = 'pr' and is_del = 0 and is_lock = 0 limit 1	
+2016-10-11 21:08:51	SELECT * FROM iwebshop_seller WHERE seller_name = 'pr' and is_del = 0 and is_lock = 0 limit 1	
+2016-10-11 21:08:51	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:08:55	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-11 21:08:55	SELECT * FROM iwebshop_spec WHERE id = 3 limit 1	
+2016-10-11 21:11:06	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:11:06	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:11:07	SELECT count(*) as num FROM iwebshop_goods WHERE name like "%Fine%" or FIND_IN_SET("Fine", search_words) AND is_del=0  limit 1	
+2016-10-11 21:11:07	SELECT count(*) as num FROM iwebshop_goods WHERE name like "%of%" or FIND_IN_SET("of", search_words) AND is_del=0  limit 1	
+2016-10-11 21:11:07	SELECT count(*) as num FROM iwebshop_goods WHERE name like "%his%" or FIND_IN_SET("his", search_words) AND is_del=0  limit 1	
+2016-10-11 21:11:07	SELECT count(*) as num FROM iwebshop_goods WHERE name like "%life%" or FIND_IN_SET("life", search_words) AND is_del=0  limit 1	
+2016-10-11 21:11:07	SELECT hot FROM iwebshop_keyword WHERE word = "Fine" limit 1	
+2016-10-11 21:11:07	SELECT hot FROM iwebshop_keyword WHERE word = "of" limit 1	
+2016-10-11 21:11:07	SELECT hot FROM iwebshop_keyword WHERE word = "his" limit 1	
+2016-10-11 21:11:07	SELECT hot FROM iwebshop_keyword WHERE word = "life" limit 1	
+2016-10-11 21:11:07	SELECT id FROM iwebshop_goods_photo WHERE img in ("upload/2016/10/11/20161011155126267.jpg","upload/2016/10/11/20161011155156486.jpg","upload/2016/10/11/20161011155147499.jpg","upload/2016/10/11/20161011155138443.jpg") limit 50000	
+2016-10-11 21:11:07	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:11:07	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-11 21:11:07	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	

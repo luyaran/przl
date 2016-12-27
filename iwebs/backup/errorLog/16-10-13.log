@@ -1,0 +1,26 @@
+<ERROR_BLOCK>
+errorInfo: Undefined index: video
+errorFile: IWEB_PATH/controllers/goods.php
+errorLine: 234
+errorCode: 8
+errorTime: 2016-10-13 10:57:35
+#0 IWEB_PATH/lib/web/action/inline_action.php(24): Goods->goods_update()
+#1 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#2 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#3 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#4 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: video
+errorFile: IWEB_PATH/controllers/goods.php
+errorLine: 234
+errorCode: 8
+errorTime: 2016-10-13 10:58:54
+#0 IWEB_PATH/lib/web/action/inline_action.php(24): Goods->goods_update()
+#1 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#2 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#3 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#4 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+

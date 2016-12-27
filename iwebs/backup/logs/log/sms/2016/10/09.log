@@ -1,0 +1,19 @@
+2016-10-09 16:35:41	end	
+2016-10-09 16:35:41	begin	
+2016-10-09 16:35:42	SimpleXMLElement::__set_state(array(
+   'statusCode' => '111181',
+   'statusMsg' => '【账号】应用不存在',
+))	
+2016-10-09 16:37:37	end	
+2016-10-09 16:37:37	begin	
+2016-10-09 16:37:38	SimpleXMLElement::__set_state(array(
+   'statusCode' => '000000',
+   'TemplateSMS' => 
+  SimpleXMLElement::__set_state(array(
+     'smsMessageSid' => 'e0e32441ecf54d4bb40941f8f26c222e',
+     'dateCreated' => '20161009163738',
+  )),
+))	
+2016-10-09 21:07:29	end	
+2016-10-09 21:07:36	end	
+2016-10-09 21:10:56	end	

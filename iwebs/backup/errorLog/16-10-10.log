@@ -1,0 +1,48 @@
+<ERROR_BLOCK>
+excepInfo: INSERT INTO iwebshop_user ( `username`,`password`,`email`,`address` ) VALUES ( 'cuijinpeng','723d505516e0c197e42a6be3c0af910e','2749367600@qq.com','北京市, 北京市, 石景山区, 鲁谷路, 33-17号' ) 
+ -- Unknown column 'address' in 'field list'
+excepFile: IWEB_PATH/lib/db/db_class.php
+excepLine: 98
+excepCode: 1000
+excepTime: 2016-10-10 15:23:54
+#0 IWEB_PATH/lib/web/model/model_class.php(111): IDB->query(INSERT INTO iwebshop_user ( `username`,`password`,`email`,`address` ) VALUES ( 'cuijinpeng','723d505516e0c197e42a6be3c0af910e','2749367600@qq.com','北京市, 北京市, 石景山区, 鲁谷路, 33-17号' ) )
+#1 IWEB_PATH/controllers/simple.php(121): IModel->add()
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->reg_act()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#5 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+excepInfo: INSERT INTO iwebshop_user ( `username`,`password`,`email`,`contact_addr` ) VALUES ( 'cuijinpeng','723d505516e0c197e42a6be3c0af910e','2749367600@qq.com','北京市, 北京市, 石景山区, 永乐东街,' ) 
+ -- Unknown column 'contact_addr' in 'field list'
+excepFile: IWEB_PATH/lib/db/db_class.php
+excepLine: 98
+excepCode: 1000
+excepTime: 2016-10-10 15:57:06
+#0 IWEB_PATH/lib/web/model/model_class.php(111): IDB->query(INSERT INTO iwebshop_user ( `username`,`password`,`email`,`contact_addr` ) VALUES ( 'cuijinpeng','723d505516e0c197e42a6be3c0af910e','2749367600@qq.com','北京市, 北京市, 石景山区, 永乐东街,' ) )
+#1 IWEB_PATH/controllers/simple.php(121): IModel->add()
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->reg_act()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#5 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+excepInfo: INSERT INTO iwebshop_user ( `username`,`password`,`email`,`contact_addr` ) VALUES ( 'cuijinpeng','723d505516e0c197e42a6be3c0af910e','2749367600@qq.com','北京市, 北京市, 石景山区, 永乐东街,' ) 
+ -- Unknown column 'contact_addr' in 'field list'
+excepFile: IWEB_PATH/lib/db/db_class.php
+excepLine: 98
+excepCode: 1000
+excepTime: 2016-10-10 15:57:44
+#0 IWEB_PATH/lib/web/model/model_class.php(111): IDB->query(INSERT INTO iwebshop_user ( `username`,`password`,`email`,`contact_addr` ) VALUES ( 'cuijinpeng','723d505516e0c197e42a6be3c0af910e','2749367600@qq.com','北京市, 北京市, 石景山区, 永乐东街,' ) )
+#1 IWEB_PATH/controllers/simple.php(121): IModel->add()
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->reg_act()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#5 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+

@@ -1,0 +1,90 @@
+<ERROR_BLOCK>
+errorInfo: Undefined index: sms_userid
+errorFile: IWEB_PATH/plugins/hsms/rest.php
+errorLine: 39
+errorCode: 8
+errorTime: 2016-10-09 21:07:29
+#0 IWEB_PATH/classes/hsms.php(64): rest->__construct()
+#1 IWEB_PATH/controllers/simple.php(1204): Hsms::send(18101301805)
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->send_message_mobile()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#5 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: sms_username
+errorFile: IWEB_PATH/plugins/hsms/rest.php
+errorLine: 40
+errorCode: 8
+errorTime: 2016-10-09 21:07:29
+#0 IWEB_PATH/classes/hsms.php(64): rest->__construct()
+#1 IWEB_PATH/controllers/simple.php(1204): Hsms::send(18101301805)
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->send_message_mobile()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#5 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: sms_pwd
+errorFile: IWEB_PATH/plugins/hsms/rest.php
+errorLine: 41
+errorCode: 8
+errorTime: 2016-10-09 21:07:29
+#0 IWEB_PATH/classes/hsms.php(64): rest->__construct()
+#1 IWEB_PATH/controllers/simple.php(1204): Hsms::send(18101301805)
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->send_message_mobile()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#5 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: sms_userid
+errorFile: IWEB_PATH/plugins/hsms/rest.php
+errorLine: 39
+errorCode: 8
+errorTime: 2016-10-09 21:07:36
+#0 IWEB_PATH/classes/hsms.php(64): rest->__construct()
+#1 IWEB_PATH/controllers/simple.php(1204): Hsms::send(18101301805)
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->send_message_mobile()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#5 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: sms_username
+errorFile: IWEB_PATH/plugins/hsms/rest.php
+errorLine: 40
+errorCode: 8
+errorTime: 2016-10-09 21:07:36
+#0 IWEB_PATH/classes/hsms.php(64): rest->__construct()
+#1 IWEB_PATH/controllers/simple.php(1204): Hsms::send(18101301805)
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->send_message_mobile()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#5 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: sms_pwd
+errorFile: IWEB_PATH/plugins/hsms/rest.php
+errorLine: 41
+errorCode: 8
+errorTime: 2016-10-09 21:07:36
+#0 IWEB_PATH/classes/hsms.php(64): rest->__construct()
+#1 IWEB_PATH/controllers/simple.php(1204): Hsms::send(18101301805)
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->send_message_mobile()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#5 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+

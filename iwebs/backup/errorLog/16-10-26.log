@@ -1,0 +1,258 @@
+<ERROR_BLOCK>
+errorInfo: Undefined index: filename
+errorFile: IWEB_PATH/runtime/sysdefault/test/index.php
+errorLine: 49
+errorCode: 8
+errorTime: 2016-10-26 10:52:58
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/test/index.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/test/index.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/test/index)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/test/index)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(137): IViewAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#6 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: require_once(PHPExcel/Cell/DataType.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory
+errorFile: IWEB_PATH/lib/core/util/PHPExcel/Cell.php
+errorLine: 30
+errorCode: 2
+errorTime: 2016-10-26 10:53:35
+#0 IWEB_PATH/lib/core/util/PHPExcel/Cell.php(30): require_once
+#1 IWEB_PATH/lib/core/util/PHPExcel.php(30): require_once(IWEB_PATH/lib/core/util/PHPExcel/Cell.php)
+#2 IWEB_PATH/controllers/test.php(120): include(IWEB_PATH/lib/core/util/PHPExcel.php)
+#3 IWEB_PATH/controllers/test.php(108): Test->readExcel(./upload/1477450415.xls)
+#4 IWEB_PATH/lib/web/action/inline_action.php(24): Test->upfile()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#6 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#7 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: require_once(PHPExcel/Cell/DataType.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory
+errorFile: IWEB_PATH/lib/core/util/PHPExcel/Cell.php
+errorLine: 30
+errorCode: 2
+errorTime: 2016-10-26 10:55:25
+#0 IWEB_PATH/lib/core/util/PHPExcel/Cell.php(30): require_once
+#1 IWEB_PATH/lib/core/util/PHPExcel.php(30): require_once(IWEB_PATH/lib/core/util/PHPExcel/Cell.php)
+#2 IWEB_PATH/controllers/test.php(120): include(IWEB_PATH/lib/core/util/PHPExcel.php)
+#3 IWEB_PATH/controllers/test.php(108): Test->readExcel(./upload/1477450525.xls)
+#4 IWEB_PATH/lib/web/action/inline_action.php(24): Test->upfile()
+#5 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#6 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#7 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: require_once(PHPExcel/Cell/DataType.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory
+errorFile: IWEB_PATH/lib/core/util/PHPExcel/Cell.php
+errorLine: 30
+errorCode: 2
+errorTime: 2016-10-26 10:58:22
+#0 IWEB_PATH/lib/core/util/PHPExcel/Cell.php(30): require_once
+#1 IWEB_PATH/lib/core/util/PHPExcel.php(30): require_once(IWEB_PATH/lib/core/util/PHPExcel/Cell.php)
+#2 IWEB_PATH/controllers/test.php(202): include(IWEB_PATH/lib/core/util/PHPExcel.php)
+#3 IWEB_PATH/lib/web/action/inline_action.php(24): Test->testExcel()
+#4 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#6 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: require_once(PHPExcel/Cell/DataType.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory
+errorFile: IWEB_PATH/lib/core/util/PHPExcel/Cell.php
+errorLine: 30
+errorCode: 2
+errorTime: 2016-10-26 10:58:25
+#0 IWEB_PATH/lib/core/util/PHPExcel/Cell.php(30): require_once
+#1 IWEB_PATH/lib/core/util/PHPExcel.php(30): require_once(IWEB_PATH/lib/core/util/PHPExcel/Cell.php)
+#2 IWEB_PATH/controllers/test.php(202): include(IWEB_PATH/lib/core/util/PHPExcel.php)
+#3 IWEB_PATH/lib/web/action/inline_action.php(24): Test->testExcel()
+#4 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#6 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: require_once(PHPExcel/Cell/DataType.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory
+errorFile: IWEB_PATH/lib/core/util/PHPExcel/Cell.php
+errorLine: 30
+errorCode: 2
+errorTime: 2016-10-26 10:59:06
+#0 IWEB_PATH/lib/core/util/PHPExcel/Cell.php(30): require_once
+#1 IWEB_PATH/lib/core/util/PHPExcel.php(30): require_once(IWEB_PATH/lib/core/util/PHPExcel/Cell.php)
+#2 IWEB_PATH/controllers/test.php(202): include(IWEB_PATH/lib/core/util/PHPExcel.php)
+#3 IWEB_PATH/lib/web/action/inline_action.php(24): Test->testExcel()
+#4 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#6 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: require_once(PHPExcel/Cell/DataType.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory
+errorFile: IWEB_PATH/lib/core/util/PHPExcel/Cell.php
+errorLine: 30
+errorCode: 2
+errorTime: 2016-10-26 10:59:07
+#0 IWEB_PATH/lib/core/util/PHPExcel/Cell.php(30): require_once
+#1 IWEB_PATH/lib/core/util/PHPExcel.php(30): require_once(IWEB_PATH/lib/core/util/PHPExcel/Cell.php)
+#2 IWEB_PATH/controllers/test.php(202): include(IWEB_PATH/lib/core/util/PHPExcel.php)
+#3 IWEB_PATH/lib/web/action/inline_action.php(24): Test->testExcel()
+#4 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#6 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: require_once(PHPExcel/Cell/DataType.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory
+errorFile: IWEB_PATH/lib/core/util/PHPExcel/Cell.php
+errorLine: 30
+errorCode: 2
+errorTime: 2016-10-26 10:59:08
+#0 IWEB_PATH/lib/core/util/PHPExcel/Cell.php(30): require_once
+#1 IWEB_PATH/lib/core/util/PHPExcel.php(30): require_once(IWEB_PATH/lib/core/util/PHPExcel/Cell.php)
+#2 IWEB_PATH/controllers/test.php(202): include(IWEB_PATH/lib/core/util/PHPExcel.php)
+#3 IWEB_PATH/lib/web/action/inline_action.php(24): Test->testExcel()
+#4 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#6 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: require_once(PHPExcel/Cell/DataType.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory
+errorFile: IWEB_PATH/lib/core/util/PHPExcel/Cell.php
+errorLine: 30
+errorCode: 2
+errorTime: 2016-10-26 10:59:09
+#0 IWEB_PATH/lib/core/util/PHPExcel/Cell.php(30): require_once
+#1 IWEB_PATH/lib/core/util/PHPExcel.php(30): require_once(IWEB_PATH/lib/core/util/PHPExcel/Cell.php)
+#2 IWEB_PATH/controllers/test.php(202): include(IWEB_PATH/lib/core/util/PHPExcel.php)
+#3 IWEB_PATH/lib/web/action/inline_action.php(24): Test->testExcel()
+#4 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#6 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: require_once(PHPExcel/Cell/DataType.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory
+errorFile: IWEB_PATH/lib/core/util/PHPExcel/Cell.php
+errorLine: 30
+errorCode: 2
+errorTime: 2016-10-26 10:59:10
+#0 IWEB_PATH/lib/core/util/PHPExcel/Cell.php(30): require_once
+#1 IWEB_PATH/lib/core/util/PHPExcel.php(30): require_once(IWEB_PATH/lib/core/util/PHPExcel/Cell.php)
+#2 IWEB_PATH/controllers/test.php(202): include(IWEB_PATH/lib/core/util/PHPExcel.php)
+#3 IWEB_PATH/lib/web/action/inline_action.php(24): Test->testExcel()
+#4 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#6 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: require_once(PHPExcel/Cell/DataType.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory
+errorFile: IWEB_PATH/lib/core/util/PHPExcel/Cell.php
+errorLine: 30
+errorCode: 2
+errorTime: 2016-10-26 10:59:50
+#0 IWEB_PATH/lib/core/util/PHPExcel/Cell.php(30): require_once
+#1 IWEB_PATH/lib/core/util/PHPExcel.php(30): require_once(IWEB_PATH/lib/core/util/PHPExcel/Cell.php)
+#2 IWEB_PATH/controllers/test.php(202): include(IWEB_PATH/lib/core/util/PHPExcel.php)
+#3 IWEB_PATH/lib/web/action/inline_action.php(24): Test->testExcel()
+#4 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#6 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: require_once(PHPExcel/Cell/DataType.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory
+errorFile: IWEB_PATH/lib/core/util/PHPExcel/Cell.php
+errorLine: 30
+errorCode: 2
+errorTime: 2016-10-26 10:59:52
+#0 IWEB_PATH/lib/core/util/PHPExcel/Cell.php(30): require_once
+#1 IWEB_PATH/lib/core/util/PHPExcel.php(30): require_once(IWEB_PATH/lib/core/util/PHPExcel/Cell.php)
+#2 IWEB_PATH/controllers/test.php(202): include(IWEB_PATH/lib/core/util/PHPExcel.php)
+#3 IWEB_PATH/lib/web/action/inline_action.php(24): Test->testExcel()
+#4 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#6 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: require_once(PHPExcel/Cell/DataType.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory
+errorFile: IWEB_PATH/lib/core/util/PHPExcel/Cell.php
+errorLine: 30
+errorCode: 2
+errorTime: 2016-10-26 11:00:58
+#0 IWEB_PATH/lib/core/util/PHPExcel/Cell.php(30): require_once
+#1 IWEB_PATH/lib/core/util/PHPExcel.php(30): require_once(IWEB_PATH/lib/core/util/PHPExcel/Cell.php)
+#2 IWEB_PATH/controllers/test.php(202): include(IWEB_PATH/lib/core/util/PHPExcel.php)
+#3 IWEB_PATH/lib/web/action/inline_action.php(24): Test->testExcel()
+#4 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#6 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: require_once(PHPExcel/Cell/DataType.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory
+errorFile: IWEB_PATH/lib/core/util/PHPExcel/Cell.php
+errorLine: 30
+errorCode: 2
+errorTime: 2016-10-26 11:00:59
+#0 IWEB_PATH/lib/core/util/PHPExcel/Cell.php(30): require_once
+#1 IWEB_PATH/lib/core/util/PHPExcel.php(30): require_once(IWEB_PATH/lib/core/util/PHPExcel/Cell.php)
+#2 IWEB_PATH/controllers/test.php(202): include(IWEB_PATH/lib/core/util/PHPExcel.php)
+#3 IWEB_PATH/lib/web/action/inline_action.php(24): Test->testExcel()
+#4 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#6 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: require_once(PHPExcel/Cell/DataType.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory
+errorFile: IWEB_PATH/lib/core/util/PHPExcel/Cell.php
+errorLine: 30
+errorCode: 2
+errorTime: 2016-10-26 11:01:00
+#0 IWEB_PATH/lib/core/util/PHPExcel/Cell.php(30): require_once
+#1 IWEB_PATH/lib/core/util/PHPExcel.php(30): require_once(IWEB_PATH/lib/core/util/PHPExcel/Cell.php)
+#2 IWEB_PATH/controllers/test.php(202): include(IWEB_PATH/lib/core/util/PHPExcel.php)
+#3 IWEB_PATH/lib/web/action/inline_action.php(24): Test->testExcel()
+#4 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#6 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: filename
+errorFile: IWEB_PATH/runtime/sysdefault/test/index.php
+errorLine: 49
+errorCode: 8
+errorTime: 2016-10-26 11:05:37
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/test/index.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/test/index.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/test/index)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/test/index)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(137): IViewAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#6 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+

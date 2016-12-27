@@ -1,0 +1,26 @@
+2016-11-07 18:22:11	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-11-07 18:22:12	SELECT * FROM iwebshop_ad_position WHERE id=1 AND `status`=1 limit 1	
+2016-11-07 18:22:12	SELECT * FROM iwebshop_ad_manage WHERE position_id=1 and goods_cat_id = 0 and start_time < '2016-11-07 18:22:12' AND end_time > '2016-11-07 18:22:12' ORDER BY `order` ASC  limit 50000	
+2016-11-07 18:22:12	SELECT * FROM iwebshop_ad_position WHERE id=7 AND `status`=1 limit 1	
+2016-11-07 18:22:12	SELECT * FROM iwebshop_ad_manage WHERE position_id=7 and goods_cat_id = 0 and start_time < '2016-11-07 18:22:12' AND end_time > '2016-11-07 18:22:12' ORDER BY `order` ASC  limit 50000	
+2016-11-07 18:22:12	SELECT * FROM iwebshop_ad_position WHERE id=6 AND `status`=1 limit 1	
+2016-11-07 18:22:12	SELECT * FROM iwebshop_ad_manage WHERE position_id=6 and goods_cat_id = 0 and start_time < '2016-11-07 18:22:12' AND end_time > '2016-11-07 18:22:12' ORDER BY `order` ASC  limit 50000	
+2016-11-07 18:22:13	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 999999999 and type = 0 and is_close = 0 and start_time <= "2016-11-07 18:22:13" and end_time >= "2016-11-07 18:22:13" and seller_id = 0 and award_type in (3,4,5,6,7) and user_group = "all"  ORDER BY `condition` DESC  limit 50000	
+2016-11-07 18:22:13	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 999999999 and type = 0 and is_close = 0 and start_time <= "2016-11-07 18:22:13" and end_time >= "2016-11-07 18:22:13" and seller_id = 0 and award_type in (1,2) and user_group = "all"  ORDER BY `condition` DESC  limit 50000	
+2016-11-07 18:58:03	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-11-07 18:58:03	SELECT * FROM iwebshop_ad_position WHERE id=1 AND `status`=1 limit 1	
+2016-11-07 18:58:03	SELECT * FROM iwebshop_ad_manage WHERE position_id=1 and goods_cat_id = 0 and start_time < '2016-11-07 18:58:03' AND end_time > '2016-11-07 18:58:03' ORDER BY `order` ASC  limit 50000	
+2016-11-07 18:58:03	SELECT * FROM iwebshop_ad_position WHERE id=7 AND `status`=1 limit 1	
+2016-11-07 18:58:03	SELECT * FROM iwebshop_ad_manage WHERE position_id=7 and goods_cat_id = 0 and start_time < '2016-11-07 18:58:03' AND end_time > '2016-11-07 18:58:03' ORDER BY `order` ASC  limit 50000	
+2016-11-07 18:58:03	SELECT * FROM iwebshop_ad_position WHERE id=6 AND `status`=1 limit 1	
+2016-11-07 18:58:03	SELECT * FROM iwebshop_ad_manage WHERE position_id=6 and goods_cat_id = 0 and start_time < '2016-11-07 18:58:03' AND end_time > '2016-11-07 18:58:03' ORDER BY `order` ASC  limit 50000	
+2016-11-07 18:58:03	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 999999999 and type = 0 and is_close = 0 and start_time <= "2016-11-07 18:58:03" and end_time >= "2016-11-07 18:58:03" and seller_id = 0 and award_type in (3,4,5,6,7) and user_group = "all"  ORDER BY `condition` DESC  limit 50000	
+2016-11-07 18:58:03	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 999999999 and type = 0 and is_close = 0 and start_time <= "2016-11-07 18:58:03" and end_time >= "2016-11-07 18:58:03" and seller_id = 0 and award_type in (1,2) and user_group = "all"  ORDER BY `condition` DESC  limit 50000	
+2016-11-07 18:58:05	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-11-07 18:58:23	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-11-07 18:58:24	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-11-07 18:58:24	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-11-07 18:58:25	SELECT count(*) as num FROM iwebshop_goods WHERE is_del != 1 limit 1	
+2016-11-07 18:58:25	SELECT count(*) as num FROM iwebshop_comment as co,iwebshop_goods as go WHERE co.status = 1 and co.goods_id = go.id and co.recomment_time<=0 limit 1	
+2016-11-07 18:58:25	SELECT count(*) as num FROM iwebshop_refer as re,iwebshop_goods as go WHERE re.goods_id = go.id and re.status = 0 limit 1	
+2016-11-07 18:58:25	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	

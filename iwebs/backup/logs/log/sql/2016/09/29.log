@@ -1,0 +1,507 @@
+2016-09-29 10:07:51	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-09-29 10:08:07	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 10:08:07	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 10:08:07	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 10:08:08	SELECT count(*) as num FROM iwebshop_goods WHERE is_del != 1 limit 1	
+2016-09-29 10:08:08	SELECT count(*) as num FROM iwebshop_comment as co,iwebshop_goods as go WHERE co.status = 1 and co.goods_id = go.id and co.recomment_time<=0 limit 1	
+2016-09-29 10:08:08	SELECT count(*) as num FROM iwebshop_refer as re,iwebshop_goods as go WHERE re.goods_id = go.id and re.status = 0 limit 1	
+2016-09-29 10:08:08	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 10:08:11	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-09-29 10:09:14	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-09-29 10:09:19	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 10:09:19	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 10:09:20	SELECT count(*) as num FROM iwebshop_goods WHERE is_del != 1 limit 1	
+2016-09-29 10:09:20	SELECT count(*) as num FROM iwebshop_comment as co,iwebshop_goods as go WHERE co.status = 1 and co.goods_id = go.id and co.recomment_time<=0 limit 1	
+2016-09-29 10:09:20	SELECT count(*) as num FROM iwebshop_refer as re,iwebshop_goods as go WHERE re.goods_id = go.id and re.status = 0 limit 1	
+2016-09-29 10:09:20	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 10:09:24	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 10:09:24	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 10:09:24	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-09-29 10:20:02	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 10:20:02	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 10:20:02	SELECT count(*) as num FROM iwebshop_goods WHERE is_del != 1 limit 1	
+2016-09-29 10:20:02	SELECT count(*) as num FROM iwebshop_comment as co,iwebshop_goods as go WHERE co.status = 1 and co.goods_id = go.id and co.recomment_time<=0 limit 1	
+2016-09-29 10:20:02	SELECT count(*) as num FROM iwebshop_refer as re,iwebshop_goods as go WHERE re.goods_id = go.id and re.status = 0 limit 1	
+2016-09-29 10:20:02	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 10:20:04	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 10:20:04	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 10:20:05	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 10:20:25	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 10:20:25	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 10:20:25	SELECT * FROM iwebshop_test limit 50000	
+2016-09-29 10:20:43	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 10:20:43	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 10:20:43	SELECT * FROM iwebshop_test limit 50000	
+2016-09-29 10:21:54	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 10:21:54	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 10:21:54	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 10:21:58	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 10:21:59	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 10:21:59	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 10:22:07	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 10:22:07	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 10:22:07	SELECT * FROM iwebshop_test limit 50000	
+2016-09-29 10:23:14	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 10:23:14	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 10:23:14	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 10:23:19	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 10:23:19	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 10:23:19	SELECT * FROM iwebshop_test limit 50000	
+2016-09-29 10:26:01	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 10:26:01	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 10:26:01	SELECT * FROM iwebshop_test limit 50000	
+2016-09-29 10:26:02	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 10:26:02	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 10:26:02	SELECT * FROM iwebshop_test limit 50000	
+2016-09-29 10:26:23	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 10:26:23	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 10:26:23	SELECT * FROM iwebshop_test limit 50000	
+2016-09-29 10:28:47	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 10:28:47	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 10:28:47	SELECT * FROM iwebshop_test WHERE id=3 limit 50000	
+2016-09-29 10:30:36	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 10:30:36	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 10:30:36	SELECT * FROM iwebshop_admin limit 50000	
+2016-09-29 10:30:38	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 10:30:38	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 10:30:38	SELECT * FROM iwebshop_admin limit 50000	
+2016-09-29 10:30:38	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 10:30:38	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 10:30:38	SELECT * FROM iwebshop_admin limit 50000	
+2016-09-29 10:31:58	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 10:31:58	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 11:09:17	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 11:09:17	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 11:11:57	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 11:11:57	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 11:11:57	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 11:12:00	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 11:12:00	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 11:12:00	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 11:12:21	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 11:12:21	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 11:12:21	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 11:12:24	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 11:12:24	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 11:12:33	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 11:12:33	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 11:15:49	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 11:15:49	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 11:15:49	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 11:15:51	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 11:15:51	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 11:15:51	SELECT * FROM iwebshop_admin limit 50000	
+2016-09-29 11:15:51	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 11:16:42	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 11:16:42	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 11:16:42	SELECT * FROM iwebshop_test limit 50000	
+2016-09-29 11:16:42	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 11:17:15	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 11:17:15	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 11:17:15	SELECT * FROM iwebshop_test limit 50000	
+2016-09-29 11:17:16	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 11:17:47	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 11:17:47	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 11:17:47	SELECT * FROM iwebshop_test limit 50000	
+2016-09-29 11:17:47	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 11:17:49	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 11:17:49	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 11:17:49	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 11:18:04	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 11:18:04	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 11:18:04	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 11:18:04	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 11:18:04	SELECT * FROM iwebshop_test limit 50000	
+2016-09-29 11:18:04	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 11:18:18	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 11:18:18	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 11:18:18	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 11:18:24	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 11:18:24	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 11:18:24	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 11:18:24	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 11:18:24	SELECT * FROM iwebshop_test limit 50000	
+2016-09-29 11:18:24	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 11:22:09	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 11:22:09	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 11:22:09	SELECT * FROM iwebshop_test limit 50000	
+2016-09-29 11:22:09	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 11:22:14	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 11:22:14	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 11:22:14	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 11:22:14	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 11:22:14	SELECT * FROM iwebshop_test limit 50000	
+2016-09-29 11:22:14	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 11:26:25	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 11:26:25	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 11:26:25	SELECT * FROM iwebshop_test limit 50000	
+2016-09-29 11:26:25	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 11:26:27	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 11:26:27	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 11:26:27	SELECT * FROM iwebshop_test WHERE id=3 limit 50000	
+2016-09-29 11:32:45	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 11:32:45	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 11:32:45	SELECT * FROM iwebshop_test limit 50000	
+2016-09-29 11:32:45	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 11:32:47	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 11:32:47	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 11:32:47	SELECT * FROM iwebshop_test WHERE id=3 limit 1	
+2016-09-29 11:32:47	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 11:32:47	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 11:32:47	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 11:32:48	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 11:32:48	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 11:32:48	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-09-29 11:32:48	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-09-29 11:33:56	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 11:33:56	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 11:33:56	SELECT * FROM iwebshop_test WHERE id=3 limit 1	
+2016-09-29 11:33:56	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 11:33:57	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 11:33:57	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 11:33:57	SELECT * FROM iwebshop_test WHERE id=3 limit 1	
+2016-09-29 11:33:57	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 11:33:58	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 11:33:58	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 11:33:58	SELECT * FROM iwebshop_test WHERE id=3 limit 1	
+2016-09-29 11:33:58	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 11:34:09	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 11:34:09	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 11:34:09	SELECT * FROM iwebshop_test WHERE id=3 limit 1	
+2016-09-29 11:34:09	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 11:36:54	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 11:36:54	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 11:36:54	SELECT * FROM iwebshop_test WHERE id=3 limit 50000	
+2016-09-29 11:36:54	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 11:37:03	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 11:37:03	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 11:37:03	SELECT * FROM iwebshop_test WHERE id=4 limit 50000	
+2016-09-29 11:37:03	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 11:37:08	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 11:37:08	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 11:37:08	SELECT * FROM iwebshop_test WHERE id=6 limit 50000	
+2016-09-29 11:37:08	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 11:37:15	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 11:37:15	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 11:37:15	SELECT * FROM iwebshop_test WHERE id=6 limit 50000	
+2016-09-29 11:37:15	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 11:37:59	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 11:37:59	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 11:37:59	SELECT * FROM iwebshop_test WHERE id=6 limit 50000	
+2016-09-29 11:37:59	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 11:38:01	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 11:38:01	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 11:38:01	SELECT * FROM iwebshop_test WHERE id=6 limit 50000	
+2016-09-29 11:38:01	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 11:38:03	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 11:38:03	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 11:38:03	SELECT * FROM iwebshop_test WHERE id=6 limit 50000	
+2016-09-29 11:38:03	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 11:38:23	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 11:38:23	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 11:38:23	SELECT * FROM iwebshop_test WHERE id=6 limit 50000	
+2016-09-29 11:38:23	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 11:39:01	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 11:39:01	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 11:39:01	SELECT * FROM iwebshop_test WHERE id=6 limit 50000	
+2016-09-29 11:39:01	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 11:54:19	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 11:54:19	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 11:54:19	SELECT * FROM iwebshop_test WHERE id=6 limit 50000	
+2016-09-29 11:54:19	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 11:54:26	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 11:54:26	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 11:54:26	SELECT * FROM iwebshop_test WHERE id=3 limit 50000	
+2016-09-29 11:54:26	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 11:54:41	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 11:54:41	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 11:54:41	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 11:54:41	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 11:54:41	SELECT * FROM iwebshop_test limit 50000	
+2016-09-29 11:54:41	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 11:54:49	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 11:54:49	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 11:54:49	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 11:54:50	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 11:54:51	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 11:54:51	SELECT * FROM iwebshop_test limit 50000	
+2016-09-29 11:54:51	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 11:57:11	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 11:57:11	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 11:57:11	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 11:57:24	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 11:57:24	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 11:57:24	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 11:57:24	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 11:57:24	SELECT * FROM iwebshop_test limit 50000	
+2016-09-29 11:57:24	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 16:18:57	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 16:18:57	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 16:18:59	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 16:19:03	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 16:19:03	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 16:19:03	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 16:19:16	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 16:19:16	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 16:19:16	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 16:22:11	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 16:22:11	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 16:22:11	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 16:22:18	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 16:22:18	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 16:22:18	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 16:22:22	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 16:22:22	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 16:22:22	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 16:22:23	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 16:22:23	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 16:22:23	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 16:22:26	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 16:22:26	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 16:22:27	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 16:22:30	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 16:22:30	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 16:22:30	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 16:22:43	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 16:22:43	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 16:22:43	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 16:22:53	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 16:22:53	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 16:22:54	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 16:22:56	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 16:22:56	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 16:22:56	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 16:23:00	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 16:23:00	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 16:23:00	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 16:23:02	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 16:23:02	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 16:23:02	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 16:23:05	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 16:23:05	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 16:23:05	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 16:23:08	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 16:23:08	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 16:23:08	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 16:23:11	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 16:23:11	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 16:23:11	SELECT count(*) as num FROM iwebshop_goods WHERE is_del != 1 limit 1	
+2016-09-29 16:23:11	SELECT count(*) as num FROM iwebshop_comment as co,iwebshop_goods as go WHERE co.status = 1 and co.goods_id = go.id and co.recomment_time<=0 limit 1	
+2016-09-29 16:23:11	SELECT count(*) as num FROM iwebshop_refer as re,iwebshop_goods as go WHERE re.goods_id = go.id and re.status = 0 limit 1	
+2016-09-29 16:23:11	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 16:23:17	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 16:23:18	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 16:23:18	SELECT * FROM iwebshop_user_group limit 50000	
+2016-09-29 16:23:18	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 16:23:52	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 16:23:52	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 16:23:52	SELECT * FROM iwebshop_user_group limit 50000	
+2016-09-29 16:23:52	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 16:23:54	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 16:23:54	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 16:23:54	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 16:23:56	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 16:23:56	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 16:23:56	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 16:23:58	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 16:23:58	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 16:23:58	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 16:24:00	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 16:24:00	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 16:24:00	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 16:24:01	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-09-29 16:24:01	SELECT * FROM iwebshop_areas WHERE parent_id=0 ORDER BY sort ASC  limit 50000	
+2016-09-29 16:24:03	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 16:24:03	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 16:24:03	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 16:24:04	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 16:24:04	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 16:24:04	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 16:24:07	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 16:24:07	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 16:24:07	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 16:24:08	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 16:24:08	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 16:24:09	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 16:24:10	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 16:24:10	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 16:24:10	SELECT * FROM iwebshop_user_group limit 50000	
+2016-09-29 16:24:10	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 16:24:12	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 16:24:12	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 16:24:12	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 16:24:13	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 16:24:13	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 16:24:13	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 16:24:16	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 16:24:16	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 16:24:16	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 16:24:21	SELECT id,order_no,4 as type_data FROM iwebshop_order WHERE  if_del = 0 and pay_type != 0 and status in(1) and datediff(NOW(),create_time) >= 7  limit 50000	
+2016-09-29 16:24:21	SELECT id,order_no,5 as type_data FROM iwebshop_order WHERE  if_del = 0 and distribution_status = 1 and status in(1,2) and datediff(NOW(),send_time) >= 20  limit 50000	
+2016-09-29 16:24:21	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 16:24:21	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 16:24:22	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 16:24:26	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 16:24:26	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 16:24:26	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 16:24:29	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 16:24:29	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 16:24:29	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 16:24:31	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 16:24:31	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 16:24:31	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 16:24:35	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 16:24:35	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 16:24:35	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 16:24:37	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 16:24:37	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 16:24:37	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 16:24:41	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 16:24:41	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 16:24:41	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 16:24:43	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 16:24:43	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 16:24:44	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 16:24:46	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 16:24:46	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 16:24:46	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 16:24:48	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 16:24:48	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 16:24:48	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 16:24:51	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 16:24:51	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 16:24:51	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 16:24:53	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 16:24:53	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 16:24:53	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 16:25:00	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 16:25:00	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 16:25:01	SELECT count(*) as num FROM iwebshop_goods WHERE is_del != 1 limit 1	
+2016-09-29 16:25:01	SELECT count(*) as num FROM iwebshop_comment as co,iwebshop_goods as go WHERE co.status = 1 and co.goods_id = go.id and co.recomment_time<=0 limit 1	
+2016-09-29 16:25:01	SELECT count(*) as num FROM iwebshop_refer as re,iwebshop_goods as go WHERE re.goods_id = go.id and re.status = 0 limit 1	
+2016-09-29 16:25:01	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 17:05:48	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 17:05:48	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 17:05:48	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 17:05:52	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 17:05:52	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 17:05:53	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 17:05:54	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 17:05:54	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 17:05:54	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 17:05:56	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 17:05:57	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 17:05:57	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 17:05:58	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 17:05:58	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 17:05:58	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 17:06:00	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 17:06:00	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 17:06:00	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 17:06:03	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 17:06:03	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 17:06:03	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 17:06:07	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 17:06:07	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 17:06:07	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 17:06:10	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 17:06:10	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 17:06:10	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 17:06:17	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 17:06:17	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 17:06:18	SELECT count(*) as num FROM iwebshop_goods WHERE is_del != 1 limit 1	
+2016-09-29 17:06:18	SELECT count(*) as num FROM iwebshop_comment as co,iwebshop_goods as go WHERE co.status = 1 and co.goods_id = go.id and co.recomment_time<=0 limit 1	
+2016-09-29 17:06:18	SELECT count(*) as num FROM iwebshop_refer as re,iwebshop_goods as go WHERE re.goods_id = go.id and re.status = 0 limit 1	
+2016-09-29 17:06:18	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 17:06:24	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 17:06:24	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 17:06:24	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 17:06:28	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 17:06:28	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 17:06:28	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 17:06:30	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 17:06:30	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 17:06:30	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 17:06:32	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 17:06:32	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 17:06:32	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 17:06:36	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-09-29 17:06:36	SELECT * FROM iwebshop_areas WHERE parent_id=110000 ORDER BY sort ASC  limit 50000	
+2016-09-29 17:06:39	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 17:06:39	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 17:06:39	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 17:06:42	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 17:06:42	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 17:06:42	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 17:06:49	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 17:06:49	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 17:06:49	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 17:06:52	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 17:06:52	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 17:06:52	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 17:06:58	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 17:06:58	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 17:06:58	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 17:08:38	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 17:08:38	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 17:08:38	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 17:09:58	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 17:09:58	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 17:09:58	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 17:10:35	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 17:10:35	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 17:10:35	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 17:12:10	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 17:12:10	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 17:12:10	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 17:13:05	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-09-29 17:13:06	SELECT * FROM iwebshop_ad_position WHERE id=1 AND `status`=1 limit 1	
+2016-09-29 17:13:06	SELECT * FROM iwebshop_ad_manage WHERE position_id=1 and goods_cat_id = 0 and start_time < '2016-09-29 17:13:06' AND end_time > '2016-09-29 17:13:06' ORDER BY `order` ASC  limit 50000	
+2016-09-29 17:13:06	SELECT * FROM iwebshop_ad_position WHERE id=7 AND `status`=1 limit 1	
+2016-09-29 17:13:06	SELECT * FROM iwebshop_ad_manage WHERE position_id=7 and goods_cat_id = 0 and start_time < '2016-09-29 17:13:06' AND end_time > '2016-09-29 17:13:06' ORDER BY `order` ASC  limit 50000	
+2016-09-29 17:13:06	SELECT * FROM iwebshop_ad_position WHERE id=6 AND `status`=1 limit 1	
+2016-09-29 17:13:06	SELECT * FROM iwebshop_ad_manage WHERE position_id=6 and goods_cat_id = 0 and start_time < '2016-09-29 17:13:06' AND end_time > '2016-09-29 17:13:06' ORDER BY `order` ASC  limit 50000	
+2016-09-29 17:13:06	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 999999999 and type = 0 and is_close = 0 and start_time <= "2016-09-29 17:13:06" and end_time >= "2016-09-29 17:13:06" and seller_id = 0 and award_type in (3,4,5,6,7) and user_group = "all"  ORDER BY `condition` DESC  limit 50000	
+2016-09-29 17:13:06	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 999999999 and type = 0 and is_close = 0 and start_time <= "2016-09-29 17:13:06" and end_time >= "2016-09-29 17:13:06" and seller_id = 0 and award_type in (1,2) and user_group = "all"  ORDER BY `condition` DESC  limit 50000	
+2016-09-29 17:18:19	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-09-29 17:18:19	SELECT * FROM iwebshop_ad_position WHERE id=1 AND `status`=1 limit 1	
+2016-09-29 17:18:19	SELECT * FROM iwebshop_ad_manage WHERE position_id=1 and goods_cat_id = 0 and start_time < '2016-09-29 17:18:19' AND end_time > '2016-09-29 17:18:19' ORDER BY `order` ASC  limit 50000	
+2016-09-29 17:18:19	SELECT * FROM iwebshop_ad_position WHERE id=7 AND `status`=1 limit 1	
+2016-09-29 17:18:19	SELECT * FROM iwebshop_ad_manage WHERE position_id=7 and goods_cat_id = 0 and start_time < '2016-09-29 17:18:19' AND end_time > '2016-09-29 17:18:19' ORDER BY `order` ASC  limit 50000	
+2016-09-29 17:18:19	SELECT * FROM iwebshop_ad_position WHERE id=6 AND `status`=1 limit 1	
+2016-09-29 17:18:19	SELECT * FROM iwebshop_ad_manage WHERE position_id=6 and goods_cat_id = 0 and start_time < '2016-09-29 17:18:19' AND end_time > '2016-09-29 17:18:19' ORDER BY `order` ASC  limit 50000	
+2016-09-29 17:18:19	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 999999999 and type = 0 and is_close = 0 and start_time <= "2016-09-29 17:18:19" and end_time >= "2016-09-29 17:18:19" and seller_id = 0 and award_type in (3,4,5,6,7) and user_group = "all"  ORDER BY `condition` DESC  limit 50000	
+2016-09-29 17:18:19	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 999999999 and type = 0 and is_close = 0 and start_time <= "2016-09-29 17:18:19" and end_time >= "2016-09-29 17:18:19" and seller_id = 0 and award_type in (1,2) and user_group = "all"  ORDER BY `condition` DESC  limit 50000	
+2016-09-29 17:20:56	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 17:20:56	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-09-29 17:20:56	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-09-29 17:21:02	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-09-29 17:21:02	SELECT * FROM iwebshop_ad_position WHERE id=1 AND `status`=1 limit 1	
+2016-09-29 17:21:02	SELECT * FROM iwebshop_ad_manage WHERE position_id=1 and goods_cat_id = 0 and start_time < '2016-09-29 17:21:02' AND end_time > '2016-09-29 17:21:02' ORDER BY `order` ASC  limit 50000	
+2016-09-29 17:21:02	SELECT * FROM iwebshop_ad_position WHERE id=7 AND `status`=1 limit 1	
+2016-09-29 17:21:02	SELECT * FROM iwebshop_ad_manage WHERE position_id=7 and goods_cat_id = 0 and start_time < '2016-09-29 17:21:02' AND end_time > '2016-09-29 17:21:02' ORDER BY `order` ASC  limit 50000	
+2016-09-29 17:21:02	SELECT * FROM iwebshop_ad_position WHERE id=6 AND `status`=1 limit 1	
+2016-09-29 17:21:02	SELECT * FROM iwebshop_ad_manage WHERE position_id=6 and goods_cat_id = 0 and start_time < '2016-09-29 17:21:02' AND end_time > '2016-09-29 17:21:02' ORDER BY `order` ASC  limit 50000	
+2016-09-29 17:21:02	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 999999999 and type = 0 and is_close = 0 and start_time <= "2016-09-29 17:21:02" and end_time >= "2016-09-29 17:21:02" and seller_id = 0 and award_type in (3,4,5,6,7) and user_group = "all"  ORDER BY `condition` DESC  limit 50000	
+2016-09-29 17:21:02	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 999999999 and type = 0 and is_close = 0 and start_time <= "2016-09-29 17:21:02" and end_time >= "2016-09-29 17:21:02" and seller_id = 0 and award_type in (1,2) and user_group = "all"  ORDER BY `condition` DESC  limit 50000	
+2016-09-29 17:27:10	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-09-29 17:27:10	SELECT * FROM iwebshop_ad_position WHERE id=1 AND `status`=1 limit 1	
+2016-09-29 17:27:10	SELECT * FROM iwebshop_ad_manage WHERE position_id=1 and goods_cat_id = 0 and start_time < '2016-09-29 17:27:10' AND end_time > '2016-09-29 17:27:10' ORDER BY `order` ASC  limit 50000	
+2016-09-29 17:27:10	SELECT * FROM iwebshop_ad_position WHERE id=7 AND `status`=1 limit 1	
+2016-09-29 17:27:10	SELECT * FROM iwebshop_ad_manage WHERE position_id=7 and goods_cat_id = 0 and start_time < '2016-09-29 17:27:10' AND end_time > '2016-09-29 17:27:10' ORDER BY `order` ASC  limit 50000	
+2016-09-29 17:27:10	SELECT * FROM iwebshop_ad_position WHERE id=6 AND `status`=1 limit 1	
+2016-09-29 17:27:10	SELECT * FROM iwebshop_ad_manage WHERE position_id=6 and goods_cat_id = 0 and start_time < '2016-09-29 17:27:10' AND end_time > '2016-09-29 17:27:10' ORDER BY `order` ASC  limit 50000	
+2016-09-29 17:27:10	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 999999999 and type = 0 and is_close = 0 and start_time <= "2016-09-29 17:27:10" and end_time >= "2016-09-29 17:27:10" and seller_id = 0 and award_type in (3,4,5,6,7) and user_group = "all"  ORDER BY `condition` DESC  limit 50000	
+2016-09-29 17:27:10	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 999999999 and type = 0 and is_close = 0 and start_time <= "2016-09-29 17:27:10" and end_time >= "2016-09-29 17:27:10" and seller_id = 0 and award_type in (1,2) and user_group = "all"  ORDER BY `condition` DESC  limit 50000	
+2016-09-29 17:27:25	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-09-29 17:27:25	SELECT * FROM iwebshop_ad_position WHERE id=1 AND `status`=1 limit 1	
+2016-09-29 17:27:25	SELECT * FROM iwebshop_ad_manage WHERE position_id=1 and goods_cat_id = 0 and start_time < '2016-09-29 17:27:25' AND end_time > '2016-09-29 17:27:25' ORDER BY `order` ASC  limit 50000	
+2016-09-29 17:27:25	SELECT * FROM iwebshop_ad_position WHERE id=7 AND `status`=1 limit 1	
+2016-09-29 17:27:25	SELECT * FROM iwebshop_ad_manage WHERE position_id=7 and goods_cat_id = 0 and start_time < '2016-09-29 17:27:25' AND end_time > '2016-09-29 17:27:25' ORDER BY `order` ASC  limit 50000	
+2016-09-29 17:27:25	SELECT * FROM iwebshop_ad_position WHERE id=6 AND `status`=1 limit 1	
+2016-09-29 17:27:25	SELECT * FROM iwebshop_ad_manage WHERE position_id=6 and goods_cat_id = 0 and start_time < '2016-09-29 17:27:25' AND end_time > '2016-09-29 17:27:25' ORDER BY `order` ASC  limit 50000	
+2016-09-29 17:27:25	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 999999999 and type = 0 and is_close = 0 and start_time <= "2016-09-29 17:27:25" and end_time >= "2016-09-29 17:27:25" and seller_id = 0 and award_type in (3,4,5,6,7) and user_group = "all"  ORDER BY `condition` DESC  limit 50000	
+2016-09-29 17:27:25	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 999999999 and type = 0 and is_close = 0 and start_time <= "2016-09-29 17:27:25" and end_time >= "2016-09-29 17:27:25" and seller_id = 0 and award_type in (1,2) and user_group = "all"  ORDER BY `condition` DESC  limit 50000	
+2016-09-29 17:28:04	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-09-29 17:28:04	SELECT * FROM iwebshop_ad_position WHERE id=1 AND `status`=1 limit 1	
+2016-09-29 17:28:04	SELECT * FROM iwebshop_ad_manage WHERE position_id=1 and goods_cat_id = 0 and start_time < '2016-09-29 17:28:04' AND end_time > '2016-09-29 17:28:04' ORDER BY `order` ASC  limit 50000	

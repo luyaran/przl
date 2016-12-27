@@ -1,0 +1,114 @@
+<ERROR_BLOCK>
+errorInfo: Array to string conversion
+errorFile: IWEB_PATH/lib/core/util/urlmanager_class.php
+errorLine: 252
+errorCode: 8
+errorTime: 2016-11-07 18:58:25
+#0 IWEB_PATH/lib/core/util/urlmanager_class.php(86): IUrl::urlArrayToNative()
+#1 IWEB_PATH/lib/core/util/urlmanager_class.php(576): IUrl::convertUrl(/comment/comment_list/search[c.recomment_time]/=0,2,1)
+#2 IWEB_PATH/runtime/sysdefault/system/default.php(132): IUrl::creatUrl(/comment/comment_list/search[c.recomment_time]/=0)
+#3 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/system/default.php)
+#4 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/system/default.php)
+#5 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/system/default)
+#6 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/system/default)
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IViewAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Array to string conversion
+errorFile: IWEB_PATH/lib/core/util/urlmanager_class.php
+errorLine: 252
+errorCode: 8
+errorTime: 2016-11-07 18:58:25
+#0 IWEB_PATH/lib/core/util/urlmanager_class.php(86): IUrl::urlArrayToNative()
+#1 IWEB_PATH/lib/core/util/urlmanager_class.php(576): IUrl::convertUrl(/comment/suggestion_list/search[a.re_time=]/0,2,1)
+#2 IWEB_PATH/runtime/sysdefault/system/default.php(133): IUrl::creatUrl(/comment/suggestion_list/search[a.re_time=]/0)
+#3 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/system/default.php)
+#4 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/system/default.php)
+#5 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/system/default)
+#6 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/system/default)
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IViewAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Array to string conversion
+errorFile: IWEB_PATH/lib/core/util/urlmanager_class.php
+errorLine: 252
+errorCode: 8
+errorTime: 2016-11-07 18:58:25
+#0 IWEB_PATH/lib/core/util/urlmanager_class.php(86): IUrl::urlArrayToNative()
+#1 IWEB_PATH/lib/core/util/urlmanager_class.php(576): IUrl::convertUrl(/comment/refer_list/search[r.status=]/0,2,1)
+#2 IWEB_PATH/runtime/sysdefault/system/default.php(134): IUrl::creatUrl(/comment/refer_list/search[r.status=]/0)
+#3 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/system/default.php)
+#4 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/system/default.php)
+#5 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/system/default)
+#6 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/system/default)
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IViewAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Array to string conversion
+errorFile: IWEB_PATH/lib/core/util/urlmanager_class.php
+errorLine: 252
+errorCode: 8
+errorTime: 2016-11-07 18:58:25
+#0 IWEB_PATH/lib/core/util/urlmanager_class.php(86): IUrl::urlArrayToNative()
+#1 IWEB_PATH/lib/core/util/urlmanager_class.php(576): IUrl::convertUrl(/order/order_list/search[distribution_status]/0,2,1)
+#2 IWEB_PATH/runtime/sysdefault/system/default.php(135): IUrl::creatUrl(/order/order_list/search[distribution_status]/0)
+#3 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/system/default.php)
+#4 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/system/default.php)
+#5 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/system/default)
+#6 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/system/default)
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IViewAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Array to string conversion
+errorFile: IWEB_PATH/lib/core/util/urlmanager_class.php
+errorLine: 252
+errorCode: 8
+errorTime: 2016-11-07 18:58:25
+#0 IWEB_PATH/lib/core/util/urlmanager_class.php(86): IUrl::urlArrayToNative()
+#1 IWEB_PATH/lib/core/util/urlmanager_class.php(576): IUrl::convertUrl(/member/seller_list/search[is_lock=]/1,2,1)
+#2 IWEB_PATH/runtime/sysdefault/system/default.php(137): IUrl::creatUrl(/member/seller_list/search[is_lock=]/1)
+#3 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/system/default.php)
+#4 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/system/default.php)
+#5 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/system/default)
+#6 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/system/default)
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IViewAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Array to string conversion
+errorFile: IWEB_PATH/lib/core/util/urlmanager_class.php
+errorLine: 252
+errorCode: 8
+errorTime: 2016-11-07 18:58:25
+#0 IWEB_PATH/lib/core/util/urlmanager_class.php(86): IUrl::urlArrayToNative()
+#1 IWEB_PATH/lib/core/util/urlmanager_class.php(576): IUrl::convertUrl(/goods/goods_list/search[is_del]/3,2,1)
+#2 IWEB_PATH/runtime/sysdefault/system/default.php(138): IUrl::creatUrl(/goods/goods_list/search[is_del]/3)
+#3 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/system/default.php)
+#4 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/system/default.php)
+#5 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/system/default)
+#6 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/system/default)
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IViewAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+

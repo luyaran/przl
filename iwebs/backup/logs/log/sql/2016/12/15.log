@@ -1,0 +1,9 @@
+2016-12-15 15:36:56	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-12-15 15:36:57	SELECT * FROM iwebshop_ad_position WHERE id=1 AND `status`=1 limit 1	
+2016-12-15 15:36:57	SELECT * FROM iwebshop_ad_manage WHERE position_id=1 and goods_cat_id = 0 and start_time < '2016-12-15 15:36:57' AND end_time > '2016-12-15 15:36:57' ORDER BY `order` ASC  limit 50000	
+2016-12-15 15:36:57	SELECT * FROM iwebshop_ad_position WHERE id=7 AND `status`=1 limit 1	
+2016-12-15 15:36:57	SELECT * FROM iwebshop_ad_manage WHERE position_id=7 and goods_cat_id = 0 and start_time < '2016-12-15 15:36:57' AND end_time > '2016-12-15 15:36:57' ORDER BY `order` ASC  limit 50000	
+2016-12-15 15:36:57	SELECT * FROM iwebshop_ad_position WHERE id=6 AND `status`=1 limit 1	
+2016-12-15 15:36:57	SELECT * FROM iwebshop_ad_manage WHERE position_id=6 and goods_cat_id = 0 and start_time < '2016-12-15 15:36:57' AND end_time > '2016-12-15 15:36:57' ORDER BY `order` ASC  limit 50000	
+2016-12-15 15:36:58	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 999999999 and type = 0 and is_close = 0 and start_time <= "2016-12-15 15:36:58" and end_time >= "2016-12-15 15:36:58" and seller_id = 0 and award_type in (3,4,5,6,7) and user_group = "all"  ORDER BY `condition` DESC  limit 50000	
+2016-12-15 15:36:58	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 999999999 and type = 0 and is_close = 0 and start_time <= "2016-12-15 15:36:58" and end_time >= "2016-12-15 15:36:58" and seller_id = 0 and award_type in (1,2) and user_group = "all"  ORDER BY `condition` DESC  limit 50000	

@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>朴智妍</title>
+</head>
+<body>
+<center>
+    <h1>朴智妍的文档</h1>
+</center>
+{foreach: items=$this->list}
+<table border="1" align="center">
+    <form action="http://www.przl.com/iwebs/index.php/test/sureMake" method="post">
+        <tr>
+            <td>username</td>
+            <td><input type="text" name="name" value="{$item['name']}"/></td>
+        </tr>
+        <tr>
+            <td>sex</td>
+            <td><input type="text" name="sex" value="{$item['sex']}"/></td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <input type="hidden" name="id" value="{$item['id']}"/>
+                <input type="submit" value="submitMessage"/>
+            </td>
+        </tr>
+    </form>
+</table>
+{/foreach}
+</body>
+</html>

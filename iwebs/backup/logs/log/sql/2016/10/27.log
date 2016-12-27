@@ -1,0 +1,1189 @@
+2016-10-27 08:52:04	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 08:52:05	SELECT * FROM iwebshop_ad_position WHERE id=1 AND `status`=1 limit 1	
+2016-10-27 08:52:05	SELECT * FROM iwebshop_ad_manage WHERE position_id=1 and goods_cat_id = 0 and start_time < '2016-10-27 08:52:05' AND end_time > '2016-10-27 08:52:05' ORDER BY `order` ASC  limit 50000	
+2016-10-27 08:52:06	SELECT * FROM iwebshop_ad_position WHERE id=7 AND `status`=1 limit 1	
+2016-10-27 08:52:06	SELECT * FROM iwebshop_ad_manage WHERE position_id=7 and goods_cat_id = 0 and start_time < '2016-10-27 08:52:06' AND end_time > '2016-10-27 08:52:06' ORDER BY `order` ASC  limit 50000	
+2016-10-27 08:52:06	SELECT * FROM iwebshop_ad_position WHERE id=6 AND `status`=1 limit 1	
+2016-10-27 08:52:06	SELECT * FROM iwebshop_ad_manage WHERE position_id=6 and goods_cat_id = 0 and start_time < '2016-10-27 08:52:06' AND end_time > '2016-10-27 08:52:06' ORDER BY `order` ASC  limit 50000	
+2016-10-27 08:52:07	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 999999999 and type = 0 and is_close = 0 and start_time <= "2016-10-27 08:52:07" and end_time >= "2016-10-27 08:52:07" and seller_id = 0 and award_type in (3,4,5,6,7) and user_group = "all"  ORDER BY `condition` DESC  limit 50000	
+2016-10-27 08:52:07	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 999999999 and type = 0 and is_close = 0 and start_time <= "2016-10-27 08:52:07" and end_time >= "2016-10-27 08:52:07" and seller_id = 0 and award_type in (1,2) and user_group = "all"  ORDER BY `condition` DESC  limit 50000	
+2016-10-27 08:52:14	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 08:52:28	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-27 08:52:28	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 08:52:28	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 08:52:29	SELECT count(*) as num FROM iwebshop_goods WHERE is_del != 1 limit 1	
+2016-10-27 08:52:29	SELECT count(*) as num FROM iwebshop_comment as co,iwebshop_goods as go WHERE co.status = 1 and co.goods_id = go.id and co.recomment_time<=0 limit 1	
+2016-10-27 08:52:29	SELECT count(*) as num FROM iwebshop_refer as re,iwebshop_goods as go WHERE re.goods_id = go.id and re.status = 0 limit 1	
+2016-10-27 08:52:29	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-27 08:52:34	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 08:52:34	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 08:52:34	SELECT * FROM iwebshop_user_group limit 50000	
+2016-10-27 08:52:34	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-27 08:52:37	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 08:52:37	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 08:52:37	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 12 limit 1	
+2016-10-27 08:52:37	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 12 limit 1	
+2016-10-27 08:52:37	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 3 limit 1	
+2016-10-27 08:52:37	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 3 limit 1	
+2016-10-27 08:52:37	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 2 limit 1	
+2016-10-27 08:52:37	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 2 limit 1	
+2016-10-27 08:52:37	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-27 08:52:37	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-27 08:52:37	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-27 08:53:24	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 08:53:24	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 08:53:24	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-27 08:53:25	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 08:53:25	SELECT * FROM iwebshop_areas WHERE parent_id=0 ORDER BY sort ASC  limit 50000	
+2016-10-27 08:53:31	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 08:53:31	SELECT * FROM iwebshop_areas WHERE parent_id=370000 ORDER BY sort ASC  limit 50000	
+2016-10-27 08:53:32	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 08:53:32	SELECT * FROM iwebshop_areas WHERE parent_id=371400 ORDER BY sort ASC  limit 50000	
+2016-10-27 08:56:49	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 08:56:49	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 08:56:49	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-27 08:56:50	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 08:56:51	SELECT * FROM iwebshop_areas WHERE parent_id=0 ORDER BY sort ASC  limit 50000	
+2016-10-27 08:56:55	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 08:56:55	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 08:56:55	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 12 limit 1	
+2016-10-27 08:56:55	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 12 limit 1	
+2016-10-27 08:56:55	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 3 limit 1	
+2016-10-27 08:56:55	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 3 limit 1	
+2016-10-27 08:56:55	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 2 limit 1	
+2016-10-27 08:56:55	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 2 limit 1	
+2016-10-27 08:56:55	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-27 08:56:55	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-27 08:56:55	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-27 08:57:16	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 08:57:16	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 08:57:16	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 12 limit 1	
+2016-10-27 08:57:16	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 12 limit 1	
+2016-10-27 08:57:16	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 3 limit 1	
+2016-10-27 08:57:16	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 3 limit 1	
+2016-10-27 08:57:16	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 2 limit 1	
+2016-10-27 08:57:16	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 2 limit 1	
+2016-10-27 08:57:16	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-27 08:57:16	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-27 08:57:16	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-27 08:57:16	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 08:57:16	SELECT * FROM iwebshop_areas WHERE parent_id=0 ORDER BY sort ASC  limit 50000	
+2016-10-27 08:57:19	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 08:57:19	SELECT * FROM iwebshop_areas WHERE parent_id=110000 ORDER BY sort ASC  limit 50000	
+2016-10-27 08:57:20	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 08:57:20	SELECT * FROM iwebshop_areas WHERE parent_id=110100 ORDER BY sort ASC  limit 50000	
+2016-10-27 09:01:15	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 09:01:15	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 09:01:15	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-27 09:01:18	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 09:01:18	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 09:01:18	SELECT * FROM iwebshop_goods WHERE  id = 0  limit 1	
+2016-10-27 09:01:18	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-27 09:01:28	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 09:01:28	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 09:01:28	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-27 09:01:30	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 09:01:30	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 09:01:30	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-27 09:01:32	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 09:01:32	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 09:01:32	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-27 09:01:33	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 09:01:33	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 09:01:33	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-27 09:01:35	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 09:01:35	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 09:01:35	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-27 09:01:36	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 09:01:36	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 09:01:36	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-27 09:01:37	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 09:01:37	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 09:01:37	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-27 09:01:40	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 09:01:40	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 09:01:40	SELECT * FROM iwebshop_user_group limit 50000	
+2016-10-27 09:01:40	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-27 09:01:45	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 09:01:45	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 09:01:45	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-27 09:01:46	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 09:01:46	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 09:01:46	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-27 09:01:48	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 09:01:48	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 09:01:48	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 12 limit 1	
+2016-10-27 09:01:48	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 12 limit 1	
+2016-10-27 09:01:48	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 3 limit 1	
+2016-10-27 09:01:48	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 3 limit 1	
+2016-10-27 09:01:48	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 2 limit 1	
+2016-10-27 09:01:48	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 2 limit 1	
+2016-10-27 09:01:48	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-27 09:01:48	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-27 09:01:48	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-27 09:01:48	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 09:01:48	SELECT * FROM iwebshop_areas WHERE parent_id=0 ORDER BY sort ASC  limit 50000	
+2016-10-27 09:01:51	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 09:01:51	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 09:01:51	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-27 09:01:52	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 09:01:52	SELECT * FROM iwebshop_areas WHERE parent_id=0 ORDER BY sort ASC  limit 50000	
+2016-10-27 09:02:01	SELECT id,order_no,4 as type_data FROM iwebshop_order WHERE  if_del = 0 and pay_type != 0 and status in(1) and datediff(NOW(),create_time) >= 7  limit 50000	
+2016-10-27 09:02:01	SELECT id,order_no,5 as type_data FROM iwebshop_order WHERE  if_del = 0 and distribution_status = 1 and status in(1,2) and datediff(NOW(),send_time) >= 20  limit 50000	
+2016-10-27 09:02:01	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 09:02:01	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 09:02:01	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-27 09:02:04	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 09:02:04	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 09:02:04	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-27 09:02:06	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 09:02:06	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 09:02:06	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-27 09:02:09	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 09:02:09	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 09:02:09	SELECT count(*) as num FROM iwebshop_goods WHERE is_del != 1 limit 1	
+2016-10-27 09:02:09	SELECT count(*) as num FROM iwebshop_comment as co,iwebshop_goods as go WHERE co.status = 1 and co.goods_id = go.id and co.recomment_time<=0 limit 1	
+2016-10-27 09:02:09	SELECT count(*) as num FROM iwebshop_refer as re,iwebshop_goods as go WHERE re.goods_id = go.id and re.status = 0 limit 1	
+2016-10-27 09:02:09	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-27 09:02:11	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 09:02:11	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 09:02:11	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-27 09:03:33	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 09:03:33	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 09:03:33	SELECT * FROM iwebshop_user_group limit 50000	
+2016-10-27 09:03:33	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-27 09:03:34	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 09:03:34	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 09:03:34	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 12 limit 1	
+2016-10-27 09:03:34	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 12 limit 1	
+2016-10-27 09:03:34	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 3 limit 1	
+2016-10-27 09:03:34	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 3 limit 1	
+2016-10-27 09:03:34	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 2 limit 1	
+2016-10-27 09:03:34	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 2 limit 1	
+2016-10-27 09:03:34	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-27 09:03:34	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-27 09:03:35	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-27 09:03:35	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 09:03:35	SELECT * FROM iwebshop_areas WHERE parent_id=0 ORDER BY sort ASC  limit 50000	
+2016-10-27 09:03:46	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 09:03:46	SELECT * FROM iwebshop_areas WHERE parent_id=120000 ORDER BY sort ASC  limit 50000	
+2016-10-27 09:03:48	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 09:03:48	SELECT * FROM iwebshop_areas WHERE parent_id=120100 ORDER BY sort ASC  limit 50000	
+2016-10-27 09:04:59	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 09:04:59	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 09:04:59	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 12 limit 1	
+2016-10-27 09:04:59	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 12 limit 1	
+2016-10-27 09:04:59	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 3 limit 1	
+2016-10-27 09:04:59	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 3 limit 1	
+2016-10-27 09:04:59	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 2 limit 1	
+2016-10-27 09:04:59	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 2 limit 1	
+2016-10-27 09:04:59	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-27 09:04:59	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-27 09:04:59	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-27 09:04:59	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 09:04:59	SELECT * FROM iwebshop_areas WHERE parent_id=0 ORDER BY sort ASC  limit 50000	
+2016-10-27 09:05:03	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 09:05:03	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 09:05:03	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-27 09:05:04	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 09:05:04	SELECT * FROM iwebshop_areas WHERE parent_id=0 ORDER BY sort ASC  limit 50000	
+2016-10-27 09:05:31	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 09:05:31	SELECT * FROM iwebshop_areas WHERE parent_id=110000 ORDER BY sort ASC  limit 50000	
+2016-10-27 09:05:33	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 09:05:33	SELECT * FROM iwebshop_areas WHERE parent_id=110200 ORDER BY sort ASC  limit 50000	
+2016-10-27 09:05:48	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 09:05:48	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 09:05:48	SELECT * FROM iwebshop_seller WHERE seller_name = 'sadfasdf' and id != 0 limit 1	
+2016-10-27 09:05:48	SELECT * FROM iwebshop_seller WHERE true_name = '123' and id != 0 limit 1	
+2016-10-27 09:05:48	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-27 09:05:48	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 09:05:48	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 09:05:48	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 09:05:49	SELECT * FROM iwebshop_areas WHERE parent_id=0 ORDER BY sort ASC  limit 50000	
+2016-10-27 09:05:49	SELECT * FROM iwebshop_areas WHERE parent_id=110000 ORDER BY sort ASC  limit 50000	
+2016-10-27 09:05:49	SELECT * FROM iwebshop_areas WHERE parent_id=110200 ORDER BY sort ASC  limit 50000	
+2016-10-27 09:06:24	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 09:06:24	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 09:06:24	SELECT * FROM iwebshop_seller WHERE seller_name = 'sadfasdf' and id != 0 limit 1	
+2016-10-27 09:06:24	SELECT * FROM iwebshop_seller WHERE true_name = '123' and id != 0 limit 1	
+2016-10-27 09:06:24	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-27 09:06:25	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 09:06:25	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 09:06:25	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 09:06:25	SELECT * FROM iwebshop_areas WHERE parent_id=110200 ORDER BY sort ASC  limit 50000	
+2016-10-27 09:06:25	SELECT * FROM iwebshop_areas WHERE parent_id=0 ORDER BY sort ASC  limit 50000	
+2016-10-27 09:06:25	SELECT * FROM iwebshop_areas WHERE parent_id=110000 ORDER BY sort ASC  limit 50000	
+2016-10-27 09:10:08	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 09:10:08	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 09:10:08	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 12 limit 1	
+2016-10-27 09:10:08	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 12 limit 1	
+2016-10-27 09:10:08	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 3 limit 1	
+2016-10-27 09:10:08	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 3 limit 1	
+2016-10-27 09:10:08	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 2 limit 1	
+2016-10-27 09:10:08	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 2 limit 1	
+2016-10-27 09:10:08	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-27 09:10:08	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-27 09:10:08	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-27 09:10:09	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 09:10:09	SELECT * FROM iwebshop_areas WHERE parent_id=0 ORDER BY sort ASC  limit 50000	
+2016-10-27 09:13:09	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 09:13:09	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 09:13:09	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 12 limit 1	
+2016-10-27 09:13:09	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 12 limit 1	
+2016-10-27 09:13:09	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 3 limit 1	
+2016-10-27 09:13:09	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 3 limit 1	
+2016-10-27 09:13:09	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 2 limit 1	
+2016-10-27 09:13:09	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 2 limit 1	
+2016-10-27 09:13:09	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-27 09:13:09	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-27 09:13:09	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-27 09:13:10	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 09:13:10	SELECT * FROM iwebshop_areas WHERE parent_id=0 ORDER BY sort ASC  limit 50000	
+2016-10-27 09:13:12	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 09:13:12	SELECT * FROM iwebshop_areas WHERE parent_id=120000 ORDER BY sort ASC  limit 50000	
+2016-10-27 09:15:14	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 09:15:14	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 09:15:14	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 12 limit 1	
+2016-10-27 09:15:14	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 12 limit 1	
+2016-10-27 09:15:14	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 3 limit 1	
+2016-10-27 09:15:14	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 3 limit 1	
+2016-10-27 09:15:14	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 2 limit 1	
+2016-10-27 09:15:14	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 2 limit 1	
+2016-10-27 09:15:14	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-27 09:15:14	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-27 09:15:14	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-27 09:15:14	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 09:15:14	SELECT * FROM iwebshop_areas WHERE parent_id=0 ORDER BY sort ASC  limit 50000	
+2016-10-27 09:15:17	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 09:15:17	SELECT * FROM iwebshop_areas WHERE parent_id=110000 ORDER BY sort ASC  limit 50000	
+2016-10-27 09:15:36	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 09:15:36	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 09:15:36	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 12 limit 1	
+2016-10-27 09:15:36	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 12 limit 1	
+2016-10-27 09:15:36	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 3 limit 1	
+2016-10-27 09:15:36	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 3 limit 1	
+2016-10-27 09:15:36	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 2 limit 1	
+2016-10-27 09:15:36	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 2 limit 1	
+2016-10-27 09:15:36	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-27 09:15:36	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-27 09:15:37	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-27 09:15:37	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 09:15:37	SELECT * FROM iwebshop_areas WHERE parent_id=0 ORDER BY sort ASC  limit 50000	
+2016-10-27 09:15:39	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 09:15:39	SELECT * FROM iwebshop_areas WHERE parent_id=120000 ORDER BY sort ASC  limit 50000	
+2016-10-27 09:22:40	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 09:22:40	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 09:22:40	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 12 limit 1	
+2016-10-27 09:22:40	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 12 limit 1	
+2016-10-27 09:22:40	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 3 limit 1	
+2016-10-27 09:22:40	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 3 limit 1	
+2016-10-27 09:22:40	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 2 limit 1	
+2016-10-27 09:22:40	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 2 limit 1	
+2016-10-27 09:22:40	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-27 09:22:40	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-27 09:22:40	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-27 09:22:41	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 09:22:41	SELECT * FROM iwebshop_areas WHERE parent_id=0 ORDER BY sort ASC  limit 50000	
+2016-10-27 09:22:43	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 09:22:43	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 09:22:43	SELECT * FROM iwebshop_areas WHERE parent_id=110000 ORDER BY sort ASC  limit 50000	
+2016-10-27 09:22:43	SELECT * FROM iwebshop_seller WHERE province = 110000 limit 50000	
+2016-10-27 09:22:46	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 09:22:46	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 09:22:46	SELECT * FROM iwebshop_areas WHERE parent_id=110100 ORDER BY sort ASC  limit 50000	
+2016-10-27 09:22:46	SELECT * FROM iwebshop_seller WHERE city = 110100 limit 50000	
+2016-10-27 09:22:47	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 09:22:47	SELECT * FROM iwebshop_seller WHERE area = 110101 limit 50000	
+2016-10-27 09:22:49	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 09:22:49	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 09:22:49	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 12 limit 1	
+2016-10-27 09:22:49	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 12 limit 1	
+2016-10-27 09:22:49	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 3 limit 1	
+2016-10-27 09:22:49	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 3 limit 1	
+2016-10-27 09:22:49	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 2 limit 1	
+2016-10-27 09:22:49	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 2 limit 1	
+2016-10-27 09:22:49	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-27 09:22:49	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-27 09:22:49	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-27 09:22:50	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 09:22:50	SELECT * FROM iwebshop_areas WHERE parent_id=0 ORDER BY sort ASC  limit 50000	
+2016-10-27 09:22:56	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 09:22:56	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 09:22:56	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 12 limit 1	
+2016-10-27 09:22:56	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 12 limit 1	
+2016-10-27 09:22:56	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 3 limit 1	
+2016-10-27 09:22:56	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 3 limit 1	
+2016-10-27 09:22:56	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 2 limit 1	
+2016-10-27 09:22:56	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 2 limit 1	
+2016-10-27 09:22:56	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-27 09:22:56	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-27 09:22:56	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-27 09:22:58	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 09:22:58	SELECT * FROM iwebshop_areas WHERE parent_id=0 ORDER BY sort ASC  limit 50000	
+2016-10-27 09:23:10	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 09:23:10	SELECT * FROM iwebshop_areas WHERE parent_id=120000 ORDER BY sort ASC  limit 50000	
+2016-10-27 09:23:10	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 09:23:10	SELECT * FROM iwebshop_seller WHERE province = 120000 limit 50000	
+2016-10-27 09:23:29	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 09:23:29	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 09:23:29	SELECT * FROM iwebshop_seller WHERE province = 110000 limit 50000	
+2016-10-27 09:23:29	SELECT * FROM iwebshop_areas WHERE parent_id=110000 ORDER BY sort ASC  limit 50000	
+2016-10-27 09:38:21	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 09:38:21	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 09:38:21	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 12 limit 1	
+2016-10-27 09:38:21	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 12 limit 1	
+2016-10-27 09:38:21	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 3 limit 1	
+2016-10-27 09:38:21	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 3 limit 1	
+2016-10-27 09:38:21	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 2 limit 1	
+2016-10-27 09:38:21	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 2 limit 1	
+2016-10-27 09:38:21	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-27 09:38:21	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-27 09:38:21	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-27 09:38:23	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 09:38:23	SELECT * FROM iwebshop_areas WHERE parent_id=0 ORDER BY sort ASC  limit 50000	
+2016-10-27 09:38:25	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 09:38:26	SELECT * FROM iwebshop_areas WHERE parent_id=110000 ORDER BY sort ASC  limit 50000	
+2016-10-27 09:38:47	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 09:38:47	SELECT * FROM iwebshop_areas WHERE parent_id=110100 ORDER BY sort ASC  limit 50000	
+2016-10-27 09:39:50	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 09:39:50	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 09:39:50	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 12 limit 1	
+2016-10-27 09:39:50	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 12 limit 1	
+2016-10-27 09:39:50	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 3 limit 1	
+2016-10-27 09:39:50	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 3 limit 1	
+2016-10-27 09:39:50	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 2 limit 1	
+2016-10-27 09:39:50	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 2 limit 1	
+2016-10-27 09:39:50	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-27 09:39:50	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-27 09:39:50	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-27 09:39:52	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 09:39:52	SELECT * FROM iwebshop_areas WHERE parent_id=0 ORDER BY sort ASC  limit 50000	
+2016-10-27 09:39:55	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 09:39:55	SELECT * FROM iwebshop_areas WHERE parent_id=110000 ORDER BY sort ASC  limit 50000	
+2016-10-27 09:40:04	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 09:40:04	SELECT * FROM iwebshop_areas WHERE parent_id=120000 ORDER BY sort ASC  limit 50000	
+2016-10-27 09:40:09	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 09:40:09	SELECT * FROM iwebshop_areas WHERE parent_id=110000 ORDER BY sort ASC  limit 50000	
+2016-10-27 09:40:43	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 09:40:43	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 09:40:43	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 12 limit 1	
+2016-10-27 09:40:43	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 12 limit 1	
+2016-10-27 09:40:43	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 3 limit 1	
+2016-10-27 09:40:43	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 3 limit 1	
+2016-10-27 09:40:43	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 2 limit 1	
+2016-10-27 09:40:43	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 2 limit 1	
+2016-10-27 09:40:43	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-27 09:40:43	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-27 09:40:43	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-27 09:40:45	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 09:40:45	SELECT * FROM iwebshop_areas WHERE parent_id=0 ORDER BY sort ASC  limit 50000	
+2016-10-27 09:41:23	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 09:41:23	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 09:41:23	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 12 limit 1	
+2016-10-27 09:41:23	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 12 limit 1	
+2016-10-27 09:41:23	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 3 limit 1	
+2016-10-27 09:41:23	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 3 limit 1	
+2016-10-27 09:41:23	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 2 limit 1	
+2016-10-27 09:41:23	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 2 limit 1	
+2016-10-27 09:41:23	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-27 09:41:23	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-27 09:41:23	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-27 09:41:24	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 09:41:24	SELECT * FROM iwebshop_areas WHERE parent_id=0 ORDER BY sort ASC  limit 50000	
+2016-10-27 09:42:40	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 09:42:40	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 09:42:40	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 12 limit 1	
+2016-10-27 09:42:40	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 12 limit 1	
+2016-10-27 09:42:40	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 3 limit 1	
+2016-10-27 09:42:40	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 3 limit 1	
+2016-10-27 09:42:40	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 2 limit 1	
+2016-10-27 09:42:40	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 2 limit 1	
+2016-10-27 09:42:40	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-27 09:42:40	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-27 09:42:41	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-27 09:42:42	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 09:42:42	SELECT * FROM iwebshop_areas WHERE parent_id=0 ORDER BY sort ASC  limit 50000	
+2016-10-27 09:42:45	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 09:42:45	SELECT * FROM iwebshop_areas WHERE parent_id=110000 ORDER BY sort ASC  limit 50000	
+2016-10-27 09:42:45	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 09:42:45	SELECT * FROM iwebshop_seller WHERE province = 110000 limit 50000	
+2016-10-27 09:44:23	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 09:44:23	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 09:44:23	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 12 limit 1	
+2016-10-27 09:44:23	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 12 limit 1	
+2016-10-27 09:44:23	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 3 limit 1	
+2016-10-27 09:44:23	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 3 limit 1	
+2016-10-27 09:44:23	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 2 limit 1	
+2016-10-27 09:44:23	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 2 limit 1	
+2016-10-27 09:44:23	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-27 09:44:23	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-27 09:44:23	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-27 09:44:25	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 09:44:25	SELECT * FROM iwebshop_areas WHERE parent_id=0 ORDER BY sort ASC  limit 50000	
+2016-10-27 09:44:28	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 09:44:28	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 09:44:28	SELECT * FROM iwebshop_areas WHERE parent_id=110000 ORDER BY sort ASC  limit 50000	
+2016-10-27 09:44:28	SELECT * FROM iwebshop_seller WHERE province = 110000 limit 50000	
+2016-10-27 09:44:31	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 09:44:31	SELECT * FROM iwebshop_areas WHERE parent_id=110100 ORDER BY sort ASC  limit 50000	
+2016-10-27 09:45:01	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 09:45:01	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 09:45:01	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 12 limit 1	
+2016-10-27 09:45:01	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 12 limit 1	
+2016-10-27 09:45:01	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 3 limit 1	
+2016-10-27 09:45:01	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 3 limit 1	
+2016-10-27 09:45:01	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 2 limit 1	
+2016-10-27 09:45:01	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 2 limit 1	
+2016-10-27 09:45:01	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-27 09:45:01	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-27 09:45:01	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-27 09:45:03	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 09:45:03	SELECT * FROM iwebshop_areas WHERE parent_id=0 ORDER BY sort ASC  limit 50000	
+2016-10-27 09:45:04	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 09:45:04	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 09:45:04	SELECT * FROM iwebshop_seller WHERE province = 110000 limit 50000	
+2016-10-27 09:45:04	SELECT * FROM iwebshop_areas WHERE parent_id=110000 ORDER BY sort ASC  limit 50000	
+2016-10-27 09:45:06	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 09:45:06	SELECT * FROM iwebshop_areas WHERE parent_id=110100 ORDER BY sort ASC  limit 50000	
+2016-10-27 09:48:36	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 09:48:36	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 09:48:36	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 12 limit 1	
+2016-10-27 09:48:36	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 12 limit 1	
+2016-10-27 09:48:36	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 3 limit 1	
+2016-10-27 09:48:36	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 3 limit 1	
+2016-10-27 09:48:36	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 2 limit 1	
+2016-10-27 09:48:36	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 2 limit 1	
+2016-10-27 09:48:36	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-27 09:48:36	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-27 09:48:36	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-27 09:48:38	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 09:48:38	SELECT * FROM iwebshop_areas WHERE parent_id=0 ORDER BY sort ASC  limit 50000	
+2016-10-27 09:48:40	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 09:48:40	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 09:48:41	SELECT * FROM iwebshop_areas WHERE parent_id=110000 ORDER BY sort ASC  limit 50000	
+2016-10-27 09:48:41	SELECT * FROM iwebshop_seller WHERE province = 110000 limit 50000	
+2016-10-27 09:48:43	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 09:48:43	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 09:48:43	SELECT * FROM iwebshop_areas WHERE parent_id=110100 ORDER BY sort ASC  limit 50000	
+2016-10-27 09:48:43	SELECT * FROM iwebshop_seller WHERE city = 110100 and province = 110000 limit 50000	
+2016-10-27 09:50:53	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 09:50:53	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 09:50:53	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 12 limit 1	
+2016-10-27 09:50:53	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 12 limit 1	
+2016-10-27 09:50:53	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 3 limit 1	
+2016-10-27 09:50:53	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 3 limit 1	
+2016-10-27 09:50:53	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 2 limit 1	
+2016-10-27 09:50:53	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 2 limit 1	
+2016-10-27 09:50:53	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-27 09:50:53	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-27 09:50:53	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-27 09:50:55	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 09:50:55	SELECT * FROM iwebshop_areas WHERE parent_id=0 ORDER BY sort ASC  limit 50000	
+2016-10-27 09:50:57	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 09:50:57	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 09:50:57	SELECT * FROM iwebshop_areas WHERE parent_id=110000 ORDER BY sort ASC  limit 50000	
+2016-10-27 09:50:57	SELECT * FROM iwebshop_seller WHERE province = 110000 limit 50000	
+2016-10-27 09:50:59	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 09:50:59	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 09:50:59	SELECT * FROM iwebshop_areas WHERE parent_id=110100 ORDER BY sort ASC  limit 50000	
+2016-10-27 09:50:59	SELECT * FROM iwebshop_seller WHERE city = 110100 and province = 110000 limit 50000	
+2016-10-27 09:51:02	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 09:51:02	SELECT * FROM iwebshop_seller WHERE area = 110108 and province=110000 and city=110100 limit 50000	
+2016-10-27 09:51:05	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 09:51:05	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 09:51:05	SELECT * FROM iwebshop_areas WHERE parent_id=110200 ORDER BY sort ASC  limit 50000	
+2016-10-27 09:51:05	SELECT * FROM iwebshop_seller WHERE city = 110200 and province = 110000 limit 50000	
+2016-10-27 09:51:08	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 09:51:08	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 09:51:08	SELECT * FROM iwebshop_seller WHERE city = 110100 and province = 110000 limit 50000	
+2016-10-27 09:51:08	SELECT * FROM iwebshop_areas WHERE parent_id=110100 ORDER BY sort ASC  limit 50000	
+2016-10-27 09:51:11	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 09:51:11	SELECT * FROM iwebshop_seller WHERE area = 110102 and province=110000 and city=110100 limit 50000	
+2016-10-27 09:51:13	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 09:51:13	SELECT * FROM iwebshop_seller WHERE area = 110109 and province=110000 and city=110100 limit 50000	
+2016-10-27 09:51:17	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 09:51:17	SELECT * FROM iwebshop_seller WHERE area = 110108 and province=110000 and city=110100 limit 50000	
+2016-10-27 09:51:27	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 09:51:27	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 09:51:27	SELECT * FROM iwebshop_areas WHERE parent_id=130000 ORDER BY sort ASC  limit 50000	
+2016-10-27 09:51:27	SELECT * FROM iwebshop_seller WHERE province = 130000 limit 50000	
+2016-10-27 09:51:35	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 09:51:35	SELECT * FROM iwebshop_seller WHERE province = 410000 limit 50000	
+2016-10-27 09:51:35	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 09:51:35	SELECT * FROM iwebshop_areas WHERE parent_id=410000 ORDER BY sort ASC  limit 50000	
+2016-10-27 10:03:02	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 10:03:02	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 10:03:02	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 12 limit 1	
+2016-10-27 10:03:02	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 12 limit 1	
+2016-10-27 10:03:02	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 3 limit 1	
+2016-10-27 10:03:02	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 3 limit 1	
+2016-10-27 10:03:02	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 2 limit 1	
+2016-10-27 10:03:02	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 2 limit 1	
+2016-10-27 10:03:02	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-27 10:03:02	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-27 10:03:03	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-27 10:03:04	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 10:03:04	SELECT * FROM iwebshop_areas WHERE parent_id=0 ORDER BY sort ASC  limit 50000	
+2016-10-27 10:03:48	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 10:03:49	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 10:03:49	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 12 limit 1	
+2016-10-27 10:03:49	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 12 limit 1	
+2016-10-27 10:03:49	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 3 limit 1	
+2016-10-27 10:03:49	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 3 limit 1	
+2016-10-27 10:03:49	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 2 limit 1	
+2016-10-27 10:03:49	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 2 limit 1	
+2016-10-27 10:03:49	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-27 10:03:49	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-27 10:03:49	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-27 10:03:50	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 10:03:50	SELECT * FROM iwebshop_areas WHERE parent_id=0 ORDER BY sort ASC  limit 50000	
+2016-10-27 10:04:46	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 10:04:46	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 10:04:46	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 12 limit 1	
+2016-10-27 10:04:46	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 12 limit 1	
+2016-10-27 10:04:46	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 3 limit 1	
+2016-10-27 10:04:46	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 3 limit 1	
+2016-10-27 10:04:46	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 2 limit 1	
+2016-10-27 10:04:46	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 2 limit 1	
+2016-10-27 10:04:46	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-27 10:04:46	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-27 10:04:46	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-27 10:04:48	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 10:04:48	SELECT * FROM iwebshop_areas WHERE parent_id=0 ORDER BY sort ASC  limit 50000	
+2016-10-27 10:22:43	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 10:22:43	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 10:22:43	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 12 limit 1	
+2016-10-27 10:22:43	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 12 limit 1	
+2016-10-27 10:22:43	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 3 limit 1	
+2016-10-27 10:22:43	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 3 limit 1	
+2016-10-27 10:22:43	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 2 limit 1	
+2016-10-27 10:22:43	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 2 limit 1	
+2016-10-27 10:22:43	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-27 10:22:43	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-27 10:22:43	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-27 10:22:45	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 10:22:45	SELECT * FROM iwebshop_areas WHERE parent_id=0 ORDER BY sort ASC  limit 50000	
+2016-10-27 10:23:00	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 10:23:00	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 10:23:00	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 12 limit 1	
+2016-10-27 10:23:00	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 12 limit 1	
+2016-10-27 10:23:00	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 3 limit 1	
+2016-10-27 10:23:00	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 3 limit 1	
+2016-10-27 10:23:00	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 2 limit 1	
+2016-10-27 10:23:00	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 2 limit 1	
+2016-10-27 10:23:00	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-27 10:23:00	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-27 10:23:00	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-27 10:23:02	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 10:23:02	SELECT * FROM iwebshop_areas WHERE parent_id=0 ORDER BY sort ASC  limit 50000	
+2016-10-27 10:23:49	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 10:23:49	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 10:23:49	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 12 limit 1	
+2016-10-27 10:23:49	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 12 limit 1	
+2016-10-27 10:23:49	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 3 limit 1	
+2016-10-27 10:23:49	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 3 limit 1	
+2016-10-27 10:23:49	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 2 limit 1	
+2016-10-27 10:23:49	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 2 limit 1	
+2016-10-27 10:23:49	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-27 10:23:49	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-27 10:23:49	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-27 10:23:51	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 10:23:51	SELECT * FROM iwebshop_areas WHERE parent_id=0 ORDER BY sort ASC  limit 50000	
+2016-10-27 10:25:21	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 10:25:21	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 10:25:21	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 12 limit 1	
+2016-10-27 10:25:21	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 12 limit 1	
+2016-10-27 10:25:21	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 3 limit 1	
+2016-10-27 10:25:21	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 3 limit 1	
+2016-10-27 10:25:21	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 2 limit 1	
+2016-10-27 10:25:21	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 2 limit 1	
+2016-10-27 10:25:21	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-27 10:25:21	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-27 10:25:21	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-27 10:25:23	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 10:25:23	SELECT * FROM iwebshop_areas WHERE parent_id=0 ORDER BY sort ASC  limit 50000	
+2016-10-27 10:25:37	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 10:25:37	SELECT * FROM iwebshop_seller WHERE create_time between '2016 11:16:37' and '2016 11:16:37' limit 50000	
+2016-10-27 10:25:45	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 10:25:45	SELECT * FROM iwebshop_seller WHERE create_time between '2016 11:16:37' and '2016 11:16:37' limit 50000	
+2016-10-27 10:25:55	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 10:25:55	SELECT * FROM iwebshop_seller WHERE create_time between '2016 11:16:37' and '2016 11:16:37' limit 50000	
+2016-10-27 10:26:50	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 10:26:50	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 10:26:50	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 12 limit 1	
+2016-10-27 10:26:50	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 12 limit 1	
+2016-10-27 10:26:50	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 3 limit 1	
+2016-10-27 10:26:50	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 3 limit 1	
+2016-10-27 10:26:50	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 2 limit 1	
+2016-10-27 10:26:50	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 2 limit 1	
+2016-10-27 10:26:50	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-27 10:26:50	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-27 10:26:50	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-27 10:26:52	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 10:26:52	SELECT * FROM iwebshop_areas WHERE parent_id=0 ORDER BY sort ASC  limit 50000	
+2016-10-27 10:26:59	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 10:26:59	SELECT * FROM iwebshop_seller WHERE create_time between '2016 11:16:37' and '2016 11:16:37' limit 50000	
+2016-10-27 10:29:38	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 10:29:38	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 10:29:38	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 12 limit 1	
+2016-10-27 10:29:38	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 12 limit 1	
+2016-10-27 10:29:38	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 3 limit 1	
+2016-10-27 10:29:38	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 3 limit 1	
+2016-10-27 10:29:38	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 2 limit 1	
+2016-10-27 10:29:38	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 2 limit 1	
+2016-10-27 10:29:38	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-27 10:29:38	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-27 10:29:39	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-27 10:29:40	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 10:29:40	SELECT * FROM iwebshop_areas WHERE parent_id=0 ORDER BY sort ASC  limit 50000	
+2016-10-27 10:29:52	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 10:29:52	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 10:29:52	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 12 limit 1	
+2016-10-27 10:29:52	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 12 limit 1	
+2016-10-27 10:29:52	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 3 limit 1	
+2016-10-27 10:29:52	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 3 limit 1	
+2016-10-27 10:29:52	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 2 limit 1	
+2016-10-27 10:29:52	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 2 limit 1	
+2016-10-27 10:29:52	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-27 10:29:52	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-27 10:29:52	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-27 10:29:54	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 10:29:54	SELECT * FROM iwebshop_areas WHERE parent_id=0 ORDER BY sort ASC  limit 50000	
+2016-10-27 10:30:22	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 10:30:22	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 10:30:22	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 12 limit 1	
+2016-10-27 10:30:22	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 12 limit 1	
+2016-10-27 10:30:22	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 3 limit 1	
+2016-10-27 10:30:22	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 3 limit 1	
+2016-10-27 10:30:22	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 2 limit 1	
+2016-10-27 10:30:22	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 2 limit 1	
+2016-10-27 10:30:22	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-27 10:30:22	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-27 10:30:22	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-27 10:30:24	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 10:30:24	SELECT * FROM iwebshop_areas WHERE parent_id=0 ORDER BY sort ASC  limit 50000	
+2016-10-27 10:31:21	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 10:31:21	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 10:31:21	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 12 limit 1	
+2016-10-27 10:31:21	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 12 limit 1	
+2016-10-27 10:31:21	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 3 limit 1	
+2016-10-27 10:31:21	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 3 limit 1	
+2016-10-27 10:31:21	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 2 limit 1	
+2016-10-27 10:31:21	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 2 limit 1	
+2016-10-27 10:31:21	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-27 10:31:21	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-27 10:31:21	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-27 10:31:22	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 10:31:22	SELECT * FROM iwebshop_areas WHERE parent_id=0 ORDER BY sort ASC  limit 50000	
+2016-10-27 10:31:30	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 10:31:30	SELECT * FROM iwebshop_seller WHERE create_time between '2016 11:16:37' and '2016 11:16:37' limit 50000	
+2016-10-27 10:32:16	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 10:32:16	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 10:32:16	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 12 limit 1	
+2016-10-27 10:32:16	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 12 limit 1	
+2016-10-27 10:32:16	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 3 limit 1	
+2016-10-27 10:32:16	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 3 limit 1	
+2016-10-27 10:32:16	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 2 limit 1	
+2016-10-27 10:32:16	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 2 limit 1	
+2016-10-27 10:32:16	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-27 10:32:16	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-27 10:32:16	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-27 10:32:18	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 10:32:18	SELECT * FROM iwebshop_areas WHERE parent_id=0 ORDER BY sort ASC  limit 50000	
+2016-10-27 10:32:21	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 10:32:21	SELECT * FROM iwebshop_seller WHERE create_time between '2016 11:16:37' and '2016 11:16:37' limit 50000	
+2016-10-27 10:32:23	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 10:32:23	SELECT * FROM iwebshop_seller WHERE create_time between '2016 11:16:37' and '2016 11:16:37' limit 50000	
+2016-10-27 10:33:04	SELECT id,order_no,4 as type_data FROM iwebshop_order WHERE  if_del = 0 and pay_type != 0 and status in(1) and datediff(NOW(),create_time) >= 7  limit 50000	
+2016-10-27 10:33:04	SELECT id,order_no,5 as type_data FROM iwebshop_order WHERE  if_del = 0 and distribution_status = 1 and status in(1,2) and datediff(NOW(),send_time) >= 20  limit 50000	
+2016-10-27 10:33:04	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 10:33:04	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 10:33:05	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-27 10:33:07	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 10:33:07	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 10:33:07	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-27 10:33:13	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 10:33:13	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 10:33:13	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-27 10:33:15	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 10:33:15	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 10:33:15	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-27 10:33:19	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 10:33:19	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 10:33:19	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-27 10:34:47	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 10:34:47	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 10:34:48	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-27 10:34:50	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 10:34:50	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 10:34:50	SELECT * FROM iwebshop_user_group limit 50000	
+2016-10-27 10:34:50	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-27 10:34:56	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 10:34:56	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 10:34:56	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 12 limit 1	
+2016-10-27 10:34:56	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 12 limit 1	
+2016-10-27 10:34:56	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 3 limit 1	
+2016-10-27 10:34:56	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 3 limit 1	
+2016-10-27 10:34:56	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 2 limit 1	
+2016-10-27 10:34:56	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 2 limit 1	
+2016-10-27 10:34:56	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-27 10:34:56	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-27 10:34:56	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-27 10:34:57	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 10:34:57	SELECT * FROM iwebshop_areas WHERE parent_id=0 ORDER BY sort ASC  limit 50000	
+2016-10-27 10:36:40	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 10:36:40	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 10:36:40	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 12 limit 1	
+2016-10-27 10:36:40	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 12 limit 1	
+2016-10-27 10:36:40	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 3 limit 1	
+2016-10-27 10:36:40	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 3 limit 1	
+2016-10-27 10:36:40	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 2 limit 1	
+2016-10-27 10:36:40	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 2 limit 1	
+2016-10-27 10:36:40	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-27 10:36:40	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-27 10:36:41	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-27 10:36:42	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 10:36:42	SELECT * FROM iwebshop_areas WHERE parent_id=0 ORDER BY sort ASC  limit 50000	
+2016-10-27 10:37:02	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 10:37:02	SELECT * FROM iwebshop_seller WHERE create_time between '0' and '2016' limit 50000	
+2016-10-27 10:38:28	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 10:38:28	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 10:38:28	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 12 limit 1	
+2016-10-27 10:38:28	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 12 limit 1	
+2016-10-27 10:38:28	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 3 limit 1	
+2016-10-27 10:38:28	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 3 limit 1	
+2016-10-27 10:38:28	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 2 limit 1	
+2016-10-27 10:38:28	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 2 limit 1	
+2016-10-27 10:38:28	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-27 10:38:28	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-27 10:38:28	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-27 10:38:30	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 10:38:30	SELECT * FROM iwebshop_areas WHERE parent_id=0 ORDER BY sort ASC  limit 50000	
+2016-10-27 10:38:37	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 10:38:37	SELECT * FROM iwebshop_seller WHERE create_time BETWEEN '2016' and '2016' limit 50000	
+2016-10-27 10:52:03	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 10:52:03	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 10:52:03	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 23 limit 1	
+2016-10-27 10:52:03	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 23 limit 1	
+2016-10-27 10:52:03	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 22 limit 1	
+2016-10-27 10:52:03	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 22 limit 1	
+2016-10-27 10:52:03	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 21 limit 1	
+2016-10-27 10:52:03	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 21 limit 1	
+2016-10-27 10:52:03	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 20 limit 1	
+2016-10-27 10:52:03	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 20 limit 1	
+2016-10-27 10:52:03	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 18 limit 1	
+2016-10-27 10:52:03	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 18 limit 1	
+2016-10-27 10:52:03	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 17 limit 1	
+2016-10-27 10:52:03	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 17 limit 1	
+2016-10-27 10:52:03	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 16 limit 1	
+2016-10-27 10:52:03	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 16 limit 1	
+2016-10-27 10:52:03	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 15 limit 1	
+2016-10-27 10:52:03	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 15 limit 1	
+2016-10-27 10:52:03	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 12 limit 1	
+2016-10-27 10:52:03	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 12 limit 1	
+2016-10-27 10:52:03	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 3 limit 1	
+2016-10-27 10:52:03	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 3 limit 1	
+2016-10-27 10:52:03	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 2 limit 1	
+2016-10-27 10:52:03	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 2 limit 1	
+2016-10-27 10:52:03	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-27 10:52:03	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-27 10:52:03	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-27 10:52:05	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 10:52:05	SELECT * FROM iwebshop_areas WHERE parent_id=0 ORDER BY sort ASC  limit 50000	
+2016-10-27 10:52:07	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 10:52:07	SELECT * FROM iwebshop_seller WHERE create_time BETWEEN '2016' and '2016' limit 50000	
+2016-10-27 10:53:06	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 10:53:06	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 10:53:06	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 23 limit 1	
+2016-10-27 10:53:06	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 23 limit 1	
+2016-10-27 10:53:06	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 22 limit 1	
+2016-10-27 10:53:06	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 22 limit 1	
+2016-10-27 10:53:06	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 21 limit 1	
+2016-10-27 10:53:06	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 21 limit 1	
+2016-10-27 10:53:06	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 20 limit 1	
+2016-10-27 10:53:06	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 20 limit 1	
+2016-10-27 10:53:06	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 18 limit 1	
+2016-10-27 10:53:06	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 18 limit 1	
+2016-10-27 10:53:06	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 17 limit 1	
+2016-10-27 10:53:06	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 17 limit 1	
+2016-10-27 10:53:06	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 16 limit 1	
+2016-10-27 10:53:06	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 16 limit 1	
+2016-10-27 10:53:06	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 15 limit 1	
+2016-10-27 10:53:06	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 15 limit 1	
+2016-10-27 10:53:06	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 12 limit 1	
+2016-10-27 10:53:06	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 12 limit 1	
+2016-10-27 10:53:06	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 3 limit 1	
+2016-10-27 10:53:06	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 3 limit 1	
+2016-10-27 10:53:06	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 2 limit 1	
+2016-10-27 10:53:06	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 2 limit 1	
+2016-10-27 10:53:06	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-27 10:53:06	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-27 10:53:06	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-27 10:53:08	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 10:53:08	SELECT * FROM iwebshop_areas WHERE parent_id=0 ORDER BY sort ASC  limit 50000	
+2016-10-27 10:55:58	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 10:55:58	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 10:55:58	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 23 limit 1	
+2016-10-27 10:55:58	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 23 limit 1	
+2016-10-27 10:55:58	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 22 limit 1	
+2016-10-27 10:55:58	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 22 limit 1	
+2016-10-27 10:55:58	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 21 limit 1	
+2016-10-27 10:55:58	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 21 limit 1	
+2016-10-27 10:55:58	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 20 limit 1	
+2016-10-27 10:55:58	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 20 limit 1	
+2016-10-27 10:55:58	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 18 limit 1	
+2016-10-27 10:55:58	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 18 limit 1	
+2016-10-27 10:55:58	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 17 limit 1	
+2016-10-27 10:55:58	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 17 limit 1	
+2016-10-27 10:55:58	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 16 limit 1	
+2016-10-27 10:55:58	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 16 limit 1	
+2016-10-27 10:55:58	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 15 limit 1	
+2016-10-27 10:55:58	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 15 limit 1	
+2016-10-27 10:55:58	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 12 limit 1	
+2016-10-27 10:55:58	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 12 limit 1	
+2016-10-27 10:55:58	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 3 limit 1	
+2016-10-27 10:55:58	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 3 limit 1	
+2016-10-27 10:55:58	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 2 limit 1	
+2016-10-27 10:55:58	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 2 limit 1	
+2016-10-27 10:55:58	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-27 10:55:58	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-27 10:55:58	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-27 10:56:01	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 10:56:01	SELECT * FROM iwebshop_areas WHERE parent_id=0 ORDER BY sort ASC  limit 50000	
+2016-10-27 10:57:17	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 10:57:17	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 10:57:17	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 23 limit 1	
+2016-10-27 10:57:17	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 23 limit 1	
+2016-10-27 10:57:17	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 22 limit 1	
+2016-10-27 10:57:17	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 22 limit 1	
+2016-10-27 10:57:17	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 21 limit 1	
+2016-10-27 10:57:17	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 21 limit 1	
+2016-10-27 10:57:17	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 20 limit 1	
+2016-10-27 10:57:17	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 20 limit 1	
+2016-10-27 10:57:17	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 18 limit 1	
+2016-10-27 10:57:17	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 18 limit 1	
+2016-10-27 10:57:17	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 17 limit 1	
+2016-10-27 10:57:17	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 17 limit 1	
+2016-10-27 10:57:17	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 16 limit 1	
+2016-10-27 10:57:17	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 16 limit 1	
+2016-10-27 10:57:17	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 15 limit 1	
+2016-10-27 10:57:17	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 15 limit 1	
+2016-10-27 10:57:17	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 12 limit 1	
+2016-10-27 10:57:17	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 12 limit 1	
+2016-10-27 10:57:17	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 3 limit 1	
+2016-10-27 10:57:17	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 3 limit 1	
+2016-10-27 10:57:17	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 2 limit 1	
+2016-10-27 10:57:17	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 2 limit 1	
+2016-10-27 10:57:17	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-27 10:57:17	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-27 10:57:18	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-27 10:57:20	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 10:57:20	SELECT * FROM iwebshop_areas WHERE parent_id=0 ORDER BY sort ASC  limit 50000	
+2016-10-27 10:57:24	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 10:57:24	SELECT * FROM iwebshop_seller WHERE create_time BETWEEN '2016' and '2016' limit 50000	
+2016-10-27 10:57:28	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 10:57:28	SELECT * FROM iwebshop_seller WHERE create_time BETWEEN '2016' and '2016' limit 50000	
+2016-10-27 10:57:58	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 10:57:58	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 10:57:58	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-27 10:58:00	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 10:58:00	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 10:58:00	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-27 11:01:28	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 11:01:28	SELECT * FROM iwebshop_seller WHERE create_time BETWEEN '0' and '0' limit 50000	
+2016-10-27 11:02:50	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 11:02:50	SELECT * FROM iwebshop_seller WHERE create_time BETWEEN '2016-10-11 11:16:37' and '2016-10-17 11:16:37' limit 50000	
+2016-10-27 11:04:55	SELECT id,order_no,4 as type_data FROM iwebshop_order WHERE  if_del = 0 and pay_type != 0 and status in(1) and datediff(NOW(),create_time) >= 7  limit 50000	
+2016-10-27 11:04:55	SELECT id,order_no,5 as type_data FROM iwebshop_order WHERE  if_del = 0 and distribution_status = 1 and status in(1,2) and datediff(NOW(),send_time) >= 20  limit 50000	
+2016-10-27 11:04:55	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 11:04:55	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 11:04:55	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-27 11:04:58	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 11:04:58	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 11:04:58	SELECT * FROM iwebshop_user_group limit 50000	
+2016-10-27 11:04:58	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-27 11:05:01	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 11:05:01	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 11:05:01	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 23 limit 1	
+2016-10-27 11:05:01	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 23 limit 1	
+2016-10-27 11:05:01	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 22 limit 1	
+2016-10-27 11:05:01	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 22 limit 1	
+2016-10-27 11:05:01	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 21 limit 1	
+2016-10-27 11:05:01	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 21 limit 1	
+2016-10-27 11:05:01	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 20 limit 1	
+2016-10-27 11:05:01	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 20 limit 1	
+2016-10-27 11:05:01	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 18 limit 1	
+2016-10-27 11:05:01	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 18 limit 1	
+2016-10-27 11:05:01	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 17 limit 1	
+2016-10-27 11:05:01	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 17 limit 1	
+2016-10-27 11:05:01	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 16 limit 1	
+2016-10-27 11:05:01	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 16 limit 1	
+2016-10-27 11:05:01	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 15 limit 1	
+2016-10-27 11:05:01	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 15 limit 1	
+2016-10-27 11:05:01	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 12 limit 1	
+2016-10-27 11:05:01	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 12 limit 1	
+2016-10-27 11:05:01	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 3 limit 1	
+2016-10-27 11:05:01	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 3 limit 1	
+2016-10-27 11:05:01	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 2 limit 1	
+2016-10-27 11:05:01	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 2 limit 1	
+2016-10-27 11:05:01	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-27 11:05:01	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-27 11:05:01	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-27 11:05:03	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 11:05:03	SELECT * FROM iwebshop_areas WHERE parent_id=0 ORDER BY sort ASC  limit 50000	
+2016-10-27 11:05:16	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 11:06:17	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 11:06:17	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 11:06:17	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 23 limit 1	
+2016-10-27 11:06:17	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 23 limit 1	
+2016-10-27 11:06:17	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 22 limit 1	
+2016-10-27 11:06:17	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 22 limit 1	
+2016-10-27 11:06:17	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 21 limit 1	
+2016-10-27 11:06:17	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 21 limit 1	
+2016-10-27 11:06:17	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 20 limit 1	
+2016-10-27 11:06:17	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 20 limit 1	
+2016-10-27 11:06:17	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 18 limit 1	
+2016-10-27 11:06:17	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 18 limit 1	
+2016-10-27 11:06:17	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 17 limit 1	
+2016-10-27 11:06:17	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 17 limit 1	
+2016-10-27 11:06:17	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 16 limit 1	
+2016-10-27 11:06:17	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 16 limit 1	
+2016-10-27 11:06:17	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 15 limit 1	
+2016-10-27 11:06:17	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 15 limit 1	
+2016-10-27 11:06:17	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 12 limit 1	
+2016-10-27 11:06:17	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 12 limit 1	
+2016-10-27 11:06:17	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 3 limit 1	
+2016-10-27 11:06:17	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 3 limit 1	
+2016-10-27 11:06:17	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 2 limit 1	
+2016-10-27 11:06:17	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 2 limit 1	
+2016-10-27 11:06:17	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-27 11:06:17	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-27 11:06:17	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-27 11:06:19	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 11:06:19	SELECT * FROM iwebshop_areas WHERE parent_id=0 ORDER BY sort ASC  limit 50000	
+2016-10-27 11:06:21	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 11:06:25	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 11:06:28	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 11:09:13	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 11:09:13	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 11:09:13	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 23 limit 1	
+2016-10-27 11:09:13	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 23 limit 1	
+2016-10-27 11:09:13	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 22 limit 1	
+2016-10-27 11:09:13	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 22 limit 1	
+2016-10-27 11:09:13	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 21 limit 1	
+2016-10-27 11:09:13	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 21 limit 1	
+2016-10-27 11:09:13	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 20 limit 1	
+2016-10-27 11:09:13	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 20 limit 1	
+2016-10-27 11:09:13	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 18 limit 1	
+2016-10-27 11:09:13	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 18 limit 1	
+2016-10-27 11:09:13	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 17 limit 1	
+2016-10-27 11:09:13	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 17 limit 1	
+2016-10-27 11:09:13	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 16 limit 1	
+2016-10-27 11:09:13	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 16 limit 1	
+2016-10-27 11:09:13	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 15 limit 1	
+2016-10-27 11:09:13	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 15 limit 1	
+2016-10-27 11:09:13	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 12 limit 1	
+2016-10-27 11:09:13	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 12 limit 1	
+2016-10-27 11:09:13	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 3 limit 1	
+2016-10-27 11:09:13	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 3 limit 1	
+2016-10-27 11:09:13	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 2 limit 1	
+2016-10-27 11:09:13	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 2 limit 1	
+2016-10-27 11:09:13	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-27 11:09:13	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-27 11:09:13	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-27 11:09:15	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 11:09:15	SELECT * FROM iwebshop_areas WHERE parent_id=0 ORDER BY sort ASC  limit 50000	
+2016-10-27 11:14:44	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 11:14:44	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 11:14:44	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 23 limit 1	
+2016-10-27 11:14:44	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 23 limit 1	
+2016-10-27 11:14:44	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 22 limit 1	
+2016-10-27 11:14:44	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 22 limit 1	
+2016-10-27 11:14:44	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 21 limit 1	
+2016-10-27 11:14:44	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 21 limit 1	
+2016-10-27 11:14:44	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 20 limit 1	
+2016-10-27 11:14:44	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 20 limit 1	
+2016-10-27 11:14:44	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 18 limit 1	
+2016-10-27 11:14:44	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 18 limit 1	
+2016-10-27 11:14:44	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 17 limit 1	
+2016-10-27 11:14:44	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 17 limit 1	
+2016-10-27 11:14:44	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 16 limit 1	
+2016-10-27 11:14:44	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 16 limit 1	
+2016-10-27 11:14:44	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 15 limit 1	
+2016-10-27 11:14:44	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 15 limit 1	
+2016-10-27 11:14:44	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 12 limit 1	
+2016-10-27 11:14:44	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 12 limit 1	
+2016-10-27 11:14:44	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 3 limit 1	
+2016-10-27 11:14:44	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 3 limit 1	
+2016-10-27 11:14:44	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 2 limit 1	
+2016-10-27 11:14:44	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 2 limit 1	
+2016-10-27 11:14:44	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-27 11:14:44	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-27 11:14:44	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-27 11:14:46	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 11:14:46	SELECT * FROM iwebshop_areas WHERE parent_id=0 ORDER BY sort ASC  limit 50000	
+2016-10-27 11:14:54	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 11:14:54	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 11:16:48	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 11:16:48	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 11:16:48	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 23 limit 1	
+2016-10-27 11:16:48	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 23 limit 1	
+2016-10-27 11:16:48	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 22 limit 1	
+2016-10-27 11:16:48	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 22 limit 1	
+2016-10-27 11:16:48	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 21 limit 1	
+2016-10-27 11:16:48	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 21 limit 1	
+2016-10-27 11:16:48	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 20 limit 1	
+2016-10-27 11:16:48	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 20 limit 1	
+2016-10-27 11:16:48	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 18 limit 1	
+2016-10-27 11:16:48	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 18 limit 1	
+2016-10-27 11:16:48	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 17 limit 1	
+2016-10-27 11:16:48	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 17 limit 1	
+2016-10-27 11:16:48	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 16 limit 1	
+2016-10-27 11:16:48	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 16 limit 1	
+2016-10-27 11:16:48	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 15 limit 1	
+2016-10-27 11:16:48	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 15 limit 1	
+2016-10-27 11:16:48	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 12 limit 1	
+2016-10-27 11:16:48	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 12 limit 1	
+2016-10-27 11:16:48	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 3 limit 1	
+2016-10-27 11:16:48	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 3 limit 1	
+2016-10-27 11:16:48	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 2 limit 1	
+2016-10-27 11:16:48	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 2 limit 1	
+2016-10-27 11:16:48	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-27 11:16:48	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-27 11:16:48	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-27 11:16:50	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 11:16:50	SELECT * FROM iwebshop_areas WHERE parent_id=0 ORDER BY sort ASC  limit 50000	
+2016-10-27 11:16:54	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 11:16:54	SELECT * FROM iwebshop_seller WHERE create_time BETWEEN '2016' and '2016' limit 50000	
+2016-10-27 11:17:55	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 11:17:55	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 11:17:55	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 23 limit 1	
+2016-10-27 11:17:55	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 23 limit 1	
+2016-10-27 11:17:55	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 22 limit 1	
+2016-10-27 11:17:55	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 22 limit 1	
+2016-10-27 11:17:55	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 21 limit 1	
+2016-10-27 11:17:55	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 21 limit 1	
+2016-10-27 11:17:55	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 20 limit 1	
+2016-10-27 11:17:55	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 20 limit 1	
+2016-10-27 11:17:55	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 18 limit 1	
+2016-10-27 11:17:55	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 18 limit 1	
+2016-10-27 11:17:55	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 17 limit 1	
+2016-10-27 11:17:55	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 17 limit 1	
+2016-10-27 11:17:55	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 16 limit 1	
+2016-10-27 11:17:55	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 16 limit 1	
+2016-10-27 11:17:55	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 15 limit 1	
+2016-10-27 11:17:55	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 15 limit 1	
+2016-10-27 11:17:55	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 12 limit 1	
+2016-10-27 11:17:55	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 12 limit 1	
+2016-10-27 11:17:55	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 3 limit 1	
+2016-10-27 11:17:55	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 3 limit 1	
+2016-10-27 11:17:55	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 2 limit 1	
+2016-10-27 11:17:55	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 2 limit 1	
+2016-10-27 11:17:55	SELECT sum(sale) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-27 11:17:55	SELECT sum(grade)/sum(comments) as num FROM iwebshop_goods WHERE seller_id = 1 limit 1	
+2016-10-27 11:17:55	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-27 11:17:57	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 11:17:57	SELECT * FROM iwebshop_areas WHERE parent_id=0 ORDER BY sort ASC  limit 50000	
+2016-10-27 11:18:00	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 11:18:00	SELECT * FROM iwebshop_seller WHERE create_time BETWEEN '2016-10-10 11:05:05' and '2016-10-28 11:05:12' limit 50000	
+2016-10-27 11:18:21	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 11:18:21	SELECT * FROM iwebshop_seller WHERE create_time BETWEEN '2016-10-10 11:05:05' and '2016-10-13 11:05:12' limit 50000	
+2016-10-27 11:18:28	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 11:18:28	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 11:18:28	SELECT * FROM iwebshop_areas WHERE parent_id=110000 ORDER BY sort ASC  limit 50000	
+2016-10-27 11:18:28	SELECT * FROM iwebshop_seller WHERE province = 110000 limit 50000	
+2016-10-27 11:18:31	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 11:18:31	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 11:18:31	SELECT * FROM iwebshop_areas WHERE parent_id=110100 ORDER BY sort ASC  limit 50000	
+2016-10-27 11:18:31	SELECT * FROM iwebshop_seller WHERE city = 110100 and province = 110000 limit 50000	
+2016-10-27 11:18:34	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 11:18:34	SELECT * FROM iwebshop_seller WHERE area = 110108 and province=110000 and city=110100 limit 50000	
+2016-10-27 11:18:37	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 11:18:37	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 11:18:37	SELECT * FROM iwebshop_areas WHERE parent_id=110200 ORDER BY sort ASC  limit 50000	
+2016-10-27 11:18:37	SELECT * FROM iwebshop_seller WHERE city = 110200 and province = 110000 limit 50000	
+2016-10-27 11:18:39	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 11:18:39	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 11:18:39	SELECT * FROM iwebshop_seller WHERE city = 0 and province = 110000 limit 50000	
+2016-10-27 11:18:39	SELECT * FROM iwebshop_areas WHERE parent_id=0 ORDER BY sort ASC  limit 50000	
+2016-10-27 11:18:42	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 11:18:42	SELECT * FROM iwebshop_seller WHERE city = 110100 and province = 110000 limit 50000	
+2016-10-27 11:18:42	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 11:18:42	SELECT * FROM iwebshop_areas WHERE parent_id=110100 ORDER BY sort ASC  limit 50000	
+2016-10-27 11:18:45	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 11:18:45	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 11:18:45	SELECT * FROM iwebshop_seller WHERE province = 130000 limit 50000	
+2016-10-27 11:18:45	SELECT * FROM iwebshop_areas WHERE parent_id=130000 ORDER BY sort ASC  limit 50000	
+2016-10-27 11:18:48	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 11:18:48	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 11:18:48	SELECT * FROM iwebshop_seller WHERE city = 130100 and province = 130000 limit 50000	
+2016-10-27 11:18:48	SELECT * FROM iwebshop_areas WHERE parent_id=130100 ORDER BY sort ASC  limit 50000	
+2016-10-27 11:18:50	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 11:18:51	SELECT * FROM iwebshop_seller WHERE area = 130101 and province=130000 and city=130100 limit 50000	
+2016-10-27 11:20:31	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 11:20:31	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 11:20:31	SELECT * FROM iwebshop_areas WHERE parent_id=110000 ORDER BY sort ASC  limit 50000	
+2016-10-27 11:20:31	SELECT * FROM iwebshop_seller WHERE province = 110000 limit 50000	
+2016-10-27 11:20:33	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 11:20:33	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 11:20:33	SELECT * FROM iwebshop_areas WHERE parent_id=110100 ORDER BY sort ASC  limit 50000	
+2016-10-27 11:20:33	SELECT * FROM iwebshop_seller WHERE city = 110100 and province = 110000 limit 50000	
+2016-10-27 11:20:36	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 11:20:36	SELECT * FROM iwebshop_seller WHERE area = 110108 and province=110000 and city=110100 limit 50000	
+2016-10-27 11:20:38	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 11:20:38	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 11:20:38	SELECT * FROM iwebshop_areas WHERE parent_id=110200 ORDER BY sort ASC  limit 50000	
+2016-10-27 11:20:38	SELECT * FROM iwebshop_seller WHERE city = 110200 and province = 110000 limit 50000	
+2016-10-27 11:20:40	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 11:20:40	SELECT * FROM iwebshop_seller WHERE area = 110228 and province=110000 and city=110200 limit 50000	
+2016-10-27 11:20:43	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 11:20:43	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 11:20:43	SELECT * FROM iwebshop_areas WHERE parent_id=130000 ORDER BY sort ASC  limit 50000	
+2016-10-27 11:20:43	SELECT * FROM iwebshop_seller WHERE province = 130000 limit 50000	
+2016-10-27 11:20:45	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 11:20:45	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 11:20:45	SELECT * FROM iwebshop_areas WHERE parent_id=130100 ORDER BY sort ASC  limit 50000	
+2016-10-27 11:20:45	SELECT * FROM iwebshop_seller WHERE city = 130100 and province = 130000 limit 50000	
+2016-10-27 11:20:47	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 11:20:47	SELECT * FROM iwebshop_seller WHERE area = 130101 and province=130000 and city=130100 limit 50000	
+2016-10-27 11:21:04	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 11:21:05	SELECT * FROM iwebshop_seller WHERE create_time BETWEEN '2016-10-11 11:05:05' and '2016-10-20 11:05:12' limit 50000	
+2016-10-27 11:21:19	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 11:21:19	SELECT * FROM iwebshop_seller WHERE create_time BETWEEN '2016-10-11 11:05:05' and '2016-10-13 11:05:12' limit 50000	
+2016-10-27 11:21:25	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = '' or u.email = '' or m.mobile='') and m.status = 1 and u.id = m.user_id limit 1	
+2016-10-27 11:21:25	SELECT * FROM iwebshop_seller WHERE create_time BETWEEN '2016-10-11 11:05:05' and '2016-10-18 11:05:12' limit 50000	
+2016-10-27 11:21:49	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 11:21:49	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 11:21:49	SELECT * FROM iwebshop_user_group limit 50000	
+2016-10-27 11:21:49	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-27 11:21:51	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 11:21:51	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 11:21:51	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-27 11:21:53	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 11:21:53	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 11:21:53	SELECT * FROM iwebshop_youjian limit 50000	
+2016-10-27 11:21:53	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-27 11:21:56	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 11:21:56	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 11:21:56	SELECT * FROM iwebshop_youjian WHERE id=27 limit 50000	
+2016-10-27 11:21:56	SELECT * FROM iwebshop_user WHERE id<8 limit 50000	
+2016-10-27 11:22:01	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 11:22:01	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 11:22:01	SELECT * FROM iwebshop_youjian WHERE id=27 limit 50000	
+2016-10-27 11:22:01	SELECT * FROM iwebshop_user WHERE id<8 limit 50000	
+2016-10-27 11:22:07	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 11:22:07	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 11:22:07	SELECT * FROM iwebshop_youjian limit 50000	
+2016-10-27 11:22:07	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	
+2016-10-27 11:22:44	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 11:22:44	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 11:22:44	SELECT * FROM iwebshop_youjian WHERE id=27 limit 50000	
+2016-10-27 11:22:44	SELECT * FROM iwebshop_user WHERE id<8 limit 50000	
+2016-10-27 11:22:54	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 11:22:54	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 11:22:54	SELECT * FROM iwebshop_youjian WHERE id=28 limit 50000	
+2016-10-27 11:22:54	SELECT * FROM iwebshop_user WHERE id<8 limit 50000	
+2016-10-27 11:23:49	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 11:23:49	SELECT * FROM iwebshop_admin WHERE admin_name='luyaran' and is_del = 0 limit 1	
+2016-10-27 11:23:49	SELECT * FROM iwebshop_youjian limit 50000	
+2016-10-27 11:23:49	SELECT * FROM iwebshop_admin WHERE admin_name = "luyaran" limit 1	

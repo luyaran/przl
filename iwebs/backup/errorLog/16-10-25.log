@@ -1,0 +1,1607 @@
+<ERROR_BLOCK>
+errorInfo: Undefined variable: where
+errorFile: IWEB_PATH/runtime/sysdefault/test/user_list.php
+errorLine: 130
+errorCode: 8
+errorTime: 2016-10-25 15:52:05
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/test/user_list)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/test/user_list)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(137): IViewAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#6 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+excepInfo: select count(*) as total from iwebshop_user as u left join iwebshop_member  as m on m.user_id = u.id where m.status  !=  2 and    
+ -- You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+excepFile: IWEB_PATH/lib/db/db_class.php
+excepLine: 68
+excepCode: 1000
+excepTime: 2016-10-25 15:52:05
+#0 IWEB_PATH/lib/core/paging_class.php(56): IDB->query(select count(*) as total from iwebshop_user as u left join iwebshop_member  as m on m.user_id = u.id where m.status  !=  2 and    )
+#1 IWEB_PATH/lib/core/paging_class.php(42): IPaging->setSql(select  m.*,u.username,u.email from iwebshop_user as u left join iwebshop_member  as m on m.user_id = u.id where m.status  !=  2 and    order by m.user_id desc)
+#2 IWEB_PATH/lib/core/query_class.php(143): IPaging->__construct(select  m.*,u.username,u.email from iwebshop_user as u left join iwebshop_member  as m on m.user_id = u.id where m.status  !=  2 and    order by m.user_id desc,20,10)
+#3 IWEB_PATH/runtime/sysdefault/test/user_list.php(130): IQuery->find()
+#4 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#5 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#6 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/test/user_list)
+#7 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/test/user_list)
+#8 IWEB_PATH/lib/web/controller/controller_class.php(137): IViewAction->run()
+#9 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#10 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#11 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined variable: where
+errorFile: IWEB_PATH/runtime/sysdefault/test/user_list.php
+errorLine: 130
+errorCode: 8
+errorTime: 2016-10-25 15:52:10
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/test/user_list)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/test/user_list)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(137): IViewAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#6 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+excepInfo: select count(*) as total from iwebshop_user as u left join iwebshop_member  as m on m.user_id = u.id where m.status  !=  2 and    
+ -- You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+excepFile: IWEB_PATH/lib/db/db_class.php
+excepLine: 68
+excepCode: 1000
+excepTime: 2016-10-25 15:52:10
+#0 IWEB_PATH/lib/core/paging_class.php(56): IDB->query(select count(*) as total from iwebshop_user as u left join iwebshop_member  as m on m.user_id = u.id where m.status  !=  2 and    )
+#1 IWEB_PATH/lib/core/paging_class.php(42): IPaging->setSql(select  m.*,u.username,u.email from iwebshop_user as u left join iwebshop_member  as m on m.user_id = u.id where m.status  !=  2 and    order by m.user_id desc)
+#2 IWEB_PATH/lib/core/query_class.php(143): IPaging->__construct(select  m.*,u.username,u.email from iwebshop_user as u left join iwebshop_member  as m on m.user_id = u.id where m.status  !=  2 and    order by m.user_id desc,20,10)
+#3 IWEB_PATH/runtime/sysdefault/test/user_list.php(130): IQuery->find()
+#4 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#5 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#6 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/test/user_list)
+#7 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/test/user_list)
+#8 IWEB_PATH/lib/web/controller/controller_class.php(137): IViewAction->run()
+#9 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#10 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#11 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined variable: where
+errorFile: IWEB_PATH/runtime/sysdefault/test/user_list.php
+errorLine: 130
+errorCode: 8
+errorTime: 2016-10-25 15:52:57
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/test/user_list)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/test/user_list)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(137): IViewAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#6 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+excepInfo: select count(*) as total from iwebshop_user as u left join iwebshop_member  as m on m.user_id = u.id where m.status  !=  2 and    
+ -- You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+excepFile: IWEB_PATH/lib/db/db_class.php
+excepLine: 68
+excepCode: 1000
+excepTime: 2016-10-25 15:52:57
+#0 IWEB_PATH/lib/core/paging_class.php(56): IDB->query(select count(*) as total from iwebshop_user as u left join iwebshop_member  as m on m.user_id = u.id where m.status  !=  2 and    )
+#1 IWEB_PATH/lib/core/paging_class.php(42): IPaging->setSql(select  m.*,u.username,u.email from iwebshop_user as u left join iwebshop_member  as m on m.user_id = u.id where m.status  !=  2 and    order by m.user_id desc)
+#2 IWEB_PATH/lib/core/query_class.php(143): IPaging->__construct(select  m.*,u.username,u.email from iwebshop_user as u left join iwebshop_member  as m on m.user_id = u.id where m.status  !=  2 and    order by m.user_id desc,20,10)
+#3 IWEB_PATH/runtime/sysdefault/test/user_list.php(130): IQuery->find()
+#4 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#5 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#6 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/test/user_list)
+#7 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/test/user_list)
+#8 IWEB_PATH/lib/web/controller/controller_class.php(137): IViewAction->run()
+#9 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#10 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#11 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined variable: where
+errorFile: IWEB_PATH/runtime/sysdefault/test/user_list.php
+errorLine: 130
+errorCode: 8
+errorTime: 2016-10-25 15:52:58
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/test/user_list)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/test/user_list)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(137): IViewAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#6 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+excepInfo: select count(*) as total from iwebshop_user as u left join iwebshop_member  as m on m.user_id = u.id where m.status  !=  2 and    
+ -- You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+excepFile: IWEB_PATH/lib/db/db_class.php
+excepLine: 68
+excepCode: 1000
+excepTime: 2016-10-25 15:52:58
+#0 IWEB_PATH/lib/core/paging_class.php(56): IDB->query(select count(*) as total from iwebshop_user as u left join iwebshop_member  as m on m.user_id = u.id where m.status  !=  2 and    )
+#1 IWEB_PATH/lib/core/paging_class.php(42): IPaging->setSql(select  m.*,u.username,u.email from iwebshop_user as u left join iwebshop_member  as m on m.user_id = u.id where m.status  !=  2 and    order by m.user_id desc)
+#2 IWEB_PATH/lib/core/query_class.php(143): IPaging->__construct(select  m.*,u.username,u.email from iwebshop_user as u left join iwebshop_member  as m on m.user_id = u.id where m.status  !=  2 and    order by m.user_id desc,20,10)
+#3 IWEB_PATH/runtime/sysdefault/test/user_list.php(130): IQuery->find()
+#4 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#5 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#6 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/test/user_list)
+#7 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/test/user_list)
+#8 IWEB_PATH/lib/web/controller/controller_class.php(137): IViewAction->run()
+#9 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#10 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#11 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined variable: where
+errorFile: IWEB_PATH/runtime/sysdefault/test/user_list.php
+errorLine: 130
+errorCode: 8
+errorTime: 2016-10-25 15:55:51
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/test/user_list)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/test/user_list)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/test.php(94): IController->redirect(user_list)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Test->user_list()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+excepInfo: select count(*) as total from iwebshop_user as u left join iwebshop_member  as m on m.user_id = u.id where m.status  !=  2 and    
+ -- You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+excepFile: IWEB_PATH/lib/db/db_class.php
+excepLine: 68
+excepCode: 1000
+excepTime: 2016-10-25 15:55:51
+#0 IWEB_PATH/lib/core/paging_class.php(56): IDB->query(select count(*) as total from iwebshop_user as u left join iwebshop_member  as m on m.user_id = u.id where m.status  !=  2 and    )
+#1 IWEB_PATH/lib/core/paging_class.php(42): IPaging->setSql(select  m.*,u.username,u.email from iwebshop_user as u left join iwebshop_member  as m on m.user_id = u.id where m.status  !=  2 and    order by m.user_id desc)
+#2 IWEB_PATH/lib/core/query_class.php(143): IPaging->__construct(select  m.*,u.username,u.email from iwebshop_user as u left join iwebshop_member  as m on m.user_id = u.id where m.status  !=  2 and    order by m.user_id desc,20,10)
+#3 IWEB_PATH/runtime/sysdefault/test/user_list.php(130): IQuery->find()
+#4 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#5 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#6 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/test/user_list)
+#7 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/test/user_list)
+#8 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#9 IWEB_PATH/controllers/test.php(94): IController->redirect(user_list)
+#10 IWEB_PATH/lib/web/action/inline_action.php(24): Test->user_list()
+#11 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#12 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#13 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#14 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined variable: where
+errorFile: IWEB_PATH/runtime/sysdefault/test/user_list.php
+errorLine: 130
+errorCode: 8
+errorTime: 2016-10-25 15:56:09
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/test/user_list)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/test/user_list)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/test.php(94): IController->redirect(user_list)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Test->user_list()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+excepInfo: select count(*) as total from iwebshop_user as u left join iwebshop_member  as m on m.user_id = u.id where m.status  !=  2 and    
+ -- You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+excepFile: IWEB_PATH/lib/db/db_class.php
+excepLine: 68
+excepCode: 1000
+excepTime: 2016-10-25 15:56:09
+#0 IWEB_PATH/lib/core/paging_class.php(56): IDB->query(select count(*) as total from iwebshop_user as u left join iwebshop_member  as m on m.user_id = u.id where m.status  !=  2 and    )
+#1 IWEB_PATH/lib/core/paging_class.php(42): IPaging->setSql(select  m.*,u.username,u.email from iwebshop_user as u left join iwebshop_member  as m on m.user_id = u.id where m.status  !=  2 and    order by m.user_id desc)
+#2 IWEB_PATH/lib/core/query_class.php(143): IPaging->__construct(select  m.*,u.username,u.email from iwebshop_user as u left join iwebshop_member  as m on m.user_id = u.id where m.status  !=  2 and    order by m.user_id desc,20,10)
+#3 IWEB_PATH/runtime/sysdefault/test/user_list.php(130): IQuery->find()
+#4 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#5 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#6 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/test/user_list)
+#7 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/test/user_list)
+#8 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#9 IWEB_PATH/controllers/test.php(94): IController->redirect(user_list)
+#10 IWEB_PATH/lib/web/action/inline_action.php(24): Test->user_list()
+#11 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#12 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#13 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#14 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined variable: where
+errorFile: IWEB_PATH/runtime/sysdefault/test/user_list.php
+errorLine: 130
+errorCode: 8
+errorTime: 2016-10-25 15:56:19
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/test/user_list)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/test/user_list)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/test.php(94): IController->redirect(user_list)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Test->user_list()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+excepInfo: select count(*) as total from iwebshop_user as u left join iwebshop_member  as m on m.user_id = u.id where m.status  !=  2 and    
+ -- You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+excepFile: IWEB_PATH/lib/db/db_class.php
+excepLine: 68
+excepCode: 1000
+excepTime: 2016-10-25 15:56:19
+#0 IWEB_PATH/lib/core/paging_class.php(56): IDB->query(select count(*) as total from iwebshop_user as u left join iwebshop_member  as m on m.user_id = u.id where m.status  !=  2 and    )
+#1 IWEB_PATH/lib/core/paging_class.php(42): IPaging->setSql(select  m.*,u.username,u.email from iwebshop_user as u left join iwebshop_member  as m on m.user_id = u.id where m.status  !=  2 and    order by m.user_id desc)
+#2 IWEB_PATH/lib/core/query_class.php(143): IPaging->__construct(select  m.*,u.username,u.email from iwebshop_user as u left join iwebshop_member  as m on m.user_id = u.id where m.status  !=  2 and    order by m.user_id desc,20,10)
+#3 IWEB_PATH/runtime/sysdefault/test/user_list.php(130): IQuery->find()
+#4 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#5 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#6 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/test/user_list)
+#7 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/test/user_list)
+#8 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#9 IWEB_PATH/controllers/test.php(94): IController->redirect(user_list)
+#10 IWEB_PATH/lib/web/action/inline_action.php(24): Test->user_list()
+#11 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#12 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#13 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#14 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined variable: where
+errorFile: IWEB_PATH/runtime/sysdefault/test/user_list.php
+errorLine: 130
+errorCode: 8
+errorTime: 2016-10-25 15:56:20
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/test/user_list)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/test/user_list)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/test.php(94): IController->redirect(user_list)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Test->user_list()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+excepInfo: select count(*) as total from iwebshop_user as u left join iwebshop_member  as m on m.user_id = u.id where m.status  !=  2 and    
+ -- You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+excepFile: IWEB_PATH/lib/db/db_class.php
+excepLine: 68
+excepCode: 1000
+excepTime: 2016-10-25 15:56:20
+#0 IWEB_PATH/lib/core/paging_class.php(56): IDB->query(select count(*) as total from iwebshop_user as u left join iwebshop_member  as m on m.user_id = u.id where m.status  !=  2 and    )
+#1 IWEB_PATH/lib/core/paging_class.php(42): IPaging->setSql(select  m.*,u.username,u.email from iwebshop_user as u left join iwebshop_member  as m on m.user_id = u.id where m.status  !=  2 and    order by m.user_id desc)
+#2 IWEB_PATH/lib/core/query_class.php(143): IPaging->__construct(select  m.*,u.username,u.email from iwebshop_user as u left join iwebshop_member  as m on m.user_id = u.id where m.status  !=  2 and    order by m.user_id desc,20,10)
+#3 IWEB_PATH/runtime/sysdefault/test/user_list.php(130): IQuery->find()
+#4 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#5 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#6 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/test/user_list)
+#7 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/test/user_list)
+#8 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#9 IWEB_PATH/controllers/test.php(94): IController->redirect(user_list)
+#10 IWEB_PATH/lib/web/action/inline_action.php(24): Test->user_list()
+#11 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#12 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#13 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#14 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined variable: where
+errorFile: IWEB_PATH/runtime/sysdefault/test/user_list.php
+errorLine: 130
+errorCode: 8
+errorTime: 2016-10-25 15:58:35
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/test/user_list)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/test/user_list)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/test.php(94): IController->redirect(user_list)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Test->user_list()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+excepInfo: select count(*) as total from iwebshop_user as u left join iwebshop_member  as m on m.user_id = u.id where m.status  !=  2 and    
+ -- You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+excepFile: IWEB_PATH/lib/db/db_class.php
+excepLine: 68
+excepCode: 1000
+excepTime: 2016-10-25 15:58:35
+#0 IWEB_PATH/lib/core/paging_class.php(56): IDB->query(select count(*) as total from iwebshop_user as u left join iwebshop_member  as m on m.user_id = u.id where m.status  !=  2 and    )
+#1 IWEB_PATH/lib/core/paging_class.php(42): IPaging->setSql(select  m.*,u.username,u.email from iwebshop_user as u left join iwebshop_member  as m on m.user_id = u.id where m.status  !=  2 and    order by m.user_id desc)
+#2 IWEB_PATH/lib/core/query_class.php(143): IPaging->__construct(select  m.*,u.username,u.email from iwebshop_user as u left join iwebshop_member  as m on m.user_id = u.id where m.status  !=  2 and    order by m.user_id desc,20,10)
+#3 IWEB_PATH/runtime/sysdefault/test/user_list.php(130): IQuery->find()
+#4 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#5 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#6 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/test/user_list)
+#7 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/test/user_list)
+#8 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#9 IWEB_PATH/controllers/test.php(94): IController->redirect(user_list)
+#10 IWEB_PATH/lib/web/action/inline_action.php(24): Test->user_list()
+#11 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#12 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#13 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#14 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Use of undefined constant id - assumed 'id'
+errorFile: IWEB_PATH/runtime/sysdefault/test/user_list.php
+errorLine: 149
+errorCode: 8
+errorTime: 2016-10-25 18:51:28
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/test/user_list)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/test/user_list)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/test.php(94): IController->redirect(user_list)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Test->user_list()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Use of undefined constant id - assumed 'id'
+errorFile: IWEB_PATH/runtime/sysdefault/test/user_list.php
+errorLine: 149
+errorCode: 8
+errorTime: 2016-10-25 18:51:28
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/test/user_list)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/test/user_list)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/test.php(94): IController->redirect(user_list)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Test->user_list()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Use of undefined constant id - assumed 'id'
+errorFile: IWEB_PATH/runtime/sysdefault/test/user_list.php
+errorLine: 149
+errorCode: 8
+errorTime: 2016-10-25 18:51:28
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/test/user_list)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/test/user_list)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/test.php(94): IController->redirect(user_list)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Test->user_list()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Use of undefined constant id - assumed 'id'
+errorFile: IWEB_PATH/runtime/sysdefault/test/user_list.php
+errorLine: 149
+errorCode: 8
+errorTime: 2016-10-25 18:51:28
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/test/user_list)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/test/user_list)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/test.php(94): IController->redirect(user_list)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Test->user_list()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Use of undefined constant id - assumed 'id'
+errorFile: IWEB_PATH/runtime/sysdefault/test/user_list.php
+errorLine: 149
+errorCode: 8
+errorTime: 2016-10-25 18:51:28
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/test/user_list)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/test/user_list)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/test.php(94): IController->redirect(user_list)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Test->user_list()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Use of undefined constant id - assumed 'id'
+errorFile: IWEB_PATH/runtime/sysdefault/test/user_list.php
+errorLine: 149
+errorCode: 8
+errorTime: 2016-10-25 18:51:28
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/test/user_list)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/test/user_list)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/test.php(94): IController->redirect(user_list)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Test->user_list()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Use of undefined constant id - assumed 'id'
+errorFile: IWEB_PATH/runtime/sysdefault/test/user_list.php
+errorLine: 149
+errorCode: 8
+errorTime: 2016-10-25 18:51:28
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/test/user_list)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/test/user_list)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/test.php(94): IController->redirect(user_list)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Test->user_list()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Use of undefined constant id - assumed 'id'
+errorFile: IWEB_PATH/runtime/sysdefault/test/user_list.php
+errorLine: 149
+errorCode: 8
+errorTime: 2016-10-25 18:51:28
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/test/user_list)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/test/user_list)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/test.php(94): IController->redirect(user_list)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Test->user_list()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Use of undefined constant id - assumed 'id'
+errorFile: IWEB_PATH/runtime/sysdefault/test/user_list.php
+errorLine: 132
+errorCode: 8
+errorTime: 2016-10-25 18:53:44
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/test/user_list)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/test/user_list)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/test.php(94): IController->redirect(user_list)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Test->user_list()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Use of undefined constant id - assumed 'id'
+errorFile: IWEB_PATH/runtime/sysdefault/test/user_list.php
+errorLine: 132
+errorCode: 8
+errorTime: 2016-10-25 18:53:44
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/test/user_list)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/test/user_list)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/test.php(94): IController->redirect(user_list)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Test->user_list()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Use of undefined constant id - assumed 'id'
+errorFile: IWEB_PATH/runtime/sysdefault/test/user_list.php
+errorLine: 132
+errorCode: 8
+errorTime: 2016-10-25 18:53:44
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/test/user_list)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/test/user_list)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/test.php(94): IController->redirect(user_list)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Test->user_list()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Use of undefined constant id - assumed 'id'
+errorFile: IWEB_PATH/runtime/sysdefault/test/user_list.php
+errorLine: 132
+errorCode: 8
+errorTime: 2016-10-25 18:53:44
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/test/user_list)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/test/user_list)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/test.php(94): IController->redirect(user_list)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Test->user_list()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Use of undefined constant id - assumed 'id'
+errorFile: IWEB_PATH/runtime/sysdefault/test/user_list.php
+errorLine: 132
+errorCode: 8
+errorTime: 2016-10-25 18:53:44
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/test/user_list)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/test/user_list)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/test.php(94): IController->redirect(user_list)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Test->user_list()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Use of undefined constant id - assumed 'id'
+errorFile: IWEB_PATH/runtime/sysdefault/test/user_list.php
+errorLine: 132
+errorCode: 8
+errorTime: 2016-10-25 18:53:44
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/test/user_list)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/test/user_list)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/test.php(94): IController->redirect(user_list)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Test->user_list()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Use of undefined constant id - assumed 'id'
+errorFile: IWEB_PATH/runtime/sysdefault/test/user_list.php
+errorLine: 132
+errorCode: 8
+errorTime: 2016-10-25 18:53:44
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/test/user_list)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/test/user_list)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/test.php(94): IController->redirect(user_list)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Test->user_list()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Use of undefined constant id - assumed 'id'
+errorFile: IWEB_PATH/runtime/sysdefault/test/user_list.php
+errorLine: 132
+errorCode: 8
+errorTime: 2016-10-25 18:53:44
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/test/user_list)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/test/user_list)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/test.php(94): IController->redirect(user_list)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Test->user_list()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Use of undefined constant id - assumed 'id'
+errorFile: IWEB_PATH/runtime/sysdefault/test/user_list.php
+errorLine: 132
+errorCode: 8
+errorTime: 2016-10-25 18:54:55
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/test/user_list)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/test/user_list)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/test.php(94): IController->redirect(user_list)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Test->user_list()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Use of undefined constant id - assumed 'id'
+errorFile: IWEB_PATH/runtime/sysdefault/test/user_list.php
+errorLine: 132
+errorCode: 8
+errorTime: 2016-10-25 18:54:55
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/test/user_list)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/test/user_list)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/test.php(94): IController->redirect(user_list)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Test->user_list()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Use of undefined constant id - assumed 'id'
+errorFile: IWEB_PATH/runtime/sysdefault/test/user_list.php
+errorLine: 132
+errorCode: 8
+errorTime: 2016-10-25 18:54:55
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/test/user_list)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/test/user_list)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/test.php(94): IController->redirect(user_list)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Test->user_list()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Use of undefined constant id - assumed 'id'
+errorFile: IWEB_PATH/runtime/sysdefault/test/user_list.php
+errorLine: 132
+errorCode: 8
+errorTime: 2016-10-25 18:54:55
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/test/user_list)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/test/user_list)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/test.php(94): IController->redirect(user_list)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Test->user_list()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Use of undefined constant id - assumed 'id'
+errorFile: IWEB_PATH/runtime/sysdefault/test/user_list.php
+errorLine: 132
+errorCode: 8
+errorTime: 2016-10-25 18:54:55
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/test/user_list)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/test/user_list)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/test.php(94): IController->redirect(user_list)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Test->user_list()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Use of undefined constant id - assumed 'id'
+errorFile: IWEB_PATH/runtime/sysdefault/test/user_list.php
+errorLine: 132
+errorCode: 8
+errorTime: 2016-10-25 18:54:55
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/test/user_list)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/test/user_list)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/test.php(94): IController->redirect(user_list)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Test->user_list()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Use of undefined constant id - assumed 'id'
+errorFile: IWEB_PATH/runtime/sysdefault/test/user_list.php
+errorLine: 132
+errorCode: 8
+errorTime: 2016-10-25 18:54:55
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/test/user_list)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/test/user_list)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/test.php(94): IController->redirect(user_list)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Test->user_list()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Use of undefined constant id - assumed 'id'
+errorFile: IWEB_PATH/runtime/sysdefault/test/user_list.php
+errorLine: 132
+errorCode: 8
+errorTime: 2016-10-25 18:54:55
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/test/user_list)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/test/user_list)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/test.php(94): IController->redirect(user_list)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Test->user_list()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: sms_userid
+errorFile: IWEB_PATH/plugins/hsms/rest.php
+errorLine: 38
+errorCode: 8
+errorTime: 2016-10-25 18:55:04
+#0 IWEB_PATH/classes/hsms.php(64): rest->__construct()
+#1 IWEB_PATH/controllers/member.php(806): Hsms::send(18101301805,您申请的加盟商状态已经被修改为:正常状态,请登录您的商户后台查看具体的详情,0)
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): Member->ajax_seller_lock()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#5 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: sms_username
+errorFile: IWEB_PATH/plugins/hsms/rest.php
+errorLine: 39
+errorCode: 8
+errorTime: 2016-10-25 18:55:04
+#0 IWEB_PATH/classes/hsms.php(64): rest->__construct()
+#1 IWEB_PATH/controllers/member.php(806): Hsms::send(18101301805,您申请的加盟商状态已经被修改为:正常状态,请登录您的商户后台查看具体的详情,0)
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): Member->ajax_seller_lock()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#5 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: sms_pwd
+errorFile: IWEB_PATH/plugins/hsms/rest.php
+errorLine: 40
+errorCode: 8
+errorTime: 2016-10-25 18:55:04
+#0 IWEB_PATH/classes/hsms.php(64): rest->__construct()
+#1 IWEB_PATH/controllers/member.php(806): Hsms::send(18101301805,您申请的加盟商状态已经被修改为:正常状态,请登录您的商户后台查看具体的详情,0)
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): Member->ajax_seller_lock()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#5 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: sms_userid
+errorFile: IWEB_PATH/plugins/hsms/rest.php
+errorLine: 38
+errorCode: 8
+errorTime: 2016-10-25 18:55:16
+#0 IWEB_PATH/classes/hsms.php(64): rest->__construct()
+#1 IWEB_PATH/controllers/member.php(806): Hsms::send(18101301805,您申请的加盟商状态已经被修改为:正常状态,请登录您的商户后台查看具体的详情,0)
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): Member->ajax_seller_lock()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#5 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: sms_username
+errorFile: IWEB_PATH/plugins/hsms/rest.php
+errorLine: 39
+errorCode: 8
+errorTime: 2016-10-25 18:55:16
+#0 IWEB_PATH/classes/hsms.php(64): rest->__construct()
+#1 IWEB_PATH/controllers/member.php(806): Hsms::send(18101301805,您申请的加盟商状态已经被修改为:正常状态,请登录您的商户后台查看具体的详情,0)
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): Member->ajax_seller_lock()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#5 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: sms_pwd
+errorFile: IWEB_PATH/plugins/hsms/rest.php
+errorLine: 40
+errorCode: 8
+errorTime: 2016-10-25 18:55:16
+#0 IWEB_PATH/classes/hsms.php(64): rest->__construct()
+#1 IWEB_PATH/controllers/member.php(806): Hsms::send(18101301805,您申请的加盟商状态已经被修改为:正常状态,请登录您的商户后台查看具体的详情,0)
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): Member->ajax_seller_lock()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#5 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Use of undefined constant id - assumed 'id'
+errorFile: IWEB_PATH/runtime/sysdefault/test/user_list.php
+errorLine: 132
+errorCode: 8
+errorTime: 2016-10-25 18:56:00
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/test/user_list)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/test/user_list)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/test.php(94): IController->redirect(user_list)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Test->user_list()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Use of undefined constant id - assumed 'id'
+errorFile: IWEB_PATH/runtime/sysdefault/test/user_list.php
+errorLine: 132
+errorCode: 8
+errorTime: 2016-10-25 18:56:00
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/test/user_list)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/test/user_list)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/test.php(94): IController->redirect(user_list)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Test->user_list()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Use of undefined constant id - assumed 'id'
+errorFile: IWEB_PATH/runtime/sysdefault/test/user_list.php
+errorLine: 132
+errorCode: 8
+errorTime: 2016-10-25 18:56:00
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/test/user_list)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/test/user_list)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/test.php(94): IController->redirect(user_list)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Test->user_list()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Use of undefined constant id - assumed 'id'
+errorFile: IWEB_PATH/runtime/sysdefault/test/user_list.php
+errorLine: 132
+errorCode: 8
+errorTime: 2016-10-25 18:56:00
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/test/user_list)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/test/user_list)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/test.php(94): IController->redirect(user_list)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Test->user_list()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Use of undefined constant id - assumed 'id'
+errorFile: IWEB_PATH/runtime/sysdefault/test/user_list.php
+errorLine: 132
+errorCode: 8
+errorTime: 2016-10-25 18:56:00
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/test/user_list)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/test/user_list)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/test.php(94): IController->redirect(user_list)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Test->user_list()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Use of undefined constant id - assumed 'id'
+errorFile: IWEB_PATH/runtime/sysdefault/test/user_list.php
+errorLine: 132
+errorCode: 8
+errorTime: 2016-10-25 18:56:00
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/test/user_list)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/test/user_list)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/test.php(94): IController->redirect(user_list)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Test->user_list()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Use of undefined constant id - assumed 'id'
+errorFile: IWEB_PATH/runtime/sysdefault/test/user_list.php
+errorLine: 132
+errorCode: 8
+errorTime: 2016-10-25 18:56:00
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/test/user_list)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/test/user_list)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/test.php(94): IController->redirect(user_list)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Test->user_list()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Use of undefined constant id - assumed 'id'
+errorFile: IWEB_PATH/runtime/sysdefault/test/user_list.php
+errorLine: 132
+errorCode: 8
+errorTime: 2016-10-25 18:56:00
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/test/user_list)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/test/user_list)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/test.php(94): IController->redirect(user_list)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Test->user_list()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Use of undefined constant id - assumed 'id'
+errorFile: IWEB_PATH/runtime/sysdefault/test/user_list.php
+errorLine: 132
+errorCode: 8
+errorTime: 2016-10-25 18:56:46
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/test/user_list)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/test/user_list)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/test.php(94): IController->redirect(user_list)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Test->user_list()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Use of undefined constant id - assumed 'id'
+errorFile: IWEB_PATH/runtime/sysdefault/test/user_list.php
+errorLine: 132
+errorCode: 8
+errorTime: 2016-10-25 18:56:46
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/test/user_list)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/test/user_list)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/test.php(94): IController->redirect(user_list)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Test->user_list()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Use of undefined constant id - assumed 'id'
+errorFile: IWEB_PATH/runtime/sysdefault/test/user_list.php
+errorLine: 132
+errorCode: 8
+errorTime: 2016-10-25 18:56:46
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/test/user_list)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/test/user_list)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/test.php(94): IController->redirect(user_list)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Test->user_list()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Use of undefined constant id - assumed 'id'
+errorFile: IWEB_PATH/runtime/sysdefault/test/user_list.php
+errorLine: 132
+errorCode: 8
+errorTime: 2016-10-25 18:56:46
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/test/user_list)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/test/user_list)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/test.php(94): IController->redirect(user_list)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Test->user_list()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Use of undefined constant id - assumed 'id'
+errorFile: IWEB_PATH/runtime/sysdefault/test/user_list.php
+errorLine: 132
+errorCode: 8
+errorTime: 2016-10-25 18:56:46
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/test/user_list)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/test/user_list)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/test.php(94): IController->redirect(user_list)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Test->user_list()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Use of undefined constant id - assumed 'id'
+errorFile: IWEB_PATH/runtime/sysdefault/test/user_list.php
+errorLine: 132
+errorCode: 8
+errorTime: 2016-10-25 18:56:46
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/test/user_list)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/test/user_list)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/test.php(94): IController->redirect(user_list)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Test->user_list()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Use of undefined constant id - assumed 'id'
+errorFile: IWEB_PATH/runtime/sysdefault/test/user_list.php
+errorLine: 132
+errorCode: 8
+errorTime: 2016-10-25 18:56:46
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/test/user_list)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/test/user_list)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/test.php(94): IController->redirect(user_list)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Test->user_list()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Use of undefined constant id - assumed 'id'
+errorFile: IWEB_PATH/runtime/sysdefault/test/user_list.php
+errorLine: 132
+errorCode: 8
+errorTime: 2016-10-25 18:56:46
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/test/user_list)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/test/user_list)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/test.php(94): IController->redirect(user_list)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Test->user_list()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: sms_userid
+errorFile: IWEB_PATH/plugins/hsms/rest.php
+errorLine: 38
+errorCode: 8
+errorTime: 2016-10-25 18:56:51
+#0 IWEB_PATH/classes/hsms.php(64): rest->__construct()
+#1 IWEB_PATH/controllers/member.php(806): Hsms::send(18101301805,您申请的加盟商状态已经被修改为:正常状态,请登录您的商户后台查看具体的详情,0)
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): Member->ajax_seller_lock()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#5 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: sms_username
+errorFile: IWEB_PATH/plugins/hsms/rest.php
+errorLine: 39
+errorCode: 8
+errorTime: 2016-10-25 18:56:51
+#0 IWEB_PATH/classes/hsms.php(64): rest->__construct()
+#1 IWEB_PATH/controllers/member.php(806): Hsms::send(18101301805,您申请的加盟商状态已经被修改为:正常状态,请登录您的商户后台查看具体的详情,0)
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): Member->ajax_seller_lock()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#5 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: sms_pwd
+errorFile: IWEB_PATH/plugins/hsms/rest.php
+errorLine: 40
+errorCode: 8
+errorTime: 2016-10-25 18:56:51
+#0 IWEB_PATH/classes/hsms.php(64): rest->__construct()
+#1 IWEB_PATH/controllers/member.php(806): Hsms::send(18101301805,您申请的加盟商状态已经被修改为:正常状态,请登录您的商户后台查看具体的详情,0)
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): Member->ajax_seller_lock()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#5 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: sms_userid
+errorFile: IWEB_PATH/plugins/hsms/rest.php
+errorLine: 38
+errorCode: 8
+errorTime: 2016-10-25 18:57:03
+#0 IWEB_PATH/classes/hsms.php(64): rest->__construct()
+#1 IWEB_PATH/controllers/member.php(806): Hsms::send(18101301805,您申请的加盟商状态已经被修改为:正常状态,请登录您的商户后台查看具体的详情,0)
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): Member->ajax_seller_lock()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#5 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: sms_username
+errorFile: IWEB_PATH/plugins/hsms/rest.php
+errorLine: 39
+errorCode: 8
+errorTime: 2016-10-25 18:57:03
+#0 IWEB_PATH/classes/hsms.php(64): rest->__construct()
+#1 IWEB_PATH/controllers/member.php(806): Hsms::send(18101301805,您申请的加盟商状态已经被修改为:正常状态,请登录您的商户后台查看具体的详情,0)
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): Member->ajax_seller_lock()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#5 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: sms_pwd
+errorFile: IWEB_PATH/plugins/hsms/rest.php
+errorLine: 40
+errorCode: 8
+errorTime: 2016-10-25 18:57:03
+#0 IWEB_PATH/classes/hsms.php(64): rest->__construct()
+#1 IWEB_PATH/controllers/member.php(806): Hsms::send(18101301805,您申请的加盟商状态已经被修改为:正常状态,请登录您的商户后台查看具体的详情,0)
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): Member->ajax_seller_lock()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#5 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Use of undefined constant id - assumed 'id'
+errorFile: IWEB_PATH/runtime/sysdefault/test/user_list.php
+errorLine: 132
+errorCode: 8
+errorTime: 2016-10-25 18:59:19
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/test/user_list)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/test/user_list)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/test.php(94): IController->redirect(user_list)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Test->user_list()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Use of undefined constant id - assumed 'id'
+errorFile: IWEB_PATH/runtime/sysdefault/test/user_list.php
+errorLine: 132
+errorCode: 8
+errorTime: 2016-10-25 18:59:19
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/test/user_list)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/test/user_list)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/test.php(94): IController->redirect(user_list)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Test->user_list()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Use of undefined constant id - assumed 'id'
+errorFile: IWEB_PATH/runtime/sysdefault/test/user_list.php
+errorLine: 132
+errorCode: 8
+errorTime: 2016-10-25 18:59:19
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/test/user_list)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/test/user_list)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/test.php(94): IController->redirect(user_list)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Test->user_list()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Use of undefined constant id - assumed 'id'
+errorFile: IWEB_PATH/runtime/sysdefault/test/user_list.php
+errorLine: 132
+errorCode: 8
+errorTime: 2016-10-25 18:59:19
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/test/user_list)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/test/user_list)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/test.php(94): IController->redirect(user_list)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Test->user_list()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Use of undefined constant id - assumed 'id'
+errorFile: IWEB_PATH/runtime/sysdefault/test/user_list.php
+errorLine: 132
+errorCode: 8
+errorTime: 2016-10-25 18:59:19
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/test/user_list)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/test/user_list)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/test.php(94): IController->redirect(user_list)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Test->user_list()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Use of undefined constant id - assumed 'id'
+errorFile: IWEB_PATH/runtime/sysdefault/test/user_list.php
+errorLine: 132
+errorCode: 8
+errorTime: 2016-10-25 18:59:19
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/test/user_list)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/test/user_list)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/test.php(94): IController->redirect(user_list)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Test->user_list()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Use of undefined constant id - assumed 'id'
+errorFile: IWEB_PATH/runtime/sysdefault/test/user_list.php
+errorLine: 132
+errorCode: 8
+errorTime: 2016-10-25 18:59:19
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/test/user_list)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/test/user_list)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/test.php(94): IController->redirect(user_list)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Test->user_list()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Use of undefined constant id - assumed 'id'
+errorFile: IWEB_PATH/runtime/sysdefault/test/user_list.php
+errorLine: 132
+errorCode: 8
+errorTime: 2016-10-25 18:59:19
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/test/user_list)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/test/user_list)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/test.php(94): IController->redirect(user_list)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Test->user_list()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Use of undefined constant id - assumed 'id'
+errorFile: IWEB_PATH/runtime/sysdefault/test/user_list.php
+errorLine: 132
+errorCode: 8
+errorTime: 2016-10-25 18:59:27
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/test/user_list)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/test/user_list)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/test.php(94): IController->redirect(user_list)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Test->user_list()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Use of undefined constant id - assumed 'id'
+errorFile: IWEB_PATH/runtime/sysdefault/test/user_list.php
+errorLine: 132
+errorCode: 8
+errorTime: 2016-10-25 18:59:27
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/test/user_list)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/test/user_list)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/test.php(94): IController->redirect(user_list)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Test->user_list()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Use of undefined constant id - assumed 'id'
+errorFile: IWEB_PATH/runtime/sysdefault/test/user_list.php
+errorLine: 132
+errorCode: 8
+errorTime: 2016-10-25 18:59:27
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/test/user_list)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/test/user_list)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/test.php(94): IController->redirect(user_list)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Test->user_list()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Use of undefined constant id - assumed 'id'
+errorFile: IWEB_PATH/runtime/sysdefault/test/user_list.php
+errorLine: 132
+errorCode: 8
+errorTime: 2016-10-25 18:59:27
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/test/user_list)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/test/user_list)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/test.php(94): IController->redirect(user_list)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Test->user_list()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Use of undefined constant id - assumed 'id'
+errorFile: IWEB_PATH/runtime/sysdefault/test/user_list.php
+errorLine: 132
+errorCode: 8
+errorTime: 2016-10-25 18:59:27
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/test/user_list)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/test/user_list)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/test.php(94): IController->redirect(user_list)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Test->user_list()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Use of undefined constant id - assumed 'id'
+errorFile: IWEB_PATH/runtime/sysdefault/test/user_list.php
+errorLine: 132
+errorCode: 8
+errorTime: 2016-10-25 18:59:27
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/test/user_list)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/test/user_list)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/test.php(94): IController->redirect(user_list)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Test->user_list()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Use of undefined constant id - assumed 'id'
+errorFile: IWEB_PATH/runtime/sysdefault/test/user_list.php
+errorLine: 132
+errorCode: 8
+errorTime: 2016-10-25 18:59:27
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/test/user_list)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/test/user_list)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/test.php(94): IController->redirect(user_list)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Test->user_list()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Use of undefined constant id - assumed 'id'
+errorFile: IWEB_PATH/runtime/sysdefault/test/user_list.php
+errorLine: 132
+errorCode: 8
+errorTime: 2016-10-25 18:59:27
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/test/user_list.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/test/user_list)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/test/user_list)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/test.php(94): IController->redirect(user_list)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Test->user_list()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+

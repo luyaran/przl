@@ -1,0 +1,30 @@
+{set:
+
+$filename = $_GET['filename'];
+}
+
+<!--{if:$filename}-->
+<!--<script type="text/javascript" src="http://www.image.com/getimage.php?filename={$filename}"></script>-->
+<!--{/if}-->
+<form action="{url:/test/upfile}"  method="post" enctype="multipart/form-data">
+<table>
+
+<tr>
+    <th>同步上传测试：</th>
+    <td>
+        <input  name='image' type="file"  />
+
+        <label>大小不得超过{echo:IUpload::getMaxSize()}</label>
+    </td>
+</tr>
+
+    <tr><td>
+
+        <input   type="submit" value="提交" />
+    </td>
+
+    </tr>
+
+
+</table>
+</form>

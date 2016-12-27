@@ -1,0 +1,28 @@
+<ERROR_BLOCK>
+errorInfo: Undefined index: exp
+errorFile: IWEB_PATH/classes/order_class.php
+errorLine: 135
+errorCode: 8
+errorTime: 2016-10-14 09:27:07
+#0 IWEB_PATH/controllers/ucenter.php(955): Order_Class::updateOrderStatus(20161014092543467877)
+#1 IWEB_PATH/lib/web/action/inline_action.php(24): Ucenter->payment_balance()
+#2 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#3 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#4 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#5 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: exp
+errorFile: IWEB_PATH/classes/order_class.php
+errorLine: 135
+errorCode: 8
+errorTime: 2016-10-14 09:27:29
+#0 IWEB_PATH/controllers/ucenter.php(955): Order_Class::updateOrderStatus(20161014092407378805)
+#1 IWEB_PATH/lib/web/action/inline_action.php(24): Ucenter->payment_balance()
+#2 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#3 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#4 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#5 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+

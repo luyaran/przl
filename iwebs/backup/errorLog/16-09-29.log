@@ -1,0 +1,373 @@
+<ERROR_BLOCK>
+excepInfo: select  * from iwebshop_show      limit 5000
+ -- Table 'iwebshop.iwebshop_show' doesn't exist
+excepFile: IWEB_PATH/lib/db/db_class.php
+excepLine: 68
+excepCode: 1000
+excepTime: 2016-09-29 10:20:25
+#0 IWEB_PATH/lib/core/query_class.php(169): IDB->query(select  * from iwebshop_show      limit 5000)
+#1 IWEB_PATH/runtime/sysdefault/test/show.php(63): IQuery->find()
+#2 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/test/show.php)
+#3 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/test/show.php)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/test/show)
+#5 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/test/show)
+#6 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#7 IWEB_PATH/controllers/test.php(34): IController->redirect(show)
+#8 IWEB_PATH/lib/web/action/inline_action.php(24): Test->show()
+#9 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#10 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#11 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#12 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+excepInfo: select  * from iwebshop_show      limit 5000
+ -- Table 'iwebshop.iwebshop_show' doesn't exist
+excepFile: IWEB_PATH/lib/db/db_class.php
+excepLine: 68
+excepCode: 1000
+excepTime: 2016-09-29 10:20:43
+#0 IWEB_PATH/lib/core/query_class.php(169): IDB->query(select  * from iwebshop_show      limit 5000)
+#1 IWEB_PATH/runtime/sysdefault/test/show.php(63): IQuery->find()
+#2 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/test/show.php)
+#3 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/test/show.php)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/test/show)
+#5 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/test/show)
+#6 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#7 IWEB_PATH/controllers/test.php(34): IController->redirect(show)
+#8 IWEB_PATH/lib/web/action/inline_action.php(24): Test->show()
+#9 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#10 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#11 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#12 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+excepInfo: select  * from iwebshop_show      limit 5000
+ -- Table 'iwebshop.iwebshop_show' doesn't exist
+excepFile: IWEB_PATH/lib/db/db_class.php
+excepLine: 68
+excepCode: 1000
+excepTime: 2016-09-29 10:22:07
+#0 IWEB_PATH/lib/core/query_class.php(169): IDB->query(select  * from iwebshop_show      limit 5000)
+#1 IWEB_PATH/runtime/sysdefault/test/show.php(63): IQuery->find()
+#2 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/test/show.php)
+#3 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/test/show.php)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/test/show)
+#5 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/test/show)
+#6 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#7 IWEB_PATH/controllers/test.php(34): IController->redirect(show)
+#8 IWEB_PATH/lib/web/action/inline_action.php(24): Test->show()
+#9 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#10 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#11 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#12 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+excepInfo: select  * from iwebshop_show      limit 5000
+ -- Table 'iwebshop.iwebshop_show' doesn't exist
+excepFile: IWEB_PATH/lib/db/db_class.php
+excepLine: 68
+excepCode: 1000
+excepTime: 2016-09-29 10:23:19
+#0 IWEB_PATH/lib/core/query_class.php(169): IDB->query(select  * from iwebshop_show      limit 5000)
+#1 IWEB_PATH/runtime/sysdefault/test/show.php(63): IQuery->find()
+#2 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/test/show.php)
+#3 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/test/show.php)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/test/show)
+#5 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/test/show)
+#6 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#7 IWEB_PATH/controllers/test.php(34): IController->redirect(show)
+#8 IWEB_PATH/lib/web/action/inline_action.php(24): Test->show()
+#9 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#10 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#11 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#12 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+excepInfo: select  * from iwebshop_show      limit 5000
+ -- Table 'iwebshop.iwebshop_show' doesn't exist
+excepFile: IWEB_PATH/lib/db/db_class.php
+excepLine: 68
+excepCode: 1000
+excepTime: 2016-09-29 10:26:01
+#0 IWEB_PATH/lib/core/query_class.php(169): IDB->query(select  * from iwebshop_show      limit 5000)
+#1 IWEB_PATH/runtime/sysdefault/test/show.php(63): IQuery->find()
+#2 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/test/show.php)
+#3 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/test/show.php)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/test/show)
+#5 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/test/show)
+#6 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#7 IWEB_PATH/controllers/test.php(35): IController->redirect(show)
+#8 IWEB_PATH/lib/web/action/inline_action.php(24): Test->show()
+#9 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#10 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#11 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#12 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+excepInfo: select  * from iwebshop_show      limit 5000
+ -- Table 'iwebshop.iwebshop_show' doesn't exist
+excepFile: IWEB_PATH/lib/db/db_class.php
+excepLine: 68
+excepCode: 1000
+excepTime: 2016-09-29 10:26:02
+#0 IWEB_PATH/lib/core/query_class.php(169): IDB->query(select  * from iwebshop_show      limit 5000)
+#1 IWEB_PATH/runtime/sysdefault/test/show.php(63): IQuery->find()
+#2 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/test/show.php)
+#3 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/test/show.php)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/test/show)
+#5 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/test/show)
+#6 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#7 IWEB_PATH/controllers/test.php(35): IController->redirect(show)
+#8 IWEB_PATH/lib/web/action/inline_action.php(24): Test->show()
+#9 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#10 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#11 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#12 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+excepInfo: select  * from iwebshop_show      limit 5000
+ -- Table 'iwebshop.iwebshop_show' doesn't exist
+excepFile: IWEB_PATH/lib/db/db_class.php
+excepLine: 68
+excepCode: 1000
+excepTime: 2016-09-29 10:26:23
+#0 IWEB_PATH/lib/core/query_class.php(169): IDB->query(select  * from iwebshop_show      limit 5000)
+#1 IWEB_PATH/runtime/sysdefault/test/show.php(63): IQuery->find()
+#2 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/test/show.php)
+#3 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/test/show.php)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/test/show)
+#5 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/test/show)
+#6 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#7 IWEB_PATH/controllers/test.php(35): IController->redirect(show)
+#8 IWEB_PATH/lib/web/action/inline_action.php(24): Test->show()
+#9 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#10 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#11 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#12 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+excepInfo: select  * from iwebshop_show      limit 5000
+ -- Table 'iwebshop.iwebshop_show' doesn't exist
+excepFile: IWEB_PATH/lib/db/db_class.php
+excepLine: 68
+excepCode: 1000
+excepTime: 2016-09-29 10:28:47
+#0 IWEB_PATH/lib/core/query_class.php(169): IDB->query(select  * from iwebshop_show      limit 5000)
+#1 IWEB_PATH/runtime/sysdefault/test/show.php(63): IQuery->find()
+#2 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/test/show.php)
+#3 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/test/show.php)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/test/show)
+#5 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/test/show)
+#6 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#7 IWEB_PATH/controllers/test.php(35): IController->redirect(show)
+#8 IWEB_PATH/lib/web/action/inline_action.php(24): Test->show()
+#9 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#10 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#11 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#12 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+excepInfo: select  * from iwebshop_show      limit 5000
+ -- Table 'iwebshop.iwebshop_show' doesn't exist
+excepFile: IWEB_PATH/lib/db/db_class.php
+excepLine: 68
+excepCode: 1000
+excepTime: 2016-09-29 10:30:36
+#0 IWEB_PATH/lib/core/query_class.php(169): IDB->query(select  * from iwebshop_show      limit 5000)
+#1 IWEB_PATH/runtime/sysdefault/test/show.php(63): IQuery->find()
+#2 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/test/show.php)
+#3 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/test/show.php)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/test/show)
+#5 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/test/show)
+#6 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#7 IWEB_PATH/controllers/test.php(35): IController->redirect(show)
+#8 IWEB_PATH/lib/web/action/inline_action.php(24): Test->show()
+#9 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#10 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#11 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#12 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+excepInfo: select  * from iwebshop_show      limit 5000
+ -- Table 'iwebshop.iwebshop_show' doesn't exist
+excepFile: IWEB_PATH/lib/db/db_class.php
+excepLine: 68
+excepCode: 1000
+excepTime: 2016-09-29 10:30:38
+#0 IWEB_PATH/lib/core/query_class.php(169): IDB->query(select  * from iwebshop_show      limit 5000)
+#1 IWEB_PATH/runtime/sysdefault/test/show.php(63): IQuery->find()
+#2 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/test/show.php)
+#3 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/test/show.php)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/test/show)
+#5 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/test/show)
+#6 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#7 IWEB_PATH/controllers/test.php(35): IController->redirect(show)
+#8 IWEB_PATH/lib/web/action/inline_action.php(24): Test->show()
+#9 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#10 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#11 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#12 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+excepInfo: select  * from iwebshop_show      limit 5000
+ -- Table 'iwebshop.iwebshop_show' doesn't exist
+excepFile: IWEB_PATH/lib/db/db_class.php
+excepLine: 68
+excepCode: 1000
+excepTime: 2016-09-29 10:30:38
+#0 IWEB_PATH/lib/core/query_class.php(169): IDB->query(select  * from iwebshop_show      limit 5000)
+#1 IWEB_PATH/runtime/sysdefault/test/show.php(63): IQuery->find()
+#2 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/test/show.php)
+#3 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/test/show.php)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/test/show)
+#5 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/test/show)
+#6 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#7 IWEB_PATH/controllers/test.php(35): IController->redirect(show)
+#8 IWEB_PATH/lib/web/action/inline_action.php(24): Test->show()
+#9 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#10 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#11 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#12 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+excepInfo: select  * from iwebshop_show      limit 5000
+ -- Table 'iwebshop.iwebshop_show' doesn't exist
+excepFile: IWEB_PATH/lib/db/db_class.php
+excepLine: 68
+excepCode: 1000
+excepTime: 2016-09-29 10:31:58
+#0 IWEB_PATH/lib/core/query_class.php(169): IDB->query(select  * from iwebshop_show      limit 5000)
+#1 IWEB_PATH/runtime/sysdefault/test/show.php(63): IQuery->find()
+#2 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/test/show.php)
+#3 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/test/show.php)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/test/show)
+#5 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/test/show)
+#6 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#7 IWEB_PATH/controllers/test.php(36): IController->redirect(show)
+#8 IWEB_PATH/lib/web/action/inline_action.php(24): Test->show()
+#9 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#10 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#11 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#12 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+excepInfo: select  * from iwebshop_show      limit 5000
+ -- Table 'iwebshop.iwebshop_show' doesn't exist
+excepFile: IWEB_PATH/lib/db/db_class.php
+excepLine: 68
+excepCode: 1000
+excepTime: 2016-09-29 11:09:17
+#0 IWEB_PATH/lib/core/query_class.php(169): IDB->query(select  * from iwebshop_show      limit 5000)
+#1 IWEB_PATH/runtime/sysdefault/test/show.php(63): IQuery->find()
+#2 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/test/show.php)
+#3 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/test/show.php)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/test/show)
+#5 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/test/show)
+#6 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#7 IWEB_PATH/controllers/test.php(36): IController->redirect(show)
+#8 IWEB_PATH/lib/web/action/inline_action.php(24): Test->show()
+#9 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#10 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#11 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#12 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+excepInfo: select  * from iwebshop_show      limit 5000
+ -- Table 'iwebshop.iwebshop_show' doesn't exist
+excepFile: IWEB_PATH/lib/db/db_class.php
+excepLine: 68
+excepCode: 1000
+excepTime: 2016-09-29 11:12:24
+#0 IWEB_PATH/lib/core/query_class.php(169): IDB->query(select  * from iwebshop_show      limit 5000)
+#1 IWEB_PATH/runtime/sysdefault/test/show.php(63): IQuery->find()
+#2 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/test/show.php)
+#3 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/test/show.php)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/test/show)
+#5 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/test/show)
+#6 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#7 IWEB_PATH/controllers/test.php(36): IController->redirect(show)
+#8 IWEB_PATH/lib/web/action/inline_action.php(24): Test->show()
+#9 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#10 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#11 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#12 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Indirect modification of overloaded property Test::$data has no effect
+errorFile: IWEB_PATH/controllers/test.php
+errorLine: 51
+errorCode: 8
+errorTime: 2016-09-29 11:32:47
+#0 IWEB_PATH/lib/web/action/inline_action.php(24): Test->upd()
+#1 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#2 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#3 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#4 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Indirect modification of overloaded property Test::$data has no effect
+errorFile: IWEB_PATH/controllers/test.php
+errorLine: 51
+errorCode: 8
+errorTime: 2016-09-29 11:33:56
+#0 IWEB_PATH/lib/web/action/inline_action.php(24): Test->upd()
+#1 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#2 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#3 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#4 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Indirect modification of overloaded property Test::$data has no effect
+errorFile: IWEB_PATH/controllers/test.php
+errorLine: 51
+errorCode: 8
+errorTime: 2016-09-29 11:33:57
+#0 IWEB_PATH/lib/web/action/inline_action.php(24): Test->upd()
+#1 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#2 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#3 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#4 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Indirect modification of overloaded property Test::$data has no effect
+errorFile: IWEB_PATH/controllers/test.php
+errorLine: 51
+errorCode: 8
+errorTime: 2016-09-29 11:33:58
+#0 IWEB_PATH/lib/web/action/inline_action.php(24): Test->upd()
+#1 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#2 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#3 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#4 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Indirect modification of overloaded property Test::$data has no effect
+errorFile: IWEB_PATH/controllers/test.php
+errorLine: 51
+errorCode: 8
+errorTime: 2016-09-29 11:34:09
+#0 IWEB_PATH/lib/web/action/inline_action.php(24): Test->upd()
+#1 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#2 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#3 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#4 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+

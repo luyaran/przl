@@ -1,0 +1,44 @@
+<ERROR_BLOCK>
+excepInfo: UPDATE iwebshop_seller SET `mobile` = '' WHERE id = 
+ -- You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+excepFile: IWEB_PATH/lib/db/db_class.php
+excepLine: 98
+excepCode: 1000
+excepTime: 2016-10-27 11:14:54
+#0 IWEB_PATH/lib/web/model/model_class.php(91): IDB->query(UPDATE iwebshop_seller SET `mobile` = '' WHERE id = )
+#1 IWEB_PATH/controllers/member.php(815): IModel->update(id = )
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): Member->ajax_seller_mobile()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#5 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+excepInfo: Redis server went away
+excepFile: D:\phpStudy\WWW\iwebs\controllers\market.php
+excepLine: 136
+excepCode: 0
+excepTime: 2016-10-27 11:22:48
+#0 IWEB_PATH/controllers/market.php(136): Redis->set(1)
+#1 IWEB_PATH/lib/web/action/inline_action.php(24): Market->doInvite()
+#2 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#3 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#4 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#5 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+excepInfo: Redis server went away
+excepFile: D:\phpStudy\WWW\iwebs\controllers\market.php
+excepLine: 136
+excepCode: 0
+excepTime: 2016-10-27 11:22:59
+#0 IWEB_PATH/controllers/market.php(136): Redis->set(0)
+#1 IWEB_PATH/lib/web/action/inline_action.php(24): Market->doInvite()
+#2 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#3 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#4 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#5 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+

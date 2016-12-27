@@ -1,0 +1,709 @@
+<ERROR_BLOCK>
+errorInfo: file_get_contents(http://product.aircheng.com/index.php?_c=system&amp;_a=version) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: ÓÉÓÚÁ¬½Ó·½ÔÚÒ»¶ÎÊ±¼äºóÃ»ÓÐÕýÈ·´ð¸´»òÁ¬½ÓµÄÖ÷»úÃ»ÓÐ·´Ó¦£¬Á¬½Ó³¢ÊÔÊ§°Ü¡£
+
+errorFile: IWEB_PATH/classes/proxy.php
+errorLine: 23
+errorCode: 2
+errorTime: 2016-10-19 13:40:57
+#0 IWEB_PATH/classes/proxy.php(23): file_get_contents(http://product.aircheng.com/index.php?_c=system&_a=version)
+#1 IWEB_PATH/classes/proxy.php(44): Proxy::send(_c=system&_a=version)
+#2 IWEB_PATH/runtime/sysdefault/system/default.php(79): Proxy::getRemoteVersion()
+#3 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/system/default.php)
+#4 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/system/default.php)
+#5 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/system/default)
+#6 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/system/default)
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IViewAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: file_get_contents(http://product.aircheng.com/index.php?_c=system&amp;_a=version) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: ÓÉÓÚÁ¬½Ó·½ÔÚÒ»¶ÎÊ±¼äºóÃ»ÓÐÕýÈ·´ð¸´»òÁ¬½ÓµÄÖ÷»úÃ»ÓÐ·´Ó¦£¬Á¬½Ó³¢ÊÔÊ§°Ü¡£
+
+errorFile: IWEB_PATH/classes/proxy.php
+errorLine: 23
+errorCode: 2
+errorTime: 2016-10-19 13:41:19
+#0 IWEB_PATH/classes/proxy.php(23): file_get_contents(http://product.aircheng.com/index.php?_c=system&_a=version)
+#1 IWEB_PATH/classes/proxy.php(44): Proxy::send(_c=system&_a=version)
+#2 IWEB_PATH/runtime/sysdefault/system/default.php(79): Proxy::getRemoteVersion()
+#3 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/system/default.php)
+#4 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/system/default.php)
+#5 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/system/default)
+#6 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/system/default)
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IViewAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: file_get_contents(http://product.aircheng.com/index.php?_c=system&amp;_a=version) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: ÓÉÓÚÁ¬½Ó·½ÔÚÒ»¶ÎÊ±¼äºóÃ»ÓÐÕýÈ·´ð¸´»òÁ¬½ÓµÄÖ÷»úÃ»ÓÐ·´Ó¦£¬Á¬½Ó³¢ÊÔÊ§°Ü¡£
+
+errorFile: IWEB_PATH/classes/proxy.php
+errorLine: 23
+errorCode: 2
+errorTime: 2016-10-19 13:42:04
+#0 IWEB_PATH/classes/proxy.php(23): file_get_contents(http://product.aircheng.com/index.php?_c=system&_a=version)
+#1 IWEB_PATH/classes/proxy.php(44): Proxy::send(_c=system&_a=version)
+#2 IWEB_PATH/runtime/sysdefault/system/default.php(79): Proxy::getRemoteVersion()
+#3 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/system/default.php)
+#4 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/system/default.php)
+#5 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/system/default)
+#6 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/system/default)
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IViewAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: file_get_contents(http://product.aircheng.com/index.php?_c=system&amp;_a=version) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: ÓÉÓÚÁ¬½Ó·½ÔÚÒ»¶ÎÊ±¼äºóÃ»ÓÐÕýÈ·´ð¸´»òÁ¬½ÓµÄÖ÷»úÃ»ÓÐ·´Ó¦£¬Á¬½Ó³¢ÊÔÊ§°Ü¡£
+
+errorFile: IWEB_PATH/classes/proxy.php
+errorLine: 23
+errorCode: 2
+errorTime: 2016-10-19 13:42:06
+#0 IWEB_PATH/classes/proxy.php(23): file_get_contents(http://product.aircheng.com/index.php?_c=system&_a=version)
+#1 IWEB_PATH/classes/proxy.php(44): Proxy::send(_c=system&_a=version)
+#2 IWEB_PATH/runtime/sysdefault/system/default.php(79): Proxy::getRemoteVersion()
+#3 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/system/default.php)
+#4 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/system/default.php)
+#5 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/system/default)
+#6 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/system/default)
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IViewAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Invalid argument supplied for foreach()
+errorFile: IWEB_PATH/classes/config.php
+errorLine: 98
+errorCode: 2
+errorTime: 2016-10-19 15:01:00
+#0 IWEB_PATH/classes/config.php(86): Config::edit(IWEB_PATH/config/site_config.php,a:1:{s:4:"name";a:1:{i:2;s:9:"å´”é‡‘æœ‹";}})
+#1 IWEB_PATH/controllers/goods.php(508): Config->write(a:1:{s:4:"name";a:1:{i:2;s:9:"å´”é‡‘æœ‹";}})
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): Goods->category_save()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#5 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Invalid argument supplied for foreach()
+errorFile: IWEB_PATH/classes/config.php
+errorLine: 98
+errorCode: 2
+errorTime: 2016-10-19 15:02:08
+#0 IWEB_PATH/classes/config.php(86): Config::edit(IWEB_PATH/config/site_config.php,a:1:{s:4:"name";a:1:{i:2;s:9:"å´”é‡‘æœ‹";}})
+#1 IWEB_PATH/controllers/goods.php(507): Config->write(a:1:{s:4:"name";a:1:{i:2;s:9:"å´”é‡‘æœ‹";}})
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): Goods->category_save()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#5 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Invalid argument supplied for foreach()
+errorFile: IWEB_PATH/classes/config.php
+errorLine: 98
+errorCode: 2
+errorTime: 2016-10-19 15:02:13
+#0 IWEB_PATH/classes/config.php(86): Config::edit(IWEB_PATH/config/site_config.php,a:1:{s:4:"name";a:1:{i:2;s:9:"å´”é‡‘æœ‹";}})
+#1 IWEB_PATH/controllers/goods.php(507): Config->write(a:1:{s:4:"name";a:1:{i:2;s:9:"å´”é‡‘æœ‹";}})
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): Goods->category_save()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#5 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Invalid argument supplied for foreach()
+errorFile: IWEB_PATH/classes/config.php
+errorLine: 98
+errorCode: 2
+errorTime: 2016-10-19 15:02:47
+#0 IWEB_PATH/classes/config.php(86): Config::edit(IWEB_PATH/config/site_config.php,a:1:{s:4:"name";a:1:{i:12;s:21:"Be friends or nothing";}})
+#1 IWEB_PATH/controllers/goods.php(507): Config->write(a:1:{s:4:"name";a:1:{i:12;s:21:"Be friends or nothing";}})
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): Goods->category_save()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#5 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Invalid argument supplied for foreach()
+errorFile: IWEB_PATH/classes/config.php
+errorLine: 98
+errorCode: 2
+errorTime: 2016-10-19 15:03:07
+#0 IWEB_PATH/classes/config.php(86): Config::edit(IWEB_PATH/config/site_config.php,a:1:{s:4:"name";a:1:{i:1;s:6:"HANHOU";}})
+#1 IWEB_PATH/controllers/goods.php(507): Config->write(a:1:{s:4:"name";a:1:{i:1;s:6:"HANHOU";}})
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): Goods->category_save()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#5 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined variable: cates
+errorFile: IWEB_PATH/controllers/goods.php
+errorLine: 507
+errorCode: 8
+errorTime: 2016-10-19 15:03:21
+#0 IWEB_PATH/lib/web/action/inline_action.php(24): Goods->category_save()
+#1 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#2 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#3 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#4 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Invalid argument supplied for foreach()
+errorFile: IWEB_PATH/classes/config.php
+errorLine: 98
+errorCode: 2
+errorTime: 2016-10-19 15:03:21
+#0 IWEB_PATH/classes/config.php(86): Config::edit(IWEB_PATH/config/site_config.php)
+#1 IWEB_PATH/controllers/goods.php(507): Config->write()
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): Goods->category_save()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#5 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #2 is not an array
+errorFile: IWEB_PATH/classes/config.php
+errorLine: 129
+errorCode: 2
+errorTime: 2016-10-19 15:03:21
+#0 IWEB_PATH/classes/config.php(129): array_merge()
+#1 IWEB_PATH/classes/config.php(86): Config::edit(IWEB_PATH/config/site_config.php)
+#2 IWEB_PATH/controllers/goods.php(507): Config->write()
+#3 IWEB_PATH/lib/web/action/inline_action.php(24): Goods->category_save()
+#4 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#6 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined variable: cates
+errorFile: IWEB_PATH/controllers/goods.php
+errorLine: 507
+errorCode: 8
+errorTime: 2016-10-19 15:04:01
+#0 IWEB_PATH/lib/web/action/inline_action.php(24): Goods->category_save()
+#1 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#2 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#3 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#4 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Invalid argument supplied for foreach()
+errorFile: IWEB_PATH/classes/config.php
+errorLine: 98
+errorCode: 2
+errorTime: 2016-10-19 15:04:01
+#0 IWEB_PATH/classes/config.php(86): Config::edit(IWEB_PATH/config/site_config.php)
+#1 IWEB_PATH/controllers/goods.php(507): Config->write()
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): Goods->category_save()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#5 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #1 is not an array
+errorFile: IWEB_PATH/classes/config.php
+errorLine: 129
+errorCode: 2
+errorTime: 2016-10-19 15:04:01
+#0 IWEB_PATH/classes/config.php(129): array_merge()
+#1 IWEB_PATH/classes/config.php(86): Config::edit(IWEB_PATH/config/site_config.php)
+#2 IWEB_PATH/controllers/goods.php(507): Config->write()
+#3 IWEB_PATH/lib/web/action/inline_action.php(24): Goods->category_save()
+#4 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#6 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #1 is not an array
+errorFile: IWEB_PATH/classes/config.php
+errorLine: 129
+errorCode: 2
+errorTime: 2016-10-19 15:05:00
+#0 IWEB_PATH/classes/config.php(129): array_merge()
+#1 IWEB_PATH/classes/config.php(86): Config::edit(IWEB_PATH/config/site_config.php)
+#2 IWEB_PATH/controllers/goods.php(507): Config->write()
+#3 IWEB_PATH/lib/web/action/inline_action.php(24): Goods->category_save()
+#4 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#6 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #2 is not an array
+errorFile: IWEB_PATH/runtime/sysdefault/system/conf_base.php
+errorLine: 47
+errorCode: 2
+errorTime: 2016-10-19 15:05:23
+#0 IWEB_PATH/runtime/sysdefault/system/conf_base.php(47): array_merge()
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/system/conf_base.php)
+#2 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/system/conf_base.php)
+#3 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/system/conf_base)
+#4 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/system/conf_base)
+#5 IWEB_PATH/lib/web/controller/controller_class.php(137): IViewAction->run()
+#6 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#7 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: site_footer_code
+errorFile: IWEB_PATH/runtime/sysdefault/system/conf_base.php
+errorLine: 260
+errorCode: 8
+errorTime: 2016-10-19 15:05:23
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/system/conf_base.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/system/conf_base.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/system/conf_base)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/system/conf_base)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(137): IViewAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#6 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #1 is not an array
+errorFile: IWEB_PATH/classes/config.php
+errorLine: 129
+errorCode: 2
+errorTime: 2016-10-19 15:06:00
+#0 IWEB_PATH/classes/config.php(129): array_merge()
+#1 IWEB_PATH/classes/config.php(86): Config::edit(IWEB_PATH/config/site_config.php)
+#2 IWEB_PATH/controllers/system.php(461): Config->write()
+#3 IWEB_PATH/lib/web/action/inline_action.php(24): System->save_conf()
+#4 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#6 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #2 is not an array
+errorFile: IWEB_PATH/runtime/sysdefault/system/conf_base.php
+errorLine: 47
+errorCode: 2
+errorTime: 2016-10-19 15:06:00
+#0 IWEB_PATH/runtime/sysdefault/system/conf_base.php(47): array_merge()
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/system/conf_base.php)
+#2 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/system/conf_base.php)
+#3 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/system/conf_base)
+#4 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/system/conf_base)
+#5 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#6 IWEB_PATH/controllers/system.php(463): IController->redirect(conf_base)
+#7 IWEB_PATH/lib/web/action/inline_action.php(24): System->save_conf()
+#8 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#9 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#10 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#11 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #1 is not an array
+errorFile: IWEB_PATH/runtime/sysdefault/system/conf_base.php
+errorLine: 48
+errorCode: 2
+errorTime: 2016-10-19 15:06:00
+#0 IWEB_PATH/runtime/sysdefault/system/conf_base.php(48): array_merge()
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/system/conf_base.php)
+#2 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/system/conf_base.php)
+#3 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/system/conf_base)
+#4 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/system/conf_base)
+#5 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#6 IWEB_PATH/controllers/system.php(463): IController->redirect(conf_base)
+#7 IWEB_PATH/lib/web/action/inline_action.php(24): System->save_conf()
+#8 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#9 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#10 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#11 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: site_footer_code
+errorFile: IWEB_PATH/runtime/sysdefault/system/conf_base.php
+errorLine: 260
+errorCode: 8
+errorTime: 2016-10-19 15:06:00
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/system/conf_base.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/system/conf_base.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/system/conf_base)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/system/conf_base)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/system.php(463): IController->redirect(conf_base)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): System->save_conf()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #2 is not an array
+errorFile: IWEB_PATH/runtime/sysdefault/system/conf_base.php
+errorLine: 47
+errorCode: 2
+errorTime: 2016-10-19 15:06:52
+#0 IWEB_PATH/runtime/sysdefault/system/conf_base.php(47): array_merge()
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/system/conf_base.php)
+#2 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/system/conf_base.php)
+#3 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/system/conf_base)
+#4 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/system/conf_base)
+#5 IWEB_PATH/lib/web/controller/controller_class.php(137): IViewAction->run()
+#6 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#7 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#8 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: site_footer_code
+errorFile: IWEB_PATH/runtime/sysdefault/system/conf_base.php
+errorLine: 260
+errorCode: 8
+errorTime: 2016-10-19 15:06:52
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/sysdefault/system/conf_base.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/sysdefault/system/conf_base.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/sysdefault/system/conf_base)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/sysdefault/system/conf_base)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(137): IViewAction->run()
+#5 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#6 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#7 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Invalid argument supplied for foreach()
+errorFile: IWEB_PATH/classes/config.php
+errorLine: 98
+errorCode: 2
+errorTime: 2016-10-19 15:09:02
+#0 IWEB_PATH/classes/config.php(86): Config::edit(IWEB_PATH/config/site_config.php,a:1:{s:4:"name";a:1:{i:3;s:9:"å´”é‡‘æœ‹";}})
+#1 IWEB_PATH/controllers/goods.php(508): Config->write(a:1:{s:4:"name";a:1:{i:3;s:9:"å´”é‡‘æœ‹";}})
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): Goods->category_save()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#5 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Invalid argument supplied for foreach()
+errorFile: IWEB_PATH/classes/config.php
+errorLine: 98
+errorCode: 2
+errorTime: 2016-10-19 15:09:19
+#0 IWEB_PATH/classes/config.php(86): Config::edit(IWEB_PATH/config/site_config.php,a:1:{s:4:"name";a:1:{i:3;s:9:"å´”é‡‘æœ‹";}})
+#1 IWEB_PATH/controllers/goods.php(508): Config->write(a:1:{s:4:"name";a:1:{i:3;s:9:"å´”é‡‘æœ‹";}})
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): Goods->category_save()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#5 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: explode() expects parameter 2 to be string, array given
+errorFile: IWEB_PATH/controllers/simple.php
+errorLine: 1640
+errorCode: 2
+errorTime: 2016-10-19 17:25:24
+#0 IWEB_PATH/controllers/simple.php(1640): explode(,)
+#1 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->seller()
+#2 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#3 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#4 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#5 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: explode() expects parameter 2 to be string, array given
+errorFile: IWEB_PATH/controllers/simple.php
+errorLine: 1640
+errorCode: 2
+errorTime: 2016-10-19 17:25:46
+#0 IWEB_PATH/controllers/simple.php(1640): explode(,)
+#1 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->seller()
+#2 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#3 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#4 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#5 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: explode() expects parameter 2 to be string, array given
+errorFile: IWEB_PATH/controllers/simple.php
+errorLine: 1640
+errorCode: 2
+errorTime: 2016-10-19 17:25:47
+#0 IWEB_PATH/controllers/simple.php(1640): explode(,)
+#1 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->seller()
+#2 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#3 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#4 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#5 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Invalid argument supplied for foreach()
+errorFile: IWEB_PATH/runtime/default/simple/seller.php
+errorLine: 76
+errorCode: 2
+errorTime: 2016-10-19 17:36:13
+#0 IWEB_PATH/lib/web/controller/controllerbase_class.php(116): require(IWEB_PATH/runtime/default/simple/seller.php)
+#1 IWEB_PATH/lib/web/controller/controllerbase_class.php(82): IControllerBase->requireFile(IWEB_PATH/runtime/default/simple/seller.php)
+#2 IWEB_PATH/lib/web/controller/controller_class.php(201): IControllerBase->renderView(IWEB_PATH/views/default/simple/seller)
+#3 IWEB_PATH/lib/web/action/view_action.php(36): IController->render(IWEB_PATH/views/default/simple/seller)
+#4 IWEB_PATH/lib/web/controller/controller_class.php(370): IViewAction->run()
+#5 IWEB_PATH/controllers/simple.php(1644): IController->redirect(seller)
+#6 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->seller()
+#7 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#8 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#9 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#10 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: sms_userid
+errorFile: IWEB_PATH/plugins/hsms/rest.php
+errorLine: 38
+errorCode: 8
+errorTime: 2016-10-19 17:42:01
+#0 IWEB_PATH/classes/hsms.php(64): rest->__construct()
+#1 IWEB_PATH/controllers/member.php(806): Hsms::send(18101301805,æ‚¨ç”³è¯·çš„åŠ ç›Ÿå•†çŠ¶æ€å·²ç»è¢«ä¿®æ”¹ä¸º:æ­£å¸¸çŠ¶æ€,è¯·ç™»å½•æ‚¨çš„å•†æˆ·åŽå°æŸ¥çœ‹å…·ä½“çš„è¯¦æƒ…,0)
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): Member->ajax_seller_lock()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#5 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: sms_username
+errorFile: IWEB_PATH/plugins/hsms/rest.php
+errorLine: 39
+errorCode: 8
+errorTime: 2016-10-19 17:42:01
+#0 IWEB_PATH/classes/hsms.php(64): rest->__construct()
+#1 IWEB_PATH/controllers/member.php(806): Hsms::send(18101301805,æ‚¨ç”³è¯·çš„åŠ ç›Ÿå•†çŠ¶æ€å·²ç»è¢«ä¿®æ”¹ä¸º:æ­£å¸¸çŠ¶æ€,è¯·ç™»å½•æ‚¨çš„å•†æˆ·åŽå°æŸ¥çœ‹å…·ä½“çš„è¯¦æƒ…,0)
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): Member->ajax_seller_lock()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#5 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: sms_pwd
+errorFile: IWEB_PATH/plugins/hsms/rest.php
+errorLine: 40
+errorCode: 8
+errorTime: 2016-10-19 17:42:01
+#0 IWEB_PATH/classes/hsms.php(64): rest->__construct()
+#1 IWEB_PATH/controllers/member.php(806): Hsms::send(18101301805,æ‚¨ç”³è¯·çš„åŠ ç›Ÿå•†çŠ¶æ€å·²ç»è¢«ä¿®æ”¹ä¸º:æ­£å¸¸çŠ¶æ€,è¯·ç™»å½•æ‚¨çš„å•†æˆ·åŽå°æŸ¥çœ‹å…·ä½“çš„è¯¦æƒ…,0)
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): Member->ajax_seller_lock()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#5 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+excepInfo: UPDATE iwebshop_test SET `name` = 'HANHOU' , `seller_id` = '4' WHERE name=HANHOU
+ -- Unknown column 'HANHOU' in 'where clause'
+excepFile: IWEB_PATH/lib/db/db_class.php
+excepLine: 98
+excepCode: 1000
+excepTime: 2016-10-19 17:50:54
+#0 IWEB_PATH/lib/web/model/model_class.php(91): IDB->query(UPDATE iwebshop_test SET `name` = 'HANHOU' , `seller_id` = '4' WHERE name=HANHOU)
+#1 IWEB_PATH/controllers/simple.php(1746): IModel->update(name=HANHOU)
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->seller_reg()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#5 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+excepInfo: UPDATE iwebshop_test SET `name` = 'HANHOU' , `seller_id` = '5' WHERE name=HANHOU
+ -- Unknown column 'HANHOU' in 'where clause'
+excepFile: IWEB_PATH/lib/db/db_class.php
+excepLine: 98
+excepCode: 1000
+excepTime: 2016-10-19 17:52:17
+#0 IWEB_PATH/lib/web/model/model_class.php(91): IDB->query(UPDATE iwebshop_test SET `name` = 'HANHOU' , `seller_id` = '5' WHERE name=HANHOU)
+#1 IWEB_PATH/controllers/simple.php(1747): IModel->update(name=HANHOU)
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->seller_reg()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#5 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+excepInfo: UPDATE iwebshop_test SET `name` = 'HANHOU' , `seller_id` = '6' WHERE name=HANHOU
+ -- Unknown column 'HANHOU' in 'where clause'
+excepFile: IWEB_PATH/lib/db/db_class.php
+excepLine: 98
+excepCode: 1000
+excepTime: 2016-10-19 17:52:36
+#0 IWEB_PATH/lib/web/model/model_class.php(91): IDB->query(UPDATE iwebshop_test SET `name` = 'HANHOU' , `seller_id` = '6' WHERE name=HANHOU)
+#1 IWEB_PATH/controllers/simple.php(1747): IModel->update(name=HANHOU)
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->seller_reg()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#5 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+excepInfo: UPDATE iwebshop_test SET `name` = 'HANHOU' , `seller_id` = '7' WHERE name=HANHOU
+ -- Unknown column 'HANHOU' in 'where clause'
+excepFile: IWEB_PATH/lib/db/db_class.php
+excepLine: 98
+excepCode: 1000
+excepTime: 2016-10-19 17:52:41
+#0 IWEB_PATH/lib/web/model/model_class.php(91): IDB->query(UPDATE iwebshop_test SET `name` = 'HANHOU' , `seller_id` = '7' WHERE name=HANHOU)
+#1 IWEB_PATH/controllers/simple.php(1747): IModel->update(name=HANHOU)
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->seller_reg()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#5 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+excepInfo: UPDATE iwebshop_category SET `name` = 'HANHOU' , `seller_id` = '8' WHERE name=HANHOU
+ -- Unknown column 'HANHOU' in 'where clause'
+excepFile: IWEB_PATH/lib/db/db_class.php
+excepLine: 98
+excepCode: 1000
+excepTime: 2016-10-19 17:53:00
+#0 IWEB_PATH/lib/web/model/model_class.php(91): IDB->query(UPDATE iwebshop_category SET `name` = 'HANHOU' , `seller_id` = '8' WHERE name=HANHOU)
+#1 IWEB_PATH/controllers/simple.php(1747): IModel->update(name=HANHOU)
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->seller_reg()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#5 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+excepInfo: UPDATE iwebshop_category SET `name` = 'HANHOU' , `seller_id` = '9' WHERE name=HANHOU
+ -- Unknown column 'HANHOU' in 'where clause'
+excepFile: IWEB_PATH/lib/db/db_class.php
+excepLine: 98
+excepCode: 1000
+excepTime: 2016-10-19 17:53:03
+#0 IWEB_PATH/lib/web/model/model_class.php(91): IDB->query(UPDATE iwebshop_category SET `name` = 'HANHOU' , `seller_id` = '9' WHERE name=HANHOU)
+#1 IWEB_PATH/controllers/simple.php(1747): IModel->update(name=HANHOU)
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->seller_reg()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#5 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+excepInfo: UPDATE iwebshop_category SET `name` = 'HANHOU' , `seller_id` = '10' WHERE name=$word_wile
+ -- Unknown column '$word_wile' in 'where clause'
+excepFile: IWEB_PATH/lib/db/db_class.php
+excepLine: 98
+excepCode: 1000
+excepTime: 2016-10-19 17:54:23
+#0 IWEB_PATH/lib/web/model/model_class.php(91): IDB->query(UPDATE iwebshop_category SET `name` = 'HANHOU' , `seller_id` = '10' WHERE name=$word_wile)
+#1 IWEB_PATH/controllers/simple.php(1747): IModel->update(name=$word_wile)
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->seller_reg()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#5 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+excepInfo: UPDATE iwebshop_category SET `name` = 'HANHOU' , `seller_id` = '11' WHERE name=$word_wile
+ -- Unknown column '$word_wile' in 'where clause'
+excepFile: IWEB_PATH/lib/db/db_class.php
+excepLine: 98
+excepCode: 1000
+excepTime: 2016-10-19 17:54:35
+#0 IWEB_PATH/lib/web/model/model_class.php(91): IDB->query(UPDATE iwebshop_category SET `name` = 'HANHOU' , `seller_id` = '11' WHERE name=$word_wile)
+#1 IWEB_PATH/controllers/simple.php(1747): IModel->update(name=$word_wile)
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): Simple->seller_reg()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#5 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: sms_userid
+errorFile: IWEB_PATH/plugins/hsms/rest.php
+errorLine: 38
+errorCode: 8
+errorTime: 2016-10-19 17:55:51
+#0 IWEB_PATH/classes/hsms.php(64): rest->__construct()
+#1 IWEB_PATH/controllers/member.php(806): Hsms::send(18101301805,æ‚¨ç”³è¯·çš„åŠ ç›Ÿå•†çŠ¶æ€å·²ç»è¢«ä¿®æ”¹ä¸º:æ­£å¸¸çŠ¶æ€,è¯·ç™»å½•æ‚¨çš„å•†æˆ·åŽå°æŸ¥çœ‹å…·ä½“çš„è¯¦æƒ…,0)
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): Member->ajax_seller_lock()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#5 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: sms_username
+errorFile: IWEB_PATH/plugins/hsms/rest.php
+errorLine: 39
+errorCode: 8
+errorTime: 2016-10-19 17:55:51
+#0 IWEB_PATH/classes/hsms.php(64): rest->__construct()
+#1 IWEB_PATH/controllers/member.php(806): Hsms::send(18101301805,æ‚¨ç”³è¯·çš„åŠ ç›Ÿå•†çŠ¶æ€å·²ç»è¢«ä¿®æ”¹ä¸º:æ­£å¸¸çŠ¶æ€,è¯·ç™»å½•æ‚¨çš„å•†æˆ·åŽå°æŸ¥çœ‹å…·ä½“çš„è¯¦æƒ…,0)
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): Member->ajax_seller_lock()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#5 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+
+<ERROR_BLOCK>
+errorInfo: Undefined index: sms_pwd
+errorFile: IWEB_PATH/plugins/hsms/rest.php
+errorLine: 40
+errorCode: 8
+errorTime: 2016-10-19 17:55:51
+#0 IWEB_PATH/classes/hsms.php(64): rest->__construct()
+#1 IWEB_PATH/controllers/member.php(806): Hsms::send(18101301805,æ‚¨ç”³è¯·çš„åŠ ç›Ÿå•†çŠ¶æ€å·²ç»è¢«ä¿®æ”¹ä¸º:æ­£å¸¸çŠ¶æ€,è¯·ç™»å½•æ‚¨çš„å•†æˆ·åŽå°æŸ¥çœ‹å…·ä½“çš„è¯¦æƒ…,0)
+#2 IWEB_PATH/lib/web/action/inline_action.php(24): Member->ajax_seller_lock()
+#3 IWEB_PATH/lib/web/controller/controller_class.php(137): IInlineAction->run()
+#4 IWEB_PATH/lib/core/webapplication_class.php(29): IController->run()
+#5 IWEB_PATH/lib/core/application_class.php(108): IWebApplication->execRequest()
+#6 IWEB_PATH/index.php(5): IApplication->run()
+</ERROR_BLOCK>
+

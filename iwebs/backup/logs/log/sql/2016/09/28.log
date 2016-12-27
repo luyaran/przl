@@ -1,0 +1,38 @@
+2016-09-28 19:16:53	SELECT * FROM iwebshop_user as u,iwebshop_member as m WHERE (u.username = 'luyaran' or u.email = 'luyaran' or m.mobile='luyaran') and m.status = 1 and u.id = m.user_id limit 1	
+2016-09-28 19:16:55	SELECT * FROM iwebshop_ad_position WHERE id=1 AND `status`=1 limit 1	
+2016-09-28 19:16:55	SELECT * FROM iwebshop_ad_manage WHERE position_id=1 and goods_cat_id = 0 and start_time < '2016-09-28 19:16:55' AND end_time > '2016-09-28 19:16:55' ORDER BY `order` ASC  limit 50000	
+2016-09-28 19:16:55	SELECT * FROM iwebshop_ad_position WHERE id=7 AND `status`=1 limit 1	
+2016-09-28 19:16:55	SELECT * FROM iwebshop_ad_manage WHERE position_id=7 and goods_cat_id = 0 and start_time < '2016-09-28 19:16:55' AND end_time > '2016-09-28 19:16:55' ORDER BY `order` ASC  limit 50000	
+2016-09-28 19:16:56	SELECT * FROM iwebshop_ad_position WHERE id=6 AND `status`=1 limit 1	
+2016-09-28 19:16:56	SELECT * FROM iwebshop_ad_manage WHERE position_id=6 and goods_cat_id = 0 and start_time < '2016-09-28 19:16:56' AND end_time > '2016-09-28 19:16:56' ORDER BY `order` ASC  limit 50000	
+2016-09-28 19:16:56	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 999999999 and type = 0 and is_close = 0 and start_time <= "2016-09-28 19:16:56" and end_time >= "2016-09-28 19:16:56" and seller_id = 0 and award_type in (3,4,5,6,7) and user_group = "all"  ORDER BY `condition` DESC  limit 50000	
+2016-09-28 19:16:56	SELECT * FROM iwebshop_promotion WHERE `condition` between 0 and 999999999 and type = 0 and is_close = 0 and start_time <= "2016-09-28 19:16:56" and end_time >= "2016-09-28 19:16:56" and seller_id = 0 and award_type in (1,2) and user_group = "all"  ORDER BY `condition` DESC  limit 50000	
+2016-09-28 20:28:43	SELECT * FROM iwebshop_test limit 50000	
+2016-09-28 21:01:02	SELECT * FROM iwebshop_test limit 50000	
+2016-09-28 21:01:04	SELECT * FROM iwebshop_test limit 50000	
+2016-09-28 21:11:26	SELECT * FROM iwebshop_test limit 50000	
+2016-09-28 21:11:28	SELECT * FROM iwebshop_test limit 50000	
+2016-09-28 21:11:53	SELECT * FROM iwebshop_test limit 50000	
+2016-09-28 21:12:30	SELECT * FROM iwebshop_test limit 50000	
+2016-09-28 21:12:32	SELECT * FROM iwebshop_test limit 50000	
+2016-09-28 21:12:33	SELECT * FROM iwebshop_test limit 50000	
+2016-09-28 21:12:34	SELECT * FROM iwebshop_test limit 50000	
+2016-09-28 21:12:36	SELECT * FROM iwebshop_test limit 50000	
+2016-09-28 21:13:29	SELECT * FROM iwebshop_test limit 50000	
+2016-09-28 21:13:38	SELECT * FROM iwebshop_test limit 50000	
+2016-09-28 21:13:39	SELECT * FROM iwebshop_test limit 50000	
+2016-09-28 21:13:40	SELECT * FROM iwebshop_test limit 50000	
+2016-09-28 21:15:42	SELECT * FROM iwebshop_test limit 50000	
+2016-09-28 21:15:42	SELECT * FROM iwebshop_test limit 50000	
+2016-09-28 21:16:31	SELECT * FROM iwebshop_test limit 50000	
+2016-09-28 21:18:40	SELECT * FROM iwebshop_test limit 50000	
+2016-09-28 21:21:10	SELECT * FROM iwebshop_test limit 50000	
+2016-09-28 21:21:11	SELECT * FROM iwebshop_test limit 50000	
+2016-09-28 21:21:11	SELECT * FROM iwebshop_test limit 50000	
+2016-09-28 21:21:18	SELECT * FROM iwebshop_test limit 50000	
+2016-09-28 21:21:19	SELECT * FROM iwebshop_test limit 50000	
+2016-09-28 21:21:20	SELECT * FROM iwebshop_test limit 50000	
+2016-09-28 21:21:29	SELECT * FROM iwebshop_test limit 50000	
+2016-09-28 21:21:30	SELECT * FROM iwebshop_test limit 50000	
+2016-09-28 21:22:09	SELECT * FROM iwebshop_test limit 50000	
+2016-09-28 21:22:12	SELECT * FROM iwebshop_test limit 50000	

@@ -1,0 +1,42 @@
+<div class="headbar">
+	<div class="position"><span>营销</span><span>></span><span>邮件营销管理</span><span>></span><span>邮件营销列表</span></div>
+	<div class="operating">
+		<a href="javascript:;" onclick="event_link('{url:/market/address_edit}')"><button class="operating_btn" type="button"><span class="addition">添加邮件营销</span></button></a>
+		<a href="javascript:void(0)" onclick="selectAll('id[]');"><button class="operating_btn" type="button"><span class="sel_all">全选</span></button></a>
+		<a href="javascript:void(0)" onclick="document.forms[0].action='{url:/market/ticket_excel}';delModel({msg:'是否要生成excel表格'});"><button class="operating_btn" type="button"><span class="export">生成EXCEL</span></button></a>
+	</div>
+	<div class="field">
+		<table class="list_table">
+			<thead>
+				<tr>
+					<th>选择</th>
+					<th>名称</th>
+					<th>时间</th>
+					<th>数量</th>
+					<th>操作</th>
+				</tr>
+			</thead>
+		</table>
+	</div>
+</div>
+<div class="content">
+	<form method='post' action='#'>
+		<table class="list_table">
+			<tbody>
+            {set:$category_list = Market::address_showtime()}
+            {foreach:items=$category_list}
+            <tr>
+                <td><input type='checkbox' name='id[]' value='{$item['id']}' /></td>
+                <td>{$item['name']}</td>
+                <td>{$item['datetime']}</td>
+                <td>{$item['sends_num']}</td>
+                <td><a href='{url:/market/doInvite/id/$item[id]}'>批量发送</a></td>
+            </tr>
+            {/foreach}
+
+			</tbody>
+		</table>
+	</form>
+</div>
+
+
